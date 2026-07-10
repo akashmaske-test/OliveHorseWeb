@@ -318,6 +318,12 @@ p {
   transform: translateY(-1px);
 }
 
+.btn:disabled {
+  cursor: not-allowed;
+  opacity: 0.68;
+  transform: none;
+}
+
 .btn-primary {
   background: var(--orange);
   color: var(--white);

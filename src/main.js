@@ -585,7 +585,8 @@ function renderTrialForm(homepage) {
           <p class="lede">${escapeHtml(form.description)}</p>
         </div>
         <div class="trial-card">
-          <form class="trial-form" data-success="${attr(form.successMessage)}">
+          <form class="trial-form" action="https://formspree.io/f/mwvdgqng" method="POST" data-success="${attr(form.successMessage)}">
+            <input type="hidden" name="_subject" value="New OliveHorse trial class enquiry" />
             ${fields}
             <p class="consent">${escapeHtml(form.consent)}</p>
             <button class="btn btn-primary form-submit" type="submit">${escapeHtml(form.submitLabel)}</button>
@@ -755,17 +756,43 @@ function bindInteractions(homepage) {
     }
   });
 
-  document.querySelector(".trial-form")?.addEventListener("submit", (event) => {
+  document.querySelector(".trial-form")?.addEventListener("submit", async (event) => {
     event.preventDefault();
     const form = event.currentTarget;
     if (!form.checkValidity()) {
       form.reportValidity();
       return;
     }
-    form.reset();
+
+    const submitButton = form.querySelector(".form-submit");
     const status = form.querySelector(".form-status");
-    status.textContent = form.dataset.success || homepage.trialForm.successMessage;
-    status.classList.add("visible");
+    const failureMessage = "Unable to send your enquiry right now. Please try again or contact us on WhatsApp.";
+
+    submitButton.disabled = true;
+    status.classList.remove("visible");
+    status.textContent = "";
+
+    try {
+      const response = await fetch(form.action, {
+        method: form.method,
+        body: new FormData(form),
+        headers: {
+          Accept: "application/json",
+        },
+      });
+
+      if (!response.ok) {
+        throw new Error("Form submission failed");
+      }
+
+      form.reset();
+      status.textContent = form.dataset.success || homepage.trialForm.successMessage;
+    } catch (error) {
+      status.textContent = failureMessage;
+    } finally {
+      status.classList.add("visible");
+      submitButton.disabled = false;
+    }
   });
 }
 
