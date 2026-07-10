@@ -1,0 +1,262 @@
+{
+  "section": {
+    "id": "all-programmes",
+    "eyebrow": "Our Programmes",
+    "heading": "Structured Training for Every Age and Goal",
+    "description": "Every OliveHorse programme combines technical Karate training with fitness, discipline, confidence and measurable progress."
+  },
+  "programmes": [
+    {
+      "id": "kids-beginner-karate",
+      "name": "Kids Beginner Karate Programme",
+      "shortName": "Kids Karate",
+      "audience": "Children beginning Karate training",
+      "ageRange": "Approximately 5–12 years",
+      "level": [
+        "Beginner"
+      ],
+      "description": "A safe, encouraging and structured introduction to Karate that helps children improve discipline, coordination, confidence, fitness and focus.",
+      "benefits": [
+        "Better discipline and concentration",
+        "Improved balance and coordination",
+        "Greater physical activity",
+        "Confidence through progressive learning",
+        "Respect, patience and teamwork"
+      ],
+      "includes": [
+        "Basic Karate stances",
+        "Punches, blocks and kicks",
+        "Movement and coordination drills",
+        "Beginner Kata",
+        "Fitness activities",
+        "Progress tracking"
+      ],
+      "price": "₹1,500–₹2,500 per month",
+      "bookingNotice": "Trial class should be booked at least 24 hours in advance.",
+      "cta": "Book a Kids Trial Class",
+      "image": "/images/programmes/kids-beginner-karate.webp"
+    },
+    {
+      "id": "teen-karate-fitness",
+      "name": "Teen Karate and Fitness Programme",
+      "shortName": "Teen Karate",
+      "audience": "Teenagers seeking Karate, fitness and self-defence training",
+      "ageRange": "Approximately 13–17 years",
+      "level": [
+        "Beginner",
+        "Intermediate",
+        "Advanced"
+      ],
+      "description": "A progressive programme that develops Karate technique, physical fitness, flexibility, self-control, confidence and practical self-defence.",
+      "benefits": [
+        "Improved strength and stamina",
+        "Better focus and self-control",
+        "Practical self-defence awareness",
+        "Healthy physical routine",
+        "Belt and competition progression"
+      ],
+      "includes": [
+        "Karate fundamentals",
+        "Kata practice",
+        "Controlled partner drills",
+        "Fitness and conditioning",
+        "Self-defence exercises",
+        "Belt examination preparation"
+      ],
+      "price": "₹2,000–₹3,500 per month",
+      "bookingNotice": "Trial class should be booked at least 24 hours in advance.",
+      "cta": "Book a Teen Trial Class",
+      "image": "/images/programmes/teen-karate-fitness.webp"
+    },
+    {
+      "id": "adult-karate-self-defence",
+      "name": "Adult Karate and Self-Defence Programme",
+      "shortName": "Adult Karate",
+      "audience": "Adults interested in fitness, Karate and practical self-defence",
+      "ageRange": "18 years and above",
+      "level": [
+        "Beginner",
+        "Intermediate",
+        "Advanced"
+      ],
+      "description": "A beginner-friendly programme that combines Karate technique, fitness, mobility, practical self-defence and confidence building.",
+      "benefits": [
+        "Improved fitness and flexibility",
+        "Practical personal safety skills",
+        "Stress management",
+        "Better balance and coordination",
+        "Progressive Karate development"
+      ],
+      "includes": [
+        "Fundamental and advanced techniques",
+        "Mobility and fitness training",
+        "Kata and movement practice",
+        "Controlled partner exercises",
+        "Practical self-defence",
+        "Belt progression"
+      ],
+      "price": "₹2,000–₹3,500 per month",
+      "bookingNotice": "Trial class should be booked at least 24 hours in advance.",
+      "cta": "Book an Adult Trial Class",
+      "image": "/images/programmes/adult-karate-self-defence.webp"
+    },
+    {
+      "id": "womens-self-defence",
+      "name": "Women’s Weekend Self-Defence Course",
+      "shortName": "Women’s Self-Defence",
+      "audience": "Women and teenage girls seeking practical self-defence skills",
+      "ageRange": "Teenagers and adults",
+      "level": [
+        "Beginner"
+      ],
+      "description": "A practical and supportive workshop focused on awareness, prevention, confidence and simple self-defence responses for real-life situations.",
+      "benefits": [
+        "Greater situational awareness",
+        "Improved personal confidence",
+        "Practical escape techniques",
+        "Understanding of distance and boundaries",
+        "Beginner-friendly instruction"
+      ],
+      "includes": [
+        "Safety awareness",
+        "Verbal boundary setting",
+        "Basic defensive movements",
+        "Escape from common holds",
+        "Balance and reaction drills",
+        "Scenario-based practice"
+      ],
+      "price": "₹499–₹1,499 per participant",
+      "bookingNotice": "Workshop booking should be completed in advance. Group bookings require at least 7 days’ notice.",
+      "cta": "Enquire About the Next Workshop",
+      "image": "/images/programmes/womens-self-defence.webp"
+    },
+    {
+      "id": "private-karate-coaching",
+      "name": "Private One-to-One Karate Training",
+      "shortName": "Private Coaching",
+      "audience": "Students who require personalised instruction",
+      "ageRange": "Children, teenagers and adults",
+      "level": [
+        "Beginner",
+        "Intermediate",
+        "Advanced",
+        "Competition level"
+      ],
+      "description": "Personalised Karate coaching designed around the student’s experience, fitness level, technical needs and training goals.",
+      "benefits": [
+        "Individual instructor attention",
+        "Flexible training focus",
+        "Faster correction of technique",
+        "Personalised progress plan",
+        "Flexible appointment options"
+      ],
+      "includes": [
+        "Initial assessment",
+        "Personal training plan",
+        "Technical correction",
+        "Fitness and mobility work",
+        "Kata or belt preparation",
+        "Competition-focused training when required"
+      ],
+      "price": "₹800–₹1,500 per session",
+      "bookingNotice": "Book at least 48 hours in advance.",
+      "cta": "Book Private Coaching",
+      "image": "/images/programmes/private-coaching.webp"
+    },
+    {
+      "id": "competition-karate-training",
+      "name": "Competition Karate Training",
+      "shortName": "Competition Training",
+      "audience": "Students preparing for Karate competitions",
+      "ageRange": "Based on competition category",
+      "level": [
+        "Intermediate",
+        "Advanced",
+        "Competition level"
+      ],
+      "description": "Focused preparation for students who want to improve competition technique, movement, speed, control, conditioning and performance confidence.",
+      "benefits": [
+        "Competition-specific preparation",
+        "Improved speed and timing",
+        "Technical feedback",
+        "Performance confidence",
+        "Physical conditioning"
+      ],
+      "includes": [
+        "Competition Kata preparation",
+        "Kumite drills where applicable",
+        "Speed and reaction training",
+        "Strategy and movement",
+        "Conditioning",
+        "Performance assessment"
+      ],
+      "price": "Contact the academy",
+      "bookingNotice": "An assessment may be required before joining.",
+      "cta": "Enquire About Competition Training",
+      "image": "/images/programmes/competition-training.webp"
+    },
+    {
+      "id": "belt-examination-training",
+      "name": "Belt Examination Preparation",
+      "shortName": "Belt Preparation",
+      "audience": "Students preparing for their next Karate grade",
+      "ageRange": "All eligible students",
+      "level": [
+        "Beginner",
+        "Intermediate",
+        "Advanced",
+        "Black belt preparation"
+      ],
+      "description": "Structured revision and assessment support to help students prepare confidently for their next belt examination.",
+      "benefits": [
+        "Clear understanding of examination requirements",
+        "Technical correction",
+        "Improved confidence",
+        "Structured revision",
+        "Progress assessment"
+      ],
+      "includes": [
+        "Required techniques",
+        "Kata revision",
+        "Fitness preparation",
+        "Mock assessment",
+        "Instructor feedback",
+        "Readiness guidance"
+      ],
+      "price": "Based on programme and examination level",
+      "bookingNotice": "Available to enrolled or assessed students.",
+      "cta": "Ask About Belt Preparation",
+      "image": "/images/programmes/belt-examination.webp"
+    },
+    {
+      "id": "school-corporate-workshops",
+      "name": "School and Corporate Self-Defence Workshops",
+      "shortName": "Group Workshops",
+      "audience": "Schools, colleges, offices and organisations",
+      "ageRange": "Customised by group",
+      "level": [
+        "Beginner"
+      ],
+      "description": "Custom self-defence, fitness and safety workshops designed around the needs, group size and environment of each organisation.",
+      "benefits": [
+        "Practical group learning",
+        "Improved safety awareness",
+        "Engaging physical activity",
+        "Customised session format",
+        "Suitable for schools and workplaces"
+      ],
+      "includes": [
+        "Needs-based workshop plan",
+        "Safety and awareness education",
+        "Practical demonstrations",
+        "Guided partner exercises",
+        "Question and answer session",
+        "Optional multi-session format"
+      ],
+      "price": "Custom quotation",
+      "bookingNotice": "Schools and corporate workshops should be booked at least 15 days in advance.",
+      "cta": "Request a Workshop Quote",
+      "image": "/images/programmes/group-workshop.webp"
+    }
+  ]
+}

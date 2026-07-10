@@ -1,0 +1,56 @@
+{
+  "testimonials": [
+    {
+      "id": "priya-shah",
+      "name": "Priya Shah",
+      "role": "Parent",
+      "programme": "Kids Karate Programme",
+      "review": "My son has become more confident, active and disciplined after joining OliveHorse Fitness Academy. The instructors are patient and give personal attention to every student.",
+      "rating": 5,
+      "image": ""
+    },
+    {
+      "id": "rahul-mehta",
+      "name": "Rahul Mehta",
+      "role": "Student",
+      "programme": "Adult Karate and Fitness Programme",
+      "review": "The adult Karate classes are well structured and suitable even for beginners. I have improved my fitness, flexibility and confidence within a few months.",
+      "rating": 5,
+      "image": ""
+    },
+    {
+      "id": "neha-kapoor",
+      "name": "Neha Kapoor",
+      "role": "Workshop Participant",
+      "programme": "Women’s Self-Defence Workshop",
+      "review": "I attended the women’s self-defence workshop and found it extremely practical. The techniques were easy to understand and useful for real-life situations.",
+      "rating": 5,
+      "image": ""
+    },
+    {
+      "id": "aarav-kulkarni",
+      "name": "Aarav Kulkarni",
+      "role": "Student",
+      "programme": "Competition Preparation",
+      "review": "The academy helped me prepare for my belt examination and Karate competition. The instructors are supportive and always motivate students to improve.",
+      "rating": 5,
+      "image": ""
+    },
+    {
+      "id": "sneha-iyer",
+      "name": "Sneha Iyer",
+      "role": "Parent",
+      "programme": "Kids Beginner Karate Programme",
+      "review": "The academy maintains a positive and safe environment for children. My daughter enjoys every class and has become much more focused.",
+      "rating": 5,
+      "image": ""
+    }
+  ],
+  "displaySettings": {
+    "showRatings": true,
+    "showProgramme": true,
+    "showRole": true,
+    "showCustomerImage": false,
+    "fallbackAvatar": "initials"
+  }
+}

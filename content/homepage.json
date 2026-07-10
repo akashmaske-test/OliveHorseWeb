@@ -1,0 +1,594 @@
+{
+  "navigation": {
+    "logoAlt": "OliveHorse Fitness Academy",
+    "items": [
+      {
+        "label": "About",
+        "href": "#about"
+      },
+      {
+        "label": "Programmes",
+        "href": "#programmes"
+      },
+      {
+        "label": "Benefits",
+        "href": "#benefits"
+      },
+      {
+        "label": "Schedule",
+        "href": "#schedule"
+      },
+      {
+        "label": "Pricing",
+        "href": "#pricing"
+      },
+      {
+        "label": "Reviews",
+        "href": "#testimonials"
+      },
+      {
+        "label": "Contact",
+        "href": "#contact"
+      }
+    ],
+    "cta": {
+      "label": "Book a Free Trial",
+      "href": "#trial-form"
+    }
+  },
+  "hero": {
+    "eyebrow": "Professional Karate and Fitness Training in Santacruz",
+    "heading": "Build Discipline, Strength and Confidence Through Karate",
+    "description": "Structured Karate, fitness and practical self-defence programmes for children, teenagers, adults and women. Train in a safe, supportive and motivating environment with experienced instructors.",
+    "primaryCTA": {
+      "label": "Book Your Free Trial Class",
+      "href": "#trial-form"
+    },
+    "secondaryCTA": {
+      "label": "Explore Programmes",
+      "href": "#programmes"
+    },
+    "whatsappCTA": {
+      "label": "Enquire on WhatsApp",
+      "href": "https://wa.me/919876543210"
+    },
+    "trustPoints": [
+      "Free introductory trial class",
+      "Separate batches for different age groups",
+      "Beginner-friendly programmes",
+      "Personal attention in small batches"
+    ],
+    "image": {
+      "src": "/images/hero-karate-class.webp",
+      "alt": "Karate instructor training students at OliveHorse Fitness Academy"
+    }
+  },
+  "about": {
+    "id": "about",
+    "eyebrow": "About OliveHorse",
+    "heading": "More Than Karate Training",
+    "description": [
+      "OliveHorse Fitness Academy is a professional Karate and fitness training academy based in Santacruz, Mumbai.",
+      "Our programmes help students improve physical fitness, practical self-defence, discipline, confidence, flexibility, coordination and overall personality development.",
+      "Whether a student is beginning their first Karate class or preparing for a belt examination or competition, every programme follows a clear and progressive training structure."
+    ],
+    "highlights": [
+      {
+        "value": "2021",
+        "label": "Academy established"
+      },
+      {
+        "value": "All Ages",
+        "label": "Children, teenagers and adults"
+      },
+      {
+        "value": "Small Batches",
+        "label": "Personal instructor attention"
+      },
+      {
+        "value": "Free Trial",
+        "label": "Start before enrolling"
+      }
+    ],
+    "image": {
+      "src": "/images/academy-training-session.webp",
+      "alt": "Students practising Karate at OliveHorse Fitness Academy"
+    }
+  },
+  "programmesPreview": {
+    "id": "programmes",
+    "eyebrow": "Training Programmes",
+    "heading": "Find the Right Programme for Your Goals",
+    "description": "Choose structured Karate, self-defence and fitness training based on age, experience and personal goals.",
+    "cta": {
+      "label": "View All Programmes",
+      "href": "#all-programmes"
+    }
+  },
+  "benefits": {
+    "id": "benefits",
+    "eyebrow": "Why Learn Karate?",
+    "heading": "Skills That Support Life Inside and Outside the Academy",
+    "description": "Karate develops physical ability, mental focus and personal confidence through consistent, structured training.",
+    "items": [
+      {
+        "title": "Discipline and Focus",
+        "description": "Develop better concentration, consistency, patience and respect through structured practice.",
+        "icon": "focus"
+      },
+      {
+        "title": "Practical Self-Defence",
+        "description": "Learn simple, responsible and effective techniques for greater personal safety and awareness.",
+        "icon": "shield"
+      },
+      {
+        "title": "Strength and Fitness",
+        "description": "Improve endurance, balance, mobility, coordination and overall physical conditioning.",
+        "icon": "strength"
+      },
+      {
+        "title": "Confidence",
+        "description": "Build self-belief by learning new skills, overcoming challenges and tracking progress.",
+        "icon": "confidence"
+      },
+      {
+        "title": "Flexibility and Coordination",
+        "description": "Develop better movement control, posture, reflexes and body awareness.",
+        "icon": "flexibility"
+      },
+      {
+        "title": "Personal Development",
+        "description": "Strengthen responsibility, resilience, teamwork and a positive approach to improvement.",
+        "icon": "progress"
+      }
+    ]
+  },
+  "ageGroups": {
+    "eyebrow": "Classes for Every Age",
+    "heading": "Training Designed Around the Student",
+    "description": "Each batch is planned according to age, physical ability, experience and learning pace.",
+    "groups": [
+      {
+        "title": "Children",
+        "ageRange": "Approximately 5–12 years",
+        "description": "Fun and structured Karate sessions that improve discipline, concentration, coordination, confidence and physical activity.",
+        "cta": "Explore Kids Karate",
+        "image": "/images/kids-karate-class.webp"
+      },
+      {
+        "title": "Teenagers",
+        "ageRange": "Approximately 13–17 years",
+        "description": "Focused Karate and fitness training designed to develop strength, confidence, flexibility, self-defence skills and healthy habits.",
+        "cta": "Explore Teen Training",
+        "image": "/images/teen-karate-class.webp"
+      },
+      {
+        "title": "Adults",
+        "ageRange": "18 years and above",
+        "description": "Beginner-friendly Karate, fitness and self-defence sessions that improve movement, endurance, confidence and stress management.",
+        "cta": "Explore Adult Karate",
+        "image": "/images/adult-karate-class.webp"
+      },
+      {
+        "title": "Women",
+        "ageRange": "Teenagers and adults",
+        "description": "Practical self-defence and awareness training in a safe, supportive and respectful environment.",
+        "cta": "Explore Women’s Self-Defence",
+        "image": "/images/womens-self-defence.webp"
+      }
+    ]
+  },
+  "instructor": {
+    "eyebrow": "Meet the Instructor",
+    "heading": "Professional Guidance at Every Stage",
+    "name": "Pravin Nawale",
+    "role": "Founder and Head Instructor",
+    "description": [
+      "Pravin Nawale leads the academy with a disciplined, encouraging and student-focused approach.",
+      "His training programmes are designed to help students build strong foundations, improve technique and progress confidently through each stage of their Karate journey.",
+      "Students receive clear instruction, practical feedback and individual attention in a safe training environment."
+    ],
+    "credentials": [
+      "Certified and experienced Karate instructor",
+      "Training for beginners through advanced learners",
+      "Belt examination preparation",
+      "Competition-focused coaching",
+      "Practical self-defence instruction",
+      "Children, adult and workshop training"
+    ],
+    "image": {
+      "src": "/images/pravin-nawale-instructor.webp",
+      "alt": "Pravin Nawale, founder and head instructor of OliveHorse Fitness Academy"
+    }
+  },
+  "schedule": {
+    "id": "schedule",
+    "eyebrow": "Class Schedule",
+    "heading": "Choose a Batch That Fits Your Routine",
+    "description": "Weekday and weekend batches are available. Final batch allocation depends on age, experience level and current availability.",
+    "notice": "Contact the academy to confirm the latest timings before visiting.",
+    "batches": [
+      {
+        "group": "Kids Beginner Batch",
+        "days": "Monday, Wednesday and Friday",
+        "time": "5:00 PM – 6:00 PM",
+        "availability": "Enquire for availability"
+      },
+      {
+        "group": "Kids Weekend Batch",
+        "days": "Saturday and Sunday",
+        "time": "9:00 AM – 10:00 AM",
+        "availability": "Enquire for availability"
+      },
+      {
+        "group": "Teen Karate and Fitness",
+        "days": "Tuesday, Thursday and Saturday",
+        "time": "6:00 PM – 7:00 PM",
+        "availability": "Enquire for availability"
+      },
+      {
+        "group": "Adult Karate and Self-Defence",
+        "days": "Monday, Wednesday and Friday",
+        "time": "7:30 PM – 8:30 PM",
+        "availability": "Enquire for availability"
+      },
+      {
+        "group": "Women’s Self-Defence",
+        "days": "Saturday and Sunday",
+        "time": "11:00 AM – 12:00 PM",
+        "availability": "Workshop dates announced regularly"
+      },
+      {
+        "group": "Private Coaching",
+        "days": "By appointment",
+        "time": "Flexible",
+        "availability": "Book at least 48 hours in advance"
+      }
+    ],
+    "cta": {
+      "label": "Check Batch Availability",
+      "href": "#trial-form"
+    }
+  },
+  "pricing": {
+    "id": "pricing",
+    "eyebrow": "Simple and Transparent Pricing",
+    "heading": "Start with a Free Trial Class",
+    "description": "Experience the training environment, meet the instructor and identify the most suitable programme before enrolling.",
+    "registrationNote": "A one-time registration fee of ₹500 applies after enrolment.",
+    "plans": [
+      {
+        "name": "Trial Class",
+        "price": "Free",
+        "billing": "One introductory session",
+        "description": "Experience a class before selecting a programme.",
+        "features": [
+          "Introduction to the academy",
+          "Basic fitness and movement assessment",
+          "Programme recommendation",
+          "Batch availability guidance"
+        ],
+        "featured": true,
+        "cta": "Book Free Trial"
+      },
+      {
+        "name": "Kids Group Classes",
+        "price": "₹1,500–₹2,500",
+        "billing": "Per month",
+        "description": "Structured Karate training for children in age-based batches.",
+        "features": [
+          "Karate fundamentals",
+          "Discipline and focus development",
+          "Fitness and coordination",
+          "Progress tracking"
+        ],
+        "featured": false,
+        "cta": "Enquire About Kids Classes"
+      },
+      {
+        "name": "Teen and Adult Classes",
+        "price": "₹2,000–₹3,500",
+        "billing": "Per month",
+        "description": "Karate, fitness and practical self-defence training.",
+        "features": [
+          "Beginner to advanced levels",
+          "Fitness and flexibility",
+          "Self-defence techniques",
+          "Belt preparation"
+        ],
+        "featured": false,
+        "cta": "Enquire About Adult Classes"
+      },
+      {
+        "name": "Private Coaching",
+        "price": "₹800–₹1,500",
+        "billing": "Per session",
+        "description": "One-to-one training based on personal goals and experience.",
+        "features": [
+          "Personal training plan",
+          "Flexible appointment",
+          "Focused technical feedback",
+          "Competition or belt preparation"
+        ],
+        "featured": false,
+        "cta": "Book Private Coaching"
+      },
+      {
+        "name": "Women’s Self-Defence",
+        "price": "₹499–₹1,499",
+        "billing": "Per participant",
+        "description": "Practical awareness and self-defence workshop.",
+        "features": [
+          "Situational awareness",
+          "Practical escape techniques",
+          "Confidence-building exercises",
+          "Beginner-friendly instruction"
+        ],
+        "featured": false,
+        "cta": "Enquire About Workshop"
+      },
+      {
+        "name": "School and Corporate Workshops",
+        "price": "Custom Quote",
+        "billing": "Based on group size and format",
+        "description": "Custom self-defence, fitness and safety workshops for organisations.",
+        "features": [
+          "Custom session planning",
+          "School and workplace formats",
+          "Group-based practical training",
+          "Flexible duration and location"
+        ],
+        "featured": false,
+        "cta": "Request a Quote"
+      }
+    ]
+  },
+  "progressJourney": {
+    "eyebrow": "Student Progress Journey",
+    "heading": "A Clear Path from Beginner to Advanced Training",
+    "description": "Students progress through structured stages based on attendance, technique, discipline, fitness and readiness.",
+    "steps": [
+      {
+        "number": "01",
+        "title": "Free Trial and Assessment",
+        "description": "Meet the instructor, experience a class and identify the right batch and programme."
+      },
+      {
+        "number": "02",
+        "title": "Foundation Training",
+        "description": "Learn posture, movement, basic strikes, blocks, fitness exercises and training discipline."
+      },
+      {
+        "number": "03",
+        "title": "Skill Development",
+        "description": "Improve technique, coordination, flexibility, stamina, Kata and controlled partner practice."
+      },
+      {
+        "number": "04",
+        "title": "Belt Progression",
+        "description": "Prepare for regular assessments and belt examinations through structured practice."
+      },
+      {
+        "number": "05",
+        "title": "Advanced or Competition Training",
+        "description": "Progress towards advanced grades, black belt preparation or competitive Karate."
+      }
+    ]
+  },
+  "gallery": {
+    "id": "gallery",
+    "eyebrow": "Inside the Academy",
+    "heading": "Training, Progress and Achievement",
+    "description": "See how students learn, practise, improve and celebrate their progress at OliveHorse Fitness Academy.",
+    "images": [
+      {
+        "src": "/images/gallery/kids-training.webp",
+        "alt": "Children practising Karate techniques"
+      },
+      {
+        "src": "/images/gallery/kicking-practice.webp",
+        "alt": "Students practising Karate kicks"
+      },
+      {
+        "src": "/images/gallery/kata-practice.webp",
+        "alt": "Students performing Karate Kata"
+      },
+      {
+        "src": "/images/gallery/self-defence-demo.webp",
+        "alt": "Instructor demonstrating practical self-defence"
+      },
+      {
+        "src": "/images/gallery/belt-examination.webp",
+        "alt": "Students participating in a Karate belt examination"
+      },
+      {
+        "src": "/images/gallery/certificate-ceremony.webp",
+        "alt": "Students receiving belts and certificates"
+      }
+    ]
+  },
+  "testimonialsSection": {
+    "id": "testimonials",
+    "eyebrow": "Student and Parent Reviews",
+    "heading": "Progress That Students and Families Can See",
+    "description": "Read how structured training has helped students develop confidence, fitness, discipline and practical skills."
+  },
+  "faqSection": {
+    "id": "faq",
+    "eyebrow": "Frequently Asked Questions",
+    "heading": "Everything You Need to Know Before Starting",
+    "description": "Find answers about age groups, experience levels, uniforms, trial classes, fees and training schedules."
+  },
+  "trialForm": {
+    "id": "trial-form",
+    "eyebrow": "Start Your Karate Journey",
+    "heading": "Book a Free Introductory Trial Class",
+    "description": "Share a few details and our team will contact you to recommend the right programme and available batch.",
+    "fields": [
+      {
+        "name": "studentName",
+        "label": "Student Name",
+        "type": "text",
+        "placeholder": "Enter the student’s name",
+        "required": true
+      },
+      {
+        "name": "age",
+        "label": "Age",
+        "type": "number",
+        "placeholder": "Enter age",
+        "required": true
+      },
+      {
+        "name": "phone",
+        "label": "Phone or WhatsApp Number",
+        "type": "tel",
+        "placeholder": "+91",
+        "required": true
+      },
+      {
+        "name": "email",
+        "label": "Email Address",
+        "type": "email",
+        "placeholder": "Enter your email address",
+        "required": false
+      },
+      {
+        "name": "programme",
+        "label": "Interested Programme",
+        "type": "select",
+        "required": true,
+        "options": [
+          "Kids Karate",
+          "Teen Karate and Fitness",
+          "Adult Karate and Self-Defence",
+          "Women’s Self-Defence",
+          "Private Coaching",
+          "Competition Training",
+          "School Workshop",
+          "Corporate Workshop"
+        ]
+      },
+      {
+        "name": "experienceLevel",
+        "label": "Current Experience Level",
+        "type": "select",
+        "required": true,
+        "options": [
+          "Complete beginner",
+          "Some previous training",
+          "Intermediate",
+          "Advanced",
+          "Competition level"
+        ]
+      },
+      {
+        "name": "preferredTime",
+        "label": "Preferred Training Time",
+        "type": "select",
+        "required": false,
+        "options": [
+          "Weekday morning",
+          "Weekday evening",
+          "Weekend morning",
+          "Weekend evening",
+          "Flexible"
+        ]
+      },
+      {
+        "name": "message",
+        "label": "Message",
+        "type": "textarea",
+        "placeholder": "Tell us about your goals or preferred batch",
+        "required": false
+      }
+    ],
+    "consent": "By submitting this form, you agree to be contacted by OliveHorse Fitness Academy regarding classes and programme availability.",
+    "submitLabel": "Request My Free Trial",
+    "successMessage": "Thank you for your enquiry. Our team will contact you shortly to confirm the most suitable trial class."
+  },
+  "contact": {
+    "id": "contact",
+    "eyebrow": "Visit or Contact Us",
+    "heading": "Begin Your Training at OliveHorse Fitness Academy",
+    "description": "Contact us to check batch availability, book a free trial or discuss private, school and corporate training requirements.",
+    "phoneLabel": "Call Us",
+    "whatsappLabel": "WhatsApp Us",
+    "emailLabel": "Email Us",
+    "addressLabel": "Academy Address",
+    "hoursLabel": "Training Hours",
+    "hours": "Monday to Sunday — Batch timings vary",
+    "mapTitle": "OliveHorse Fitness Academy, Santacruz West, Mumbai",
+    "mapEmbedUrl": "",
+    "directionsCTA": "Get Directions"
+  },
+  "finalCTA": {
+    "heading": "Ready to Build Discipline, Strength and Confidence?",
+    "description": "Start with a free introductory class and discover the right Karate programme for your age, experience and goals.",
+    "primaryCTA": {
+      "label": "Book Your Free Trial",
+      "href": "#trial-form"
+    },
+    "secondaryCTA": {
+      "label": "Chat on WhatsApp",
+      "href": "https://wa.me/919876543210"
+    }
+  },
+  "footer": {
+    "description": "Professional Karate, fitness and self-defence training for children, teenagers, adults and women in Santacruz, Mumbai.",
+    "quickLinks": [
+      {
+        "label": "About",
+        "href": "#about"
+      },
+      {
+        "label": "Programmes",
+        "href": "#programmes"
+      },
+      {
+        "label": "Schedule",
+        "href": "#schedule"
+      },
+      {
+        "label": "Pricing",
+        "href": "#pricing"
+      },
+      {
+        "label": "FAQs",
+        "href": "#faq"
+      },
+      {
+        "label": "Contact",
+        "href": "#contact"
+      }
+    ],
+    "legalLinks": [
+      {
+        "label": "Privacy Policy",
+        "href": "/privacy-policy"
+      },
+      {
+        "label": "Terms and Conditions",
+        "href": "/terms"
+      }
+    ],
+    "copyright": "© OliveHorse Fitness Academy. All rights reserved."
+  },
+  "seo": {
+    "title": "Karate Classes in Santacruz, Mumbai | OliveHorse Fitness Academy",
+    "description": "Join professional Karate, fitness and self-defence classes for children, teenagers, adults and women at OliveHorse Fitness Academy in Santacruz, Mumbai. Book a free trial class.",
+    "primaryKeyword": "Karate classes in Santacruz",
+    "secondaryKeywords": [
+      "Karate academy in Santacruz",
+      "Kids Karate classes in Mumbai",
+      "Self-defence classes for women in Santacruz",
+      "Adult Karate classes in Mumbai",
+      "Karate classes near Bandra",
+      "Karate classes near Khar",
+      "Martial arts classes in Santacruz"
+    ],
+    "ogTitle": "Build Discipline, Strength and Confidence Through Karate",
+    "ogDescription": "Professional Karate and self-defence training for children, teenagers, adults and women in Santacruz, Mumbai.",
+    "ogImage": "/images/olivehorse-social-preview.webp"
+  }
+}

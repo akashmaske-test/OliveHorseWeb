@@ -1,0 +1,96 @@
+{
+  "brand": {
+    "name": "OliveHorse Fitness Academy",
+    "tagline": "Discipline. Strength. Confidence.",
+    "industry": [
+      "Karate Training",
+      "Martial Arts",
+      "Self-Defence",
+      "Fitness Coaching"
+    ],
+    "foundedYear": 2021,
+    "founder": {
+      "name": "Pravin Nawale",
+      "role": "Founder and Head Instructor",
+      "shortBio": "Pravin Nawale leads OliveHorse Fitness Academy with a structured, student-focused approach to Karate, fitness and practical self-defence. His training philosophy combines discipline, technical development, confidence building and personal progress."
+    },
+    "positioning": "Professional Karate, fitness and self-defence training for children, teenagers, adults and women in Santacruz and nearby Mumbai suburbs.",
+    "primaryGoal": "Generate free trial-class enquiries",
+    "primaryCTA": "Book Your Free Trial Class",
+    "secondaryCTA": "Enquire on WhatsApp"
+  },
+  "contact": {
+    "phone": "+91 98765 43210",
+    "whatsapp": "+91 98765 43210",
+    "email": "akashmske.test@gmail.com",
+    "instagram": "https://www.instagram.com/olivehorsefitnessacademy",
+    "facebook": "https://www.facebook.com/olivehorsefitnessacademy",
+    "googleBusinessProfile": "",
+    "address": {
+      "academy": "OliveHorse Fitness Academy",
+      "line1": "2nd Floor, Sunrise Fitness Centre",
+      "line2": "Near Santacruz Railway Station",
+      "area": "Santacruz West",
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "postalCode": "400054",
+      "country": "India"
+    }
+  },
+  "serviceAreas": [
+    "Santacruz East",
+    "Santacruz West",
+    "Khar",
+    "Bandra",
+    "Vile Parle",
+    "Juhu",
+    "Kalina",
+    "Vakola",
+    "Andheri West",
+    "Andheri East"
+  ],
+  "languages": [
+    {
+      "code": "en",
+      "name": "English",
+      "default": true
+    },
+    {
+      "code": "hi",
+      "name": "Hindi",
+      "default": false
+    },
+    {
+      "code": "mr",
+      "name": "Marathi",
+      "default": false
+    }
+  ],
+  "businessModel": {
+    "minimumEnrolment": "One-month membership",
+    "registrationFee": 500,
+    "currency": "INR",
+    "onlinePaymentAvailable": false,
+    "freeTrialAvailable": true
+  },
+  "bookingRequirements": {
+    "trialClass": "Book at least 24 hours in advance.",
+    "privateCoaching": "Book at least 48 hours in advance.",
+    "groupWorkshop": "Book at least 7 days in advance.",
+    "schoolOrCorporateWorkshop": "Book at least 15 days in advance."
+  },
+  "website": {
+    "type": "One-page landing page",
+    "blogRequired": false,
+    "serviceCatalogueRequired": true,
+    "onlinePaymentRequired": false,
+    "enquiryFormRequired": true,
+    "whatsappButtonRequired": true,
+    "googleMapsRequired": true
+  },
+  "socialProof": {
+    "reviewCountLabel": "Trusted by students and families across Santacruz and nearby Mumbai suburbs",
+    "ratingValue": "",
+    "ratingCount": ""
+  }
+}
