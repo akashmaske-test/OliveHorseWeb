@@ -1,0 +1,50 @@
+name: Morning SEO review
+
+on:
+  schedule:
+    - cron: "30 3 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: morning-seo
+  cancel-in-progress: false
+
+jobs:
+  review:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    env:
+      WEBSITE_URL: https://olivehorsefitness.vercel.app/
+      GSC_SITE_URL: ${{ secrets.GSC_SITE_URL }}
+      GOOGLE_OAUTH_CLIENT_ID: ${{ secrets.GOOGLE_OAUTH_CLIENT_ID }}
+      GOOGLE_OAUTH_CLIENT_SECRET: ${{ secrets.GOOGLE_OAUTH_CLIENT_SECRET }}
+      GOOGLE_OAUTH_REFRESH_TOKEN: ${{ secrets.GOOGLE_OAUTH_REFRESH_TOKEN }}
+      OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+      OPENROUTER_MODEL_RESEARCH: ${{ secrets.OPENROUTER_MODEL_RESEARCH }}
+      OPENROUTER_MODEL_WRITING: ${{ secrets.OPENROUTER_MODEL_WRITING }}
+      OPENROUTER_MODEL_QC: ${{ secrets.OPENROUTER_MODEL_QC }}
+      SERP_API_KEY: ${{ secrets.SERP_API_KEY }}
+      DATAFORSEO_LOGIN: ${{ secrets.DATAFORSEO_LOGIN }}
+      DATAFORSEO_PASSWORD: ${{ secrets.DATAFORSEO_PASSWORD }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - run: npm run seo:validate
+      - run: npm run seo:morning
+      - name: Write summary
+        run: |
+          echo "## Morning SEO review" >> "$GITHUB_STEP_SUMMARY"
+          echo "Automation stopped before publishing, social posting, pull-request creation, or merging." >> "$GITHUB_STEP_SUMMARY"
+          cat seo-automation/reports/morning-seo-report.md >> "$GITHUB_STEP_SUMMARY"
+      - uses: actions/upload-artifact@v4
+        with:
+          name: morning-seo-reports
+          path: seo-automation/reports/
+          if-no-files-found: warn
