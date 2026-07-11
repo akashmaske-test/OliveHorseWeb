@@ -148,5 +148,158 @@
     "approval_status": "rejected",
     "created_at": "2026-07-11T10:04:13.527Z",
     "rejection_reason": "The two-hour duration is not verified."
+  },
+  {
+    "id": "idea-1783769064444-93f7",
+    "title": "Empowering Women Through Self-Defence Training in Santacruz",
+    "primary_keyword": "Women’s Self-Defence Training in Santacruz",
+    "supporting_keywords": [
+      "self-defense for women",
+      "Santacruz safety courses",
+      "women’s empowerment"
+    ],
+    "search_intent": "Informational/Transactional",
+    "funnel_stage": "Consideration",
+    "target_audience": "Women aged 25-45 in Santacruz",
+    "target_location": "Santacruz, Mumbai",
+    "why_it_matters": "Addresses safety concerns and promotes confidence among women through structured self-defence programs.",
+    "confidence": 8,
+    "priority_score": 9,
+    "source_type": "qualitative_ai_recommendation",
+    "supporting_gsc_queries": [],
+    "related_existing_pages": [
+      "/"
+    ],
+    "approval_status": "pending",
+    "created_at": "2026-07-11T11:24:24.444Z",
+    "rejection_reason": null
+  },
+  {
+    "id": "idea-1783769064445-60ce",
+    "title": "Integrating Fitness and Karate for Teen Development in Mumbai",
+    "primary_keyword": "Teen Fitness and Karate Programs in Mumbai",
+    "supporting_keywords": [
+      "teen fitness",
+      "karate for teens",
+      "holistic development"
+    ],
+    "search_intent": "Informational",
+    "funnel_stage": "Awareness",
+    "target_audience": "Teenagers aged 13-18 in Mumbai",
+    "target_location": "Mumbai",
+    "why_it_matters": "Combines physical fitness with martial arts to foster discipline and health in adolescents.",
+    "confidence": 7,
+    "priority_score": 8,
+    "source_type": "qualitative_ai_recommendation",
+    "supporting_gsc_queries": [],
+    "related_existing_pages": [
+      "/"
+    ],
+    "approval_status": "pending",
+    "created_at": "2026-07-11T11:24:24.445Z",
+    "rejection_reason": null
+  },
+  {
+    "id": "idea-1783769064445-4860",
+    "title": "School Safety Through Self-Defence Workshops in Santacruz",
+    "primary_keyword": "School Self-Defence Workshops in Santacruz",
+    "supporting_keywords": [
+      "school workshops",
+      "corporate self-defense",
+      "student safety"
+    ],
+    "search_intent": "Informational",
+    "funnel_stage": "Consideration",
+    "target_audience": "Schools and educational institutions in Santacruz",
+    "target_location": "Santacruz, Mumbai",
+    "why_it_matters": "Provides practical safety solutions for students and staff through tailored workshop programs.",
+    "confidence": 9,
+    "priority_score": 9,
+    "source_type": "qualitative_ai_recommendation",
+    "supporting_gsc_queries": [],
+    "related_existing_pages": [
+      "/"
+    ],
+    "approval_status": "pending",
+    "created_at": "2026-07-11T11:24:24.445Z",
+    "rejection_reason": null
+  },
+  {
+    "id": "idea-1783769429367-a0d6",
+    "title": "How a Beginner Karate Program Builds Confidence in Kids in Santacruz",
+    "primary_keyword": "Kids Beginner Karate Programme",
+    "supporting_keywords": [
+      "karate for kids",
+      "confidence building",
+      "Santacruz kids",
+      "martial arts for children"
+    ],
+    "search_intent": "informational",
+    "funnel_stage": "awareness",
+    "target_audience": "Parents of children aged 5-12",
+    "target_location": "Santacruz, Mumbai",
+    "why_it_matters": "Karate provides structured discipline, improves focus, and boosts self-esteem, essential for child development.",
+    "confidence": 85,
+    "priority_score": 90,
+    "source_type": "qualitative_ai_recommendation",
+    "supporting_gsc_queries": [],
+    "related_existing_pages": [
+      "/"
+    ],
+    "approval_status": "pending",
+    "created_at": "2026-07-11T11:30:29.367Z",
+    "rejection_reason": null
+  },
+  {
+    "id": "idea-1783769429369-1227",
+    "title": "Teen Karate and Fitness: A Dual Approach to Health and Discipline in Mumbai",
+    "primary_keyword": "Teen Karate and Fitness Programme",
+    "supporting_keywords": [
+      "teen fitness",
+      "martial arts for teens",
+      "Mumbai teen programs",
+      "health and discipline"
+    ],
+    "search_intent": "informational",
+    "funnel_stage": "consideration",
+    "target_audience": "Teens 13-18 and their parents",
+    "target_location": "Mumbai",
+    "why_it_matters": "Combines cardio, strength, and self-defense skills, promoting holistic health and confidence.",
+    "confidence": 80,
+    "priority_score": 85,
+    "source_type": "qualitative_ai_recommendation",
+    "supporting_gsc_queries": [],
+    "related_existing_pages": [
+      "/"
+    ],
+    "approval_status": "pending",
+    "created_at": "2026-07-11T11:30:29.369Z",
+    "rejection_reason": null
+  },
+  {
+    "id": "idea-1783769429369-2705",
+    "title": "Women’s Weekend Self‑Defence Course: Empowering Women in Santacruz",
+    "primary_keyword": "Women’s Weekend Self‑Defence Course",
+    "supporting_keywords": [
+      "women self‑defence",
+      "empowerment",
+      "Santacruz women",
+      "short self‑defence course"
+    ],
+    "search_intent": "transactional",
+    "funnel_stage": "decision",
+    "target_audience": "Women 18-45",
+    "target_location": "Santacruz, Mumbai",
+    "why_it_matters": "Provides practical skills and confidence for personal safety in a short time frame.",
+    "confidence": 75,
+    "priority_score": 80,
+    "source_type": "qualitative_ai_recommendation",
+    "supporting_gsc_queries": [],
+    "related_existing_pages": [
+      "/"
+    ],
+    "approval_status": "pending",
+    "created_at": "2026-07-11T11:30:29.369Z",
+    "rejection_reason": null
   }
 ]
