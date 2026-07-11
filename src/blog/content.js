@@ -7,6 +7,10 @@ const markdown = new MarkdownIt({ html: false, linkify: true, typographer: true 
 const BLOG_DIRECTORY = path.resolve("content/blog");
 const REQUIRED_FIELDS = ["title", "description", "slug", "date", "author", "primary_keyword", "canonical", "status", "noindex"];
 
+function normaliseDate(value) {
+  return value instanceof Date ? value.toISOString().slice(0, 10) : value;
+}
+
 export function readBlogPosts({ includeNonPublished = false } = {}) {
   if (!fs.existsSync(BLOG_DIRECTORY)) return [];
   return fs
@@ -21,7 +25,7 @@ export function readBlogPosts({ includeNonPublished = false } = {}) {
 export function parseBlogFile(filePath) {
   const source = fs.readFileSync(filePath, "utf8");
   const parsed = matter(source);
-  const data = parsed.data;
+  const data = { ...parsed.data, date: normaliseDate(parsed.data.date), updated_date: normaliseDate(parsed.data.updated_date) };
   const wordCount = parsed.content.trim() ? parsed.content.trim().split(/\s+/).length : 0;
   return {
     ...data,
