@@ -1,0 +1,71 @@
+{
+  "generated_at": "2026-07-11T11:39:01.296Z",
+  "status": "awaiting_human_approval",
+  "notice": "These are review candidates, not approved business claims. A topic approval permits drafting only. A draft still needs separate user confirmation before it may be published.",
+  "topics": [
+    {
+      "id": "idea-1783764253525-e5f8",
+      "title": "Why Kids in Santacruz Should Start Karate Early: Building Confidence and Discipline",
+      "primary_keyword": "Kids Karate Santacruz",
+      "supporting_keywords": [
+        "karate for children",
+        "martial arts benefits",
+        "confidence building"
+      ],
+      "search_intent": "informational",
+      "funnel_stage": "awareness",
+      "target_audience": "Children (parents)",
+      "target_location": "Santacruz, Mumbai",
+      "why_it_matters": "Early skill development, safety, and confidence building for children in a local setting",
+      "evidence": "qualitative_ai_recommendation",
+      "supporting_gsc_queries": [],
+      "related_existing_pages": [
+        "/"
+      ],
+      "approval_status": "pending",
+      "requires_human_claim_review": true
+    },
+    {
+      "id": "idea-1783764253527-6f10",
+      "title": "Teen Fitness and Karate: A Dual Approach to Health in Mumbai",
+      "primary_keyword": "Teen Karate Fitness Mumbai",
+      "supporting_keywords": [
+        "teen fitness programs",
+        "martial arts for teens",
+        "physical health"
+      ],
+      "search_intent": "informational",
+      "funnel_stage": "consideration",
+      "target_audience": "Teenagers",
+      "target_location": "Mumbai",
+      "why_it_matters": "Combines fitness and discipline to promote overall health and well‑being for teens",
+      "evidence": "qualitative_ai_recommendation",
+      "supporting_gsc_queries": [],
+      "related_existing_pages": [
+        "/"
+      ],
+      "approval_status": "pending",
+      "requires_human_claim_review": true
+    }
+  ],
+  "drafts_requiring_publish_confirmation": [
+    {
+      "id": "seed-child-karate-santacruz",
+      "slug": "how-to-choose-a-karate-class-for-your-child-in-santacruz",
+      "draft_path": "seo-automation/generated-blogs/how-to-choose-a-karate-class-for-your-child-in-santacruz.md",
+      "primary_keyword": "Karate classes for children in Santacruz",
+      "workflow_status": "approved_for_publish_pending_user_confirmation",
+      "source_type": "verified_repository_content",
+      "source_evidence": [
+        "content/business.json",
+        "content/programmes.json",
+        "content/faq.json"
+      ],
+      "claims_requiring_confirmation": [
+        "Current trial-class availability",
+        "Current batch availability and schedules"
+      ],
+      "required_action": "user_confirmation_before_publish"
+    }
+  ]
+}

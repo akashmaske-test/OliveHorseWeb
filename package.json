@@ -20,6 +20,7 @@
     "seo:research": "node seo-automation/scripts/seo-research.js",
     "seo:ideas": "node seo-automation/scripts/seo-generate-ideas.js",
     "seo:approve-topic": "node seo-automation/scripts/seo-approve-topic.js",
+    "seo:approval-queue": "node seo-automation/scripts/seo-export-approval-queue.js",
     "seo:generate-blog": "node seo-automation/scripts/seo-generate-blog.js",
     "seo:qc": "node seo-automation/scripts/seo-qc-blog.js",
     "seo:approve-publishing": "node seo-automation/scripts/seo-approve-publishing.js",
