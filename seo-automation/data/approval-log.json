@@ -33,5 +33,13 @@
     "action": "rejected",
     "reason": "The two-hour duration is not verified.",
     "at": "2026-07-11T10:05:00.796Z"
+  },
+  {
+    "type": "publishing",
+    "slug": "how-to-choose-a-karate-class-for-your-child-in-santacruz",
+    "action": "approve",
+    "notes": "Explicit user confirmation in Codex on 2026-07-11.",
+    "final_file_hash": "da3f9c794ac4f00c5e306bab7f66ae4978855a092dc97d1ac07fee37be214f5e",
+    "at": "2026-07-11T11:52:08.139Z"
   }
 ]
