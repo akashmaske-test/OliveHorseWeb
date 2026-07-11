@@ -94,26 +94,35 @@ export async function runOpenRouter({ model, prompt, temperature = 0.2, json = f
   if (!process.env.OPENROUTER_API_KEY || !model) {
     return { ok: false, status: "manual_setup_required", reason: "OpenRouter credentials or model are not configured." };
   }
-  const controller = new AbortController();
-  const timer = setTimeout(() => controller.abort(), 45_000);
-  try {
-    const response = await fetch("https://openrouter.ai/api/v1/chat/completions", {
-      method: "POST",
-      signal: controller.signal,
-      headers: { Authorization: `Bearer ${process.env.OPENROUTER_API_KEY}`, "Content-Type": "application/json" },
-      body: JSON.stringify({ model, temperature, messages: [{ role: "user", content: prompt }], ...(json ? { response_format: { type: "json_object" } } : {}) }),
-    });
-    if (!response.ok) return { ok: false, status: "error", reason: `OpenRouter returned HTTP ${response.status}.` };
-    const payload = await response.json();
-    const content = payload.choices?.[0]?.message?.content?.replace(/^```(?:json)?\s*/i, "").replace(/\s*```$/, "") || "";
-    let parsed = content;
-    if (json) {
-      try { parsed = JSON.parse(content); } catch { return { ok: false, status: "error", reason: "OpenRouter returned invalid JSON." }; }
+  let lastReason = "OpenRouter request failed.";
+  for (let attempt = 1; attempt <= 2; attempt += 1) {
+    const controller = new AbortController();
+    const timer = setTimeout(() => controller.abort(), 60_000);
+    try {
+      const response = await fetch("https://openrouter.ai/api/v1/chat/completions", {
+        method: "POST",
+        signal: controller.signal,
+        headers: { Authorization: `Bearer ${process.env.OPENROUTER_API_KEY}`, "Content-Type": "application/json" },
+        body: JSON.stringify({ model, temperature, messages: [{ role: "user", content: prompt }], ...(json ? { response_format: { type: "json_object" } } : {}) }),
+      });
+      if (!response.ok) {
+        lastReason = `OpenRouter returned HTTP ${response.status}.`;
+        if (response.status < 500 && response.status !== 429) break;
+      } else {
+        const payload = await response.json();
+        const content = payload.choices?.[0]?.message?.content?.replace(/^```(?:json)?\s*/i, "").replace(/\s*```$/, "") || "";
+        let parsed = content;
+        if (json) {
+          try { parsed = JSON.parse(content); } catch { lastReason = "OpenRouter returned invalid JSON."; break; }
+        }
+        return { ok: true, content: parsed, usage: payload.usage || null, purpose };
+      }
+    } catch (error) {
+      lastReason = error.name === "AbortError" ? "OpenRouter request timed out." : "OpenRouter request failed.";
+    } finally {
+      clearTimeout(timer);
     }
-    return { ok: true, content: parsed, usage: payload.usage || null, purpose };
-  } catch (error) {
-    return { ok: false, status: "error", reason: error.name === "AbortError" ? "OpenRouter request timed out." : "OpenRouter request failed." };
-  } finally {
-    clearTimeout(timer);
+    if (attempt === 1) await new Promise((resolve) => setTimeout(resolve, 1_000));
   }
+  return { ok: false, status: "error", reason: lastReason };
 }

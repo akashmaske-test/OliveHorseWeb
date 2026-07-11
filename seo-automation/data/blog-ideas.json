@@ -1,1 +1,152 @@
-[]
+[
+  {
+    "id": "idea-1783764160382-f2b8",
+    "title": "Community Fitness Events in Santacruz and Mumbai: How OliveHorse Supports Local Wellness",
+    "primary_keyword": "local fitness events Santacruz Mumbai",
+    "supporting_keywords": [
+      "community events",
+      "fitness workshops",
+      "self-defense classes"
+    ],
+    "search_intent": "informational",
+    "funnel_stage": "awareness",
+    "target_audience": "residents of Santacruz and Mumbai",
+    "target_location": "Santacruz, Mumbai",
+    "why_it_matters": "Strengthens geographic relevance and community engagement for local services",
+    "confidence": 8,
+    "priority_score": 9,
+    "source_type": "qualitative_ai_recommendation",
+    "supporting_gsc_queries": [],
+    "related_existing_pages": [
+      "/"
+    ],
+    "approval_status": "rejected",
+    "created_at": "2026-07-11T10:02:40.382Z",
+    "rejection_reason": "Community events are not verified business activity."
+  },
+  {
+    "id": "idea-1783764160383-6a56",
+    "title": "Success Stories: How Students in Santacruz and Mumbai Excel in Karate and Self-Defence",
+    "primary_keyword": "student success stories OliveHorse",
+    "supporting_keywords": [
+      "testimonials",
+      "self-defense results",
+      "karate achievements"
+    ],
+    "search_intent": "informational",
+    "funnel_stage": "consideration",
+    "target_audience": "potential students and parents",
+    "target_location": "Santacruz, Mumbai",
+    "why_it_matters": "Builds trust through real-world examples of program effectiveness",
+    "confidence": 7,
+    "priority_score": 8,
+    "source_type": "qualitative_ai_recommendation",
+    "supporting_gsc_queries": [],
+    "related_existing_pages": [
+      "/"
+    ],
+    "approval_status": "rejected",
+    "created_at": "2026-07-11T10:02:40.383Z",
+    "rejection_reason": "Student success stories require verified consent and evidence."
+  },
+  {
+    "id": "idea-1783764160383-36f4",
+    "title": "FAQs for Kids, Women, and Schools: Navigating OliveHorse’s Programs in Santacruz",
+    "primary_keyword": "karate and self-defense FAQs Santacruz",
+    "supporting_keywords": [
+      "kids karate",
+      "women’s self-defense",
+      "school workshops"
+    ],
+    "search_intent": "informational",
+    "funnel_stage": "awareness",
+    "target_audience": "parents, women, school administrators",
+    "target_location": "Santacruz, Mumbai",
+    "why_it_matters": "Addresses common concerns to guide users toward specific services",
+    "confidence": 9,
+    "priority_score": 7,
+    "source_type": "qualitative_ai_recommendation",
+    "supporting_gsc_queries": [],
+    "related_existing_pages": [
+      "/"
+    ],
+    "approval_status": "rejected",
+    "created_at": "2026-07-11T10:02:40.383Z",
+    "rejection_reason": "The site already has an FAQ section; this would duplicate existing content."
+  },
+  {
+    "id": "idea-1783764253525-e5f8",
+    "title": "Why Kids in Santacruz Should Start Karate Early: Building Confidence and Discipline",
+    "primary_keyword": "Kids Karate Santacruz",
+    "supporting_keywords": [
+      "karate for children",
+      "martial arts benefits",
+      "confidence building"
+    ],
+    "search_intent": "informational",
+    "funnel_stage": "awareness",
+    "target_audience": "Children (parents)",
+    "target_location": "Santacruz, Mumbai",
+    "why_it_matters": "Early skill development, safety, and confidence building for children in a local setting",
+    "confidence": 80,
+    "priority_score": 90,
+    "source_type": "qualitative_ai_recommendation",
+    "supporting_gsc_queries": [],
+    "related_existing_pages": [
+      "/"
+    ],
+    "approval_status": "pending",
+    "created_at": "2026-07-11T10:04:13.525Z",
+    "rejection_reason": null
+  },
+  {
+    "id": "idea-1783764253527-6f10",
+    "title": "Teen Fitness and Karate: A Dual Approach to Health in Mumbai",
+    "primary_keyword": "Teen Karate Fitness Mumbai",
+    "supporting_keywords": [
+      "teen fitness programs",
+      "martial arts for teens",
+      "physical health"
+    ],
+    "search_intent": "informational",
+    "funnel_stage": "consideration",
+    "target_audience": "Teenagers",
+    "target_location": "Mumbai",
+    "why_it_matters": "Combines fitness and discipline to promote overall health and well‑being for teens",
+    "confidence": 75,
+    "priority_score": 85,
+    "source_type": "qualitative_ai_recommendation",
+    "supporting_gsc_queries": [],
+    "related_existing_pages": [
+      "/"
+    ],
+    "approval_status": "pending",
+    "created_at": "2026-07-11T10:04:13.527Z",
+    "rejection_reason": null
+  },
+  {
+    "id": "idea-1783764253527-979c",
+    "title": "Women’s Weekend Self‑Defence Course: Empowering Santacruz Women in 2 Hours",
+    "primary_keyword": "Women Self‑Defence Santacruz",
+    "supporting_keywords": [
+      "self‑defence for women",
+      "women empowerment",
+      "short self‑defence course"
+    ],
+    "search_intent": "informational",
+    "funnel_stage": "decision",
+    "target_audience": "Women",
+    "target_location": "Santacruz",
+    "why_it_matters": "Provides essential safety skills and empowerment for women in a concise local program",
+    "confidence": 70,
+    "priority_score": 80,
+    "source_type": "qualitative_ai_recommendation",
+    "supporting_gsc_queries": [],
+    "related_existing_pages": [
+      "/"
+    ],
+    "approval_status": "rejected",
+    "created_at": "2026-07-11T10:04:13.527Z",
+    "rejection_reason": "The two-hour duration is not verified."
+  }
+]

@@ -1,1 +1,37 @@
-[]
+[
+  {
+    "type": "topic",
+    "id": "idea-1783764160382-f2b8",
+    "action": "rejected",
+    "reason": "Community events are not verified business activity.",
+    "at": "2026-07-11T10:03:24.380Z"
+  },
+  {
+    "type": "topic",
+    "id": "idea-1783764160383-6a56",
+    "action": "rejected",
+    "reason": "Student success stories require verified consent and evidence.",
+    "at": "2026-07-11T10:03:30.797Z"
+  },
+  {
+    "type": "topic",
+    "id": "idea-1783764160383-36f4",
+    "action": "rejected",
+    "reason": "The site already has an FAQ section; this would duplicate existing content.",
+    "at": "2026-07-11T10:03:35.848Z"
+  },
+  {
+    "type": "topic",
+    "id": "idea-1783764160383-36f4",
+    "action": "rejected",
+    "reason": "The site already has an FAQ section; this would duplicate existing content.",
+    "at": "2026-07-11T10:04:49.402Z"
+  },
+  {
+    "type": "topic",
+    "id": "idea-1783764253527-979c",
+    "action": "rejected",
+    "reason": "The two-hour duration is not verified.",
+    "at": "2026-07-11T10:05:00.796Z"
+  }
+]
