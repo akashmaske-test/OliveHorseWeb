@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-11T11:49:43.551Z",
+  "generated_at": "2026-07-11T18:33:54.674Z",
   "status": "awaiting_human_approval",
   "notice": "These are review candidates, not approved business claims. A topic approval permits drafting only. A draft still needs separate user confirmation before it may be published.",
   "topics": [
@@ -183,19 +183,63 @@
       "requires_human_claim_review": true
     },
     {
-      "id": "idea-1783770583336-ad0b",
-      "title": "Choosing the Right Karate Program for Your Child: A Parent’s Guide",
-      "primary_keyword": "karate program for kids",
+      "id": "idea-1783794834462-d3a3",
+      "title": "The Role of Private One-to-One Karate Training in Skill Acceleration",
+      "primary_keyword": "Private One-to-One Karate Training",
       "supporting_keywords": [
-        "kids beginner karate programme",
-        "karate benefits for children",
-        "martial arts for kids"
+        "personalized karate coaching",
+        "karate training Mumbai",
+        "individual martial arts instruction"
       ],
-      "search_intent": "informational",
-      "funnel_stage": "awareness",
-      "target_audience": "parents of children",
-      "target_location": "Santacruz, Mumbai",
-      "why_it_matters": "Helps parents make informed decisions about safety, development, and long‑term benefits of martial arts for their children.",
+      "search_intent": "Informational",
+      "funnel_stage": "Consideration",
+      "target_audience": "Adults and Teenagers",
+      "target_location": "Mumbai",
+      "why_it_matters": "Explains the specific advantages of individualized attention over group classes for faster technical improvement.",
+      "evidence": "qualitative_ai_recommendation",
+      "supporting_gsc_queries": [],
+      "related_existing_pages": [
+        "/"
+      ],
+      "approval_status": "pending",
+      "requires_human_claim_review": true
+    },
+    {
+      "id": "idea-1783794834462-5ceb",
+      "title": "Preparing for Your First Belt Examination in Karate",
+      "primary_keyword": "Belt Examination Preparation",
+      "supporting_keywords": [
+        "karate grading tips",
+        "martial arts belt test",
+        "karate training Santacruz"
+      ],
+      "search_intent": "Informational",
+      "funnel_stage": "Retention",
+      "target_audience": "Current Karate Students",
+      "target_location": "Santacruz",
+      "why_it_matters": "Provides value to existing students by guiding them through the preparation process for their examinations.",
+      "evidence": "qualitative_ai_recommendation",
+      "supporting_gsc_queries": [],
+      "related_existing_pages": [
+        "/"
+      ],
+      "approval_status": "pending",
+      "requires_human_claim_review": true
+    },
+    {
+      "id": "idea-1783794834462-35f2",
+      "title": "Implementing Self-Defence Workshops in Corporate Environments",
+      "primary_keyword": "Corporate Self-Defence Workshops",
+      "supporting_keywords": [
+        "workplace safety training",
+        "corporate wellness Mumbai",
+        "employee self-defence"
+      ],
+      "search_intent": "Commercial",
+      "funnel_stage": "Awareness",
+      "target_audience": "Schools and organisations",
+      "target_location": "Mumbai",
+      "why_it_matters": "Targets B2B decision makers by highlighting the importance of safety training within a professional setting.",
       "evidence": "qualitative_ai_recommendation",
       "supporting_gsc_queries": [],
       "related_existing_pages": [

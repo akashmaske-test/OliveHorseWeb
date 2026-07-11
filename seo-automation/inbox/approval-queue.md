@@ -1,6 +1,6 @@
 # OliveHorse SEO approval queue
 
-Generated: 2026-07-11T11:49:43.551Z
+Generated: 2026-07-11T18:33:54.674Z
 
 These are review candidates, not approved business claims. A topic approval permits drafting only. A draft still needs separate user confirmation before it may be published.
 
@@ -70,11 +70,27 @@ These are review candidates, not approved business claims. A topic approval perm
 - Evidence: qualitative_ai_recommendation
 - Suggested action: approve for drafting, reject, or needs review
 
-## idea-1783770583336-ad0b: Choosing the Right Karate Program for Your Child: A Parent’s Guide
+## idea-1783794834462-d3a3: The Role of Private One-to-One Karate Training in Skill Acceleration
 
-- Primary keyword: karate program for kids
-- Audience: parents of children
-- Location: Santacruz, Mumbai
+- Primary keyword: Private One-to-One Karate Training
+- Audience: Adults and Teenagers
+- Location: Mumbai
+- Evidence: qualitative_ai_recommendation
+- Suggested action: approve for drafting, reject, or needs review
+
+## idea-1783794834462-5ceb: Preparing for Your First Belt Examination in Karate
+
+- Primary keyword: Belt Examination Preparation
+- Audience: Current Karate Students
+- Location: Santacruz
+- Evidence: qualitative_ai_recommendation
+- Suggested action: approve for drafting, reject, or needs review
+
+## idea-1783794834462-35f2: Implementing Self-Defence Workshops in Corporate Environments
+
+- Primary keyword: Corporate Self-Defence Workshops
+- Audience: Schools and organisations
+- Location: Mumbai
 - Evidence: qualitative_ai_recommendation
 - Suggested action: approve for drafting, reject, or needs review
 
