@@ -4,7 +4,7 @@ import React from "react";
 import { renderToStaticMarkup } from "react-dom/server";
 import { siteData } from "../src/data/siteData.js";
 import { ArticlePage, BlogIndexPage, LegalPage } from "../src/seo/static-pages.jsx";
-import { absoluteUrl, breadcrumbSchema, organizationSchema, pageMetadata, serviceSchemas, staticPages, websiteSchema } from "../src/seo/site.js";
+import { absoluteUrl, breadcrumbSchema, GOOGLE_SITE_VERIFICATION, organizationSchema, pageMetadata, serviceSchemas, staticPages, websiteSchema } from "../src/seo/site.js";
 import { readBlogPosts } from "../src/blog/content.js";
 
 const dist = path.resolve("dist");
@@ -17,7 +17,7 @@ function esc(value) {
 
 function headFor(metadata, schemas = []) {
   const jsonLd = schemas.map((schema) => `<script type="application/ld+json">${JSON.stringify(schema).replaceAll("<", "\\u003c")}</script>`).join("\n    ");
-  return `\n    <title>${esc(metadata.title)}</title>\n    <meta name="description" content="${esc(metadata.description)}" />\n    <meta name="robots" content="${metadata.robots}" />\n    <link rel="canonical" href="${metadata.canonical}" />\n    <meta property="og:title" content="${esc(metadata.ogTitle)}" />\n    <meta property="og:description" content="${esc(metadata.ogDescription)}" />\n    <meta property="og:url" content="${metadata.ogUrl}" />\n    <meta property="og:type" content="website" />\n    <meta name="twitter:card" content="summary" />\n    ${jsonLd}`;
+  return `\n    <title>${esc(metadata.title)}</title>\n    <meta name="description" content="${esc(metadata.description)}" />\n    <meta name="google-site-verification" content="${GOOGLE_SITE_VERIFICATION}" />\n    <meta name="robots" content="${metadata.robots}" />\n    <link rel="canonical" href="${metadata.canonical}" />\n    <meta property="og:title" content="${esc(metadata.ogTitle)}" />\n    <meta property="og:description" content="${esc(metadata.ogDescription)}" />\n    <meta property="og:url" content="${metadata.ogUrl}" />\n    <meta property="og:type" content="website" />\n    <meta name="twitter:card" content="summary" />\n    ${jsonLd}`;
 }
 
 function renderDocument({ pathname, metadata, markup, schemas, interactive = false, clientScript = false }) {
