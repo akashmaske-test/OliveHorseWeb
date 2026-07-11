@@ -155,6 +155,32 @@ textarea {
   color: var(--orange);
 }
 
+.blog-nav-link,
+.blog-mobile-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  color: var(--forest);
+  font-size: 14px;
+  font-weight: 800;
+}
+
+.blog-nav-link svg,
+.blog-mobile-link svg {
+  width: 19px;
+  height: 19px;
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: 1.8;
+}
+
+.blog-nav-link:hover,
+.blog-mobile-link:hover {
+  color: var(--orange);
+}
+
 .desktop-cta {
   flex: 0 0 auto;
 }
@@ -541,6 +567,32 @@ p {
   color: var(--muted);
   font-size: 15px;
   line-height: 1.55;
+}
+
+.blog-preview-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 24px;
+}
+
+.blog-preview-card {
+  align-content: start;
+}
+
+.blog-preview-card h3 a:hover,
+.text-link:hover {
+  color: var(--orange);
+}
+
+.text-link {
+  margin-top: auto;
+  color: var(--forest);
+  font-size: 14px;
+  font-weight: 800;
+}
+
+.blog-preview-action {
+  margin-top: 28px;
 }
 
 .pill-row {
@@ -1223,7 +1275,8 @@ p {
   .programmes-grid,
   .benefits-grid,
   .pricing-grid,
-  .testimonial-grid {
+  .testimonial-grid,
+  .blog-preview-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
@@ -1264,7 +1317,8 @@ p {
   }
 
   .nav-links,
-  .desktop-cta {
+  .desktop-cta,
+  .blog-nav-link {
     display: none;
   }
 
@@ -1298,6 +1352,11 @@ p {
     border-radius: 12px;
     color: var(--forest);
     font-weight: 800;
+  }
+
+  .mobile-drawer .blog-mobile-link {
+    display: inline-flex;
+    gap: 10px;
   }
 
   .hero-section {
@@ -1382,6 +1441,10 @@ p {
     overflow-x: auto;
     padding: 2px 22px 18px;
     scroll-snap-type: x mandatory;
+  }
+
+  .blog-preview-grid {
+    grid-template-columns: 1fr;
   }
 
   .programmes-grid > *,
