@@ -1,0 +1,25 @@
+{
+  "id": "seed-child-karate-santacruz",
+  "slug": "how-to-choose-a-karate-class-for-your-child-in-santacruz",
+  "draft_path": "seo-automation/generated-blogs/how-to-choose-a-karate-class-for-your-child-in-santacruz.md",
+  "workflow_status": "approved_for_publish",
+  "source_type": "verified_repository_content",
+  "source_evidence": [
+    "content/business.json",
+    "content/programmes.json",
+    "content/faq.json"
+  ],
+  "primary_keyword": "Karate classes for children in Santacruz",
+  "search_intent": "commercial investigation",
+  "generated_at": "2026-07-11T00:00:00.000Z",
+  "qc_checked_at": "2026-07-11T11:30:29.667Z",
+  "qc_issues": [],
+  "image_requirements": "No featured image requested. Any future image must be a verified academy asset with accurate alt text.",
+  "claims_requiring_confirmation": [
+    "Current trial-class availability",
+    "Current batch availability and schedules"
+  ],
+  "approval_date": "2026-07-11T11:52:08.139Z",
+  "approval_notes": "Explicit user confirmation in Codex on 2026-07-11.",
+  "final_file_hash": "da3f9c794ac4f00c5e306bab7f66ae4978855a092dc97d1ac07fee37be214f5e"
+}

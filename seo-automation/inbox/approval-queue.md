@@ -1,6 +1,6 @@
 # OliveHorse SEO approval queue
 
-Generated: 2026-07-11T18:50:10.350Z
+Generated: 2026-07-11T19:01:10.747Z
 
 These are review candidates, not approved business claims. A topic approval permits drafting only. A draft still needs separate user confirmation before it may be published.
 
@@ -62,34 +62,10 @@ These are review candidates, not approved business claims. A topic approval perm
 - Evidence: qualitative_ai_recommendation
 - Suggested action: approve for drafting, reject, or needs review
 
-## idea-1783795791640-7cfe: Private Karate Training: A Tailored Path to Confidence for Kids in Santacruz
-
-- Primary keyword: private karate training
-- Audience: parents of children ages 5-12
-- Location: Santacruz
-- Evidence: qualitative_ai_recommendation
-- Suggested action: approve for drafting, reject, or needs review
-
-## idea-1783795791640-34be: Weekend Self‑Defence for Women: Quick Empowerment in Santacruz
-
-- Primary keyword: women self-defence
-- Audience: women 18-45
-- Location: Santacruz
-- Evidence: qualitative_ai_recommendation
-- Suggested action: approve for drafting, reject, or needs review
-
-## idea-1783795791640-0dab: Teen Karate and Fitness: Strengthening Body and Mind in Mumbai
-
-- Primary keyword: teen karate fitness
-- Audience: teenagers 13-18
-- Location: Mumbai
-- Evidence: qualitative_ai_recommendation
-- Suggested action: approve for drafting, reject, or needs review
-
 ## Drafts awaiting final publish confirmation
 
 ## idea-1783764253527-6f10: karate-classes-for-teenagers-in-mumbai
 
-- Primary keyword: undefined
-- Source evidence: not recorded
+- Primary keyword: karate classes for teenagers in Mumbai
+- Source evidence: approved_topic, verified_business_profile
 - Required action: final user confirmation before publishing

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-11T18:50:10.350Z",
+  "generated_at": "2026-07-11T19:01:10.747Z",
   "status": "awaiting_human_approval",
   "notice": "These are review candidates, not approved business claims. A topic approval permits drafting only. A draft still needs separate user confirmation before it may be published.",
   "topics": [
@@ -159,72 +159,6 @@
       ],
       "approval_status": "pending",
       "requires_human_claim_review": true
-    },
-    {
-      "id": "idea-1783795791640-7cfe",
-      "title": "Private Karate Training: A Tailored Path to Confidence for Kids in Santacruz",
-      "primary_keyword": "private karate training",
-      "supporting_keywords": [
-        "one-to-one karate",
-        "child confidence",
-        "Santacruz karate classes"
-      ],
-      "search_intent": "informational",
-      "funnel_stage": "awareness",
-      "target_audience": "parents of children ages 5-12",
-      "target_location": "Santacruz",
-      "why_it_matters": "Private sessions allow individualized focus, helping children develop confidence and discipline in a supportive environment.",
-      "evidence": "qualitative_ai_recommendation",
-      "supporting_gsc_queries": [],
-      "related_existing_pages": [
-        "/"
-      ],
-      "approval_status": "pending",
-      "requires_human_claim_review": true
-    },
-    {
-      "id": "idea-1783795791640-34be",
-      "title": "Weekend Self‑Defence for Women: Quick Empowerment in Santacruz",
-      "primary_keyword": "women self-defence",
-      "supporting_keywords": [
-        "weekend self-defence course",
-        "women safety",
-        "Santacruz women training"
-      ],
-      "search_intent": "informational",
-      "funnel_stage": "awareness",
-      "target_audience": "women 18-45",
-      "target_location": "Santacruz",
-      "why_it_matters": "Short, intensive sessions provide essential self‑defence skills, boosting safety and confidence for busy women.",
-      "evidence": "qualitative_ai_recommendation",
-      "supporting_gsc_queries": [],
-      "related_existing_pages": [
-        "/"
-      ],
-      "approval_status": "pending",
-      "requires_human_claim_review": true
-    },
-    {
-      "id": "idea-1783795791640-0dab",
-      "title": "Teen Karate and Fitness: Strengthening Body and Mind in Mumbai",
-      "primary_keyword": "teen karate fitness",
-      "supporting_keywords": [
-        "karate for teens",
-        "fitness program",
-        "Mumbai teen training"
-      ],
-      "search_intent": "informational",
-      "funnel_stage": "awareness",
-      "target_audience": "teenagers 13-18",
-      "target_location": "Mumbai",
-      "why_it_matters": "Combining martial arts with fitness promotes physical health, focus, and resilience among teens.",
-      "evidence": "qualitative_ai_recommendation",
-      "supporting_gsc_queries": [],
-      "related_existing_pages": [
-        "/"
-      ],
-      "approval_status": "pending",
-      "requires_human_claim_review": true
     }
   ],
   "drafts_requiring_publish_confirmation": [
@@ -232,9 +166,13 @@
       "id": "idea-1783764253527-6f10",
       "slug": "karate-classes-for-teenagers-in-mumbai",
       "draft_path": "/home/runner/work/OliveHorseWeb/OliveHorseWeb/seo-automation/generated-blogs/karate-classes-for-teenagers-in-mumbai.md",
+      "primary_keyword": "karate classes for teenagers in Mumbai",
       "workflow_status": "approved_for_publish_pending_user_confirmation",
       "source_type": "qualitative_ai_recommendation",
-      "source_evidence": [],
+      "source_evidence": [
+        "approved_topic",
+        "verified_business_profile"
+      ],
       "claims_requiring_confirmation": [],
       "required_action": "user_confirmation_before_publish"
     }
