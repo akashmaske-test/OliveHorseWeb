@@ -1,6 +1,6 @@
 # OliveHorse SEO approval queue
 
-Generated: 2026-07-11T18:40:19.205Z
+Generated: 2026-07-11T18:50:10.350Z
 
 These are review candidates, not approved business claims. A topic approval permits drafting only. A draft still needs separate user confirmation before it may be published.
 
@@ -11,14 +11,6 @@ These are review candidates, not approved business claims. A topic approval perm
 - Primary keyword: Kids Karate Santacruz
 - Audience: Children (parents)
 - Location: Santacruz, Mumbai
-- Evidence: qualitative_ai_recommendation
-- Suggested action: approve for drafting, reject, or needs review
-
-## idea-1783764253527-6f10: Teen Fitness and Karate: A Dual Approach to Health in Mumbai
-
-- Primary keyword: Teen Karate Fitness Mumbai
-- Audience: Teenagers
-- Location: Mumbai
 - Evidence: qualitative_ai_recommendation
 - Suggested action: approve for drafting, reject, or needs review
 
@@ -70,22 +62,34 @@ These are review candidates, not approved business claims. A topic approval perm
 - Evidence: qualitative_ai_recommendation
 - Suggested action: approve for drafting, reject, or needs review
 
-## idea-1783795199693-6140: How to Select the Best Kids Beginner Karate Programme for Your Child in Santacruz
+## idea-1783795791640-7cfe: Private Karate Training: A Tailored Path to Confidence for Kids in Santacruz
 
-- Primary keyword: kids beginner karate programme Santacruz
-- Audience: parents of children aged 5-12
+- Primary keyword: private karate training
+- Audience: parents of children ages 5-12
 - Location: Santacruz
 - Evidence: qualitative_ai_recommendation
 - Suggested action: approve for drafting, reject, or needs review
 
-## idea-1783795199693-c5a6: Benefits of the Women’s Weekend Self-Defence Course for Busy Professionals in Santacruz
+## idea-1783795791640-34be: Weekend Self‑Defence for Women: Quick Empowerment in Santacruz
 
-- Primary keyword: women’s weekend self-defence course Santacruz
-- Audience: working women aged 25-45
+- Primary keyword: women self-defence
+- Audience: women 18-45
 - Location: Santacruz
+- Evidence: qualitative_ai_recommendation
+- Suggested action: approve for drafting, reject, or needs review
+
+## idea-1783795791640-0dab: Teen Karate and Fitness: Strengthening Body and Mind in Mumbai
+
+- Primary keyword: teen karate fitness
+- Audience: teenagers 13-18
+- Location: Mumbai
 - Evidence: qualitative_ai_recommendation
 - Suggested action: approve for drafting, reject, or needs review
 
 ## Drafts awaiting final publish confirmation
 
-No drafts are waiting for publication confirmation.
+## idea-1783764253527-6f10: karate-classes-for-teenagers-in-mumbai
+
+- Primary keyword: undefined
+- Source evidence: not recorded
+- Required action: final user confirmation before publishing
