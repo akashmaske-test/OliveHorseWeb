@@ -1,0 +1,44 @@
+{
+  "generated_at": "2026-07-11T10:05:32.196Z",
+  "source_type": "qualitative_ai_recommendation",
+  "evidence": [],
+  "recommendations": {
+    "Measured Evidence": [
+      "The business offers a diverse range of karate and self-defence programmes tailored to specific demographics, including children, teenagers, adults, and women.",
+      "Services include both group classes (e.g., weekend courses, workshops) and private one-to-one training, indicating flexibility in delivery methods.",
+      "The academy targets multiple audience segments, such as schools and organisations, suggesting a focus on community and institutional engagement.",
+      "Operations are concentrated in two specific locations (Santacruz and Mumbai), implying a localized service model.",
+      "Programmes like the Women’s Weekend Self-Defence Course and Belt Examination Preparation highlight niche offerings that may appeal to specific interests or goals."
+    ],
+    "Recommendations": [
+      "Develop content that emphasizes the unique value of private one-to-one training for individuals seeking personalized instruction.",
+      "Create targeted messaging for schools and organisations to promote workshop bookings, leveraging the existing service offering.",
+      "Highlight the Women’s Weekend Self-Defence Course in outreach efforts to women’s groups or community centres in Santacruz and Mumbai.",
+      "Design promotional materials that address the distinct needs of each audience segment (e.g., safety for children, fitness for teenagers, self-defence for adults).",
+      "Utilize the localized presence in Santacruz and Mumbai to build community partnerships or event-based marketing within these areas."
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 175,
+    "completion_tokens": 1054,
+    "total_tokens": 1229,
+    "cost": 0,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0,
+      "upstream_inference_prompt_cost": 0,
+      "upstream_inference_completions_cost": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 1049,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "business_name": "OliveHorse Fitness Academy",
+  "website_url": "https://olivehorsefitness.vercel.app/",
+  "industry": ["Karate Training", "Martial Arts", "Self-Defence", "Fitness Coaching"],
+  "verified_products": [],
+  "verified_services": ["Kids Beginner Karate Programme", "Teen Karate and Fitness Programme", "Adult Karate and Self-Defence Programme", "Women’s Weekend Self-Defence Course", "Private One-to-One Karate Training", "Competition Karate Training", "Belt Examination Preparation", "School and Corporate Self-Defence Workshops"],
+  "target_audience": ["Children", "Teenagers", "Adults", "Women", "Schools and organisations"],
+  "target_locations": ["Santacruz", "Mumbai"],
+  "brand_tone": ["disciplined", "encouraging", "student-focused", "clear"],
+  "primary_cta": "Book Your Free Trial Class",
+  "contact_methods": [],
+  "social_profiles": [],
+  "blog_language": "English",
+  "verified_claims": [
+    {"claim": "OliveHorse Fitness Academy offers Karate, fitness and practical self-defence programmes.", "source_page": "content/business.json"},
+    {"claim": "Programmes are intended for children, teenagers, adults and women.", "source_page": "content/business.json"},
+    {"claim": "The academy positions itself in Santacruz, Mumbai.", "source_page": "content/business.json"}
+  ],
+  "prohibited_claims": ["prices or fees", "class schedule or availability", "phone or WhatsApp number", "review, rating or customer-result claims", "instructor qualifications", "awards, statistics or guarantees", "AI-generated images as real academy imagery"],
+  "information_needing_confirmation": ["Phone and WhatsApp number", "Class schedule and timings", "Google Business Profile and maps link", "Instructor qualifications", "Programme pricing", "Review consent", "All public image assets"],
+  "source_pages": ["content/business.json", "content/homepage.json", "content/programmes.json", "content/README.txt", "public/images/README.txt"],
+  "last_verified_at": "2026-07-11T00:00:00.000Z"
+}

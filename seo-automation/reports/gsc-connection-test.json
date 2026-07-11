@@ -1,0 +1,20 @@
+{
+  "checked_at": "2026-07-11T10:02:01.315Z",
+  "website_url": "https://olivehorsefitness.vercel.app",
+  "gsc_status": "configured",
+  "gsc_missing": [],
+  "openrouter_status": "configured",
+  "openrouter_missing": [],
+  "site_url": "https://olivehorsefitness.vercel.app/",
+  "status": "incorrect_property_or_insufficient_permission",
+  "accessible_properties": [
+    {
+      "site_url": "https://vibevoyage-frontend.vercel.app/",
+      "permission_level": "siteUnverifiedUser"
+    },
+    {
+      "site_url": "sc-domain:apple.com",
+      "permission_level": "siteUnverifiedUser"
+    }
+  ]
+}

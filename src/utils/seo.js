@@ -1,55 +1,27 @@
-import { imageMap } from "../data/siteData.js";
+import { absoluteUrl, organizationSchema, SITE_URL, websiteSchema } from "../seo/site.js";
 
-export function localBusinessSchema(homepage, business) {
-  const address = business.contact.address;
-
-  return {
-    "@context": "https://schema.org",
-    "@type": ["LocalBusiness", "SportsActivityLocation"],
-    name: business.brand.name,
-    description: homepage.seo.description,
-    telephone: business.contact.phone,
-    email: business.contact.email,
-    url: window.location.href,
-    foundingDate: String(business.brand.foundedYear),
-    address: {
-      "@type": "PostalAddress",
-      streetAddress: [address.line1, address.line2].filter(Boolean).join(", "),
-      addressLocality: address.city,
-      addressRegion: address.state,
-      postalCode: address.postalCode,
-      addressCountry: address.country,
-    },
-    areaServed: business.serviceAreas,
-    image: `${window.location.origin}${imageMap.hero}`,
-  };
+function upsert(selector, tagName, attributes) {
+  let element = document.head.querySelector(selector);
+  if (!element) {
+    element = document.createElement(tagName);
+    document.head.appendChild(element);
+  }
+  Object.entries(attributes).forEach(([key, value]) => element.setAttribute(key, value));
 }
 
-export function faqSchema(faqData) {
-  return {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    mainEntity: faqData.faqs.map((faq) => ({
-      "@type": "Question",
-      name: faq.question,
-      acceptedAnswer: {
-        "@type": "Answer",
-        text: faq.answer,
-      },
-    })),
-  };
-}
-
-export function applySeo(homepage, business, faqData) {
+export function applySeo(homepage) {
   document.title = homepage.seo.title;
   document.querySelector('meta[name="description"]')?.setAttribute("content", homepage.seo.description);
   document.querySelector('meta[property="og:title"]')?.setAttribute("content", homepage.seo.ogTitle);
   document.querySelector('meta[property="og:description"]')?.setAttribute("content", homepage.seo.ogDescription);
-  document.querySelector('meta[property="og:image"]')?.setAttribute("content", imageMap.hero);
+  upsert('meta[property="og:url"]', "meta", { property: "og:url", content: SITE_URL });
+  upsert('meta[name="twitter:card"]', "meta", { name: "twitter:card", content: "summary" });
+  upsert('link[rel="canonical"]', "link", { rel: "canonical", href: absoluteUrl("/") });
+  upsert('meta[name="robots"]', "meta", { name: "robots", content: "index,follow" });
 
   document.querySelectorAll('script[data-schema="olivehorse"]').forEach((script) => script.remove());
 
-  [localBusinessSchema(homepage, business), faqSchema(faqData)].forEach((schema) => {
+  [organizationSchema(), websiteSchema()].forEach((schema) => {
     const script = document.createElement("script");
     script.type = "application/ld+json";
     script.dataset.schema = "olivehorse";

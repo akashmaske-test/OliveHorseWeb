@@ -1,0 +1,6 @@
+[
+  {"path": "/", "indexable": true},
+  {"path": "/blog/", "indexable": true},
+  {"path": "/privacy-policy/", "indexable": false},
+  {"path": "/terms/", "indexable": false}
+]
