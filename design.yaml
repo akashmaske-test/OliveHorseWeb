@@ -1,0 +1,403 @@
+brand:
+  name: OliveHorse Fitness Academy
+  tagline: "Discipline. Strength. Confidence."
+  tone: [professional, disciplined, safe, energetic, family-friendly, supportive]
+  colors:
+    forest: "#24352A"
+    olive: "#66743A"
+    orange: "#F47A32"
+    ivory: "#F7F5EF"
+    soft_grey: "#ECEFEA"
+    text: "#172019"
+    muted: "#5F685F"
+    white: "#FFFFFF"
+    border: "#D9DED7"
+  typography:
+    headings:
+      family: "Barlow Condensed"
+      weights: [600, 700]
+    body:
+      family: "Inter"
+      weights: [400, 500, 600, 700]
+    devanagari:
+      family: "Noto Sans Devanagari"
+      languages: [hi, mr]
+
+content:
+  source: "content/"
+  files:
+    business: "content/business.json"
+    homepage: "content/homepage.json"
+    programmes: "content/programmes.json"
+    faq: "content/faq.json"
+    testimonials: "content/testimonials.json"
+  rules:
+    - "Do not hard-code copy already available in JSON."
+    - "Use homepage.json as the primary section-content source."
+    - "Use programmes.json for programme cards and details."
+    - "Use faq.json and testimonials.json for repeatable components."
+
+layout:
+  container:
+    desktop: 1200
+    tablet: "calc(100% - 64px)"
+    mobile: "calc(100% - 44px)"
+  frame_widths:
+    desktop: 1440
+    mobile: 390
+  spacing:
+    section_desktop: 96
+    section_tablet: 80
+    section_mobile: 64
+    content_gap_large: 48
+    content_gap_medium: 24
+    content_gap_small: 12
+  grids:
+    desktop:
+      columns: 12
+      gutter: 24
+    tablet:
+      columns: 8
+      gutter: 20
+    mobile:
+      columns: 4
+      gutter: 16
+  breakpoints:
+    mobile: 0
+    tablet: 768
+    desktop: 1200
+    wide: 1440
+
+components:
+  buttons:
+    radius: 12
+    height: 48
+    font_weight: 600
+    primary:
+      background: "{brand.colors.orange}"
+      text: "{brand.colors.white}"
+      hover: "#DC6728"
+    secondary:
+      background: "{brand.colors.white}"
+      text: "{brand.colors.forest}"
+      border: "{brand.colors.forest}"
+    whatsapp:
+      background: "#25D366"
+      text: "#FFFFFF"
+      sticky_mobile: true
+  cards:
+    radius: 18
+    background: "{brand.colors.white}"
+    border: "{brand.colors.border}"
+    shadow: "0 8px 24px rgba(36,53,42,0.08)"
+    padding_desktop: 24
+    padding_mobile: 20
+  headings:
+    eyebrow:
+      size: 13
+      weight: 700
+      color: "{brand.colors.orange}"
+      transform: uppercase
+      letter_spacing: "0.08em"
+    h1:
+      desktop: 72
+      tablet: 58
+      mobile: 48
+      line_height: 0.98
+    h2:
+      desktop: 48
+      tablet: 42
+      mobile: 40
+      line_height: 1.05
+    body:
+      desktop: 17
+      mobile: 15
+      line_height: 1.6
+  navigation:
+    desktop:
+      height: 84
+      sticky: true
+      background: "{brand.colors.white}"
+      links: [About, Programmes, Benefits, Schedule, Pricing, Reviews, Contact]
+    mobile:
+      height: 72
+      pattern: drawer
+      trigger: hamburger
+      sticky: true
+
+sections:
+  order:
+    - header
+    - hero
+    - programmes
+    - about
+    - benefits
+    - age_groups
+    - instructor
+    - schedule
+    - progress_journey
+    - gallery
+    - pricing
+    - testimonials
+    - faq
+    - trial_form
+    - contact
+    - footer
+
+  hero:
+    background: "{brand.colors.ivory}"
+    desktop:
+      layout: "2-column"
+      copy_columns: 6
+      image_columns: 6
+      min_height: 720
+    mobile:
+      layout: stacked
+      image_after_cta: true
+    primary_cta: "#trial-form"
+    secondary_cta: "#programmes"
+    image: "public/images/03-group-training-session.png"
+
+  programmes:
+    anchor: programmes
+    desktop:
+      layout: "4-column-grid"
+    tablet:
+      layout: "2-column-grid"
+    mobile:
+      layout: "horizontal-slider"
+    cards:
+      - content_key: kids-beginner-karate
+        image: "public/images/04-kids-karate-class.png"
+      - content_key: teen-karate-fitness
+        image: "public/images/05-teen-karate-class.png"
+      - content_key: adult-karate-self-defence
+        image: "public/images/06-adult-karate-class.png"
+      - content_key: womens-self-defence
+        image: "public/images/07-womens-self-defence.png"
+      - content_key: private-karate-coaching
+        image: "public/images/08-private-coaching.png"
+      - content_key: competition-karate-training
+        image: "public/images/09-competition-training.png"
+
+  about:
+    background: "{brand.colors.ivory}"
+    desktop:
+      layout: "image-left-copy-right"
+    mobile:
+      layout: stacked
+    image: "public/images/02-founder-pravin-nawale.png"
+
+  benefits:
+    desktop:
+      layout: "4-column-grid"
+    tablet:
+      layout: "2-column-grid"
+    mobile:
+      layout: stacked
+    icon_style: "simple rounded line icons"
+
+  age_groups:
+    desktop:
+      layout: "4-column-grid"
+    mobile:
+      layout: "horizontal-slider"
+
+  instructor:
+    desktop:
+      layout: "image-left-copy-right"
+    image: "public/images/02-founder-pravin-nawale.png"
+
+  schedule:
+    desktop:
+      layout: table
+    mobile:
+      layout: cards
+    note: "Show availability as enquiry-based, not guaranteed."
+
+  progress_journey:
+    background: "{brand.colors.ivory}"
+    desktop:
+      layout: "5-step-horizontal"
+    mobile:
+      layout: "vertical-timeline"
+
+  gallery:
+    desktop:
+      layout: masonry
+      featured_ratio: "4:5"
+      supporting_ratio: "3:2"
+    mobile:
+      layout: "horizontal-slider"
+    images:
+      - "public/images/09-competition-training.png"
+      - "public/images/10-belt-examination.png"
+      - "public/images/11-group-achievement.png"
+      - "public/images/12-academy-interior.png"
+      - "public/images/03-group-training-session.png"
+
+  pricing:
+    background: "{brand.colors.forest}"
+    desktop:
+      layout: "4-column-grid"
+    mobile:
+      layout: stacked
+    featured_plan: "Trial Class"
+
+  testimonials:
+    background: "{brand.colors.ivory}"
+    desktop:
+      layout: "3-column-grid"
+    mobile:
+      layout: "horizontal-slider"
+    source: "content/testimonials.json"
+
+  faq:
+    desktop:
+      max_width: 1200
+    mobile:
+      max_width: "100%"
+    interaction: accordion
+    source: "content/faq.json"
+
+  trial_form:
+    anchor: trial-form
+    background: "{brand.colors.orange}"
+    desktop:
+      layout: "copy-left-form-right"
+    mobile:
+      layout: stacked
+    submit_label: "Request My Free Trial"
+    fields: [studentName, age, phone, email, programme, experienceLevel, preferredTime, message]
+
+  contact:
+    include:
+      - phone
+      - whatsapp
+      - email
+      - address
+      - training_hours
+      - google_map
+    map_source: "content/business.json"
+
+  footer:
+    background: "{brand.colors.forest}"
+    text: "{brand.colors.white}"
+
+images:
+  base_path: "public/images/"
+  generated_assets:
+    logo: "01-logo.png"
+    founder: "02-founder-pravin-nawale.png"
+    hero: "03-group-training-session.png"
+    kids: "04-kids-karate-class.png"
+    teens: "05-teen-karate-class.png"
+    adults: "06-adult-karate-class.png"
+    women: "07-womens-self-defence.png"
+    private: "08-private-coaching.png"
+    competition: "09-competition-training.png"
+    belt_exam: "10-belt-examination.png"
+    achievement: "11-group-achievement.png"
+    interior: "12-academy-interior.png"
+  ratios:
+    hero: "4:5"
+    founder: "4:5"
+    programme_cards: "1:1"
+    gallery: ["4:5", "3:2"]
+    social_preview: "1.91:1"
+  object_positions:
+    hero_desktop: "center center"
+    hero_mobile: "55% center"
+    founder: "center top"
+    programme_cards: "center center"
+    competition: "center center"
+    belt_exam: "center center"
+    group_achievement: "center center"
+    academy_interior: "center center"
+  rules:
+    - "Use object-fit: cover for photographs."
+    - "Do not stretch images."
+    - "Preserve full hands and feet in action photographs."
+    - "Use separate mobile crops when central cropping hides important subjects."
+    - "Replace AI-generated founder, logo, academy and achievement images before production launch."
+
+responsive:
+  desktop:
+    navigation: full
+    programme_columns: 4
+    benefit_columns: 4
+    pricing_columns: 4
+    gallery: masonry
+    sticky_whatsapp: false
+  tablet:
+    navigation: compact
+    programme_columns: 2
+    benefit_columns: 2
+    pricing_columns: 2
+    gallery: "2-column-grid"
+  mobile:
+    horizontal_padding: 22
+    navigation: drawer
+    programme_cards: slider
+    age_group_cards: slider
+    testimonials: slider
+    gallery: slider
+    pricing: stacked
+    schedule: cards
+    progress_journey: vertical
+    sticky_cta: whatsapp
+    hide:
+      - excessive decorative graphics
+      - nonessential background textures
+
+accessibility:
+  contrast: "WCAG AA minimum"
+  keyboard_navigation: true
+  visible_focus: true
+  form_labels: required
+  minimum_touch_target: 44
+  image_alt_source: "content JSON alt fields"
+  reduced_motion_support: true
+
+seo:
+  source: "content/homepage.json"
+  title: "Karate Classes in Santacruz, Mumbai | OliveHorse Fitness Academy"
+  description: "Join professional Karate, fitness and self-defence classes for children, teenagers, adults and women at OliveHorse Fitness Academy in Santacruz, Mumbai. Book a free trial class."
+  headings:
+    h1: "Build Discipline, Strength and Confidence Through Karate"
+    h2:
+      - "Find the Right Programme for Your Goals"
+      - "More Than Karate Training"
+      - "Skills That Support Life Inside and Outside the Academy"
+      - "A Clear Path from Beginner to Advanced Training"
+      - "Training, Progress and Achievement"
+      - "Start with a Free Trial Class"
+      - "Progress That Students and Families Can See"
+      - "Everything You Need to Know Before Starting"
+  schema:
+    - LocalBusiness
+    - SportsActivityLocation
+    - FAQPage
+  rules:
+    - "Use one H1 only."
+    - "Render FAQ schema from faq.json."
+    - "Render local business data from business.json."
+    - "Use descriptive alt text for every meaningful image."
+
+implementation:
+  preferred_stack:
+    framework: "Next.js"
+    styling: "Tailwind CSS"
+    language: "TypeScript"
+  folders:
+    content: "content/"
+    images: "public/images/"
+    components: "src/components/"
+    sections: "src/components/sections/"
+  rules:
+    - "Read content from JSON files rather than duplicating copy."
+    - "Create reusable section and card components."
+    - "Keep design tokens in one theme or Tailwind configuration."
+    - "Do not introduce new sections without approval."
+    - "Do not change the approved desktop or mobile information hierarchy."
+    - "Use semantic HTML and server-rendered SEO metadata."

@@ -1,0 +1,80 @@
+name: Morning SEO review
+
+on:
+  schedule:
+    - cron: "30 3 * * *"
+  workflow_dispatch:
+
+permissions:
+  # Needed only to update the separate seo-automation-state review branch.
+  # This workflow never writes to master, opens PRs, or merges changes.
+  contents: write
+
+concurrency:
+  group: morning-seo
+  cancel-in-progress: false
+
+jobs:
+  review:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    env:
+      WEBSITE_URL: https://olivehorsefitness.vercel.app/
+      GSC_SITE_URL: ${{ secrets.GSC_SITE_URL }}
+      GOOGLE_OAUTH_CLIENT_ID: ${{ secrets.GOOGLE_OAUTH_CLIENT_ID }}
+      GOOGLE_OAUTH_CLIENT_SECRET: ${{ secrets.GOOGLE_OAUTH_CLIENT_SECRET }}
+      GOOGLE_OAUTH_REFRESH_TOKEN: ${{ secrets.GOOGLE_OAUTH_REFRESH_TOKEN }}
+      OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+      OPENROUTER_MODEL_RESEARCH: ${{ secrets.OPENROUTER_MODEL_RESEARCH }}
+      OPENROUTER_MODEL_WRITING: ${{ secrets.OPENROUTER_MODEL_WRITING }}
+      OPENROUTER_MODEL_QC: ${{ secrets.OPENROUTER_MODEL_QC }}
+      SERP_API_KEY: ${{ secrets.SERP_API_KEY }}
+      DATAFORSEO_LOGIN: ${{ secrets.DATAFORSEO_LOGIN }}
+      DATAFORSEO_PASSWORD: ${{ secrets.DATAFORSEO_PASSWORD }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - run: npm run seo:validate
+      - run: npm run seo:morning
+      - name: Store approval queue on the review branch
+        env:
+          STATE_BRANCH: seo-automation-state
+        run: |
+          state_dir="$RUNNER_TEMP/seo-automation-state"
+          git fetch origin "$STATE_BRANCH" || true
+          if git show-ref --verify --quiet "refs/remotes/origin/$STATE_BRANCH"; then
+            git worktree add -B "$STATE_BRANCH" "$state_dir" "origin/$STATE_BRANCH"
+          else
+            git worktree add --detach "$state_dir"
+            git -C "$state_dir" checkout --orphan "$STATE_BRANCH"
+          fi
+          mkdir -p "$state_dir/seo-automation/inbox"
+          cp seo-automation/inbox/approval-queue.json "$state_dir/seo-automation/inbox/approval-queue.json"
+          cp seo-automation/inbox/approval-queue.md "$state_dir/seo-automation/inbox/approval-queue.md"
+          git -C "$state_dir" add seo-automation/inbox
+          if git -C "$state_dir" diff --cached --quiet; then
+            echo "Approval queue has not changed."
+          else
+            git -C "$state_dir" config user.name "github-actions[bot]"
+            git -C "$state_dir" config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git -C "$state_dir" commit -m "chore: update SEO approval queue"
+            git -C "$state_dir" push origin "HEAD:refs/heads/$STATE_BRANCH"
+          fi
+      - name: Write summary
+        run: |
+          echo "## Morning SEO review" >> "$GITHUB_STEP_SUMMARY"
+          echo "Automation stopped before publishing, social posting, pull-request creation, or merging." >> "$GITHUB_STEP_SUMMARY"
+          cat seo-automation/reports/morning-seo-report.md >> "$GITHUB_STEP_SUMMARY"
+          echo "" >> "$GITHUB_STEP_SUMMARY"
+          cat seo-automation/inbox/approval-queue.md >> "$GITHUB_STEP_SUMMARY"
+      - uses: actions/upload-artifact@v4
+        with:
+          name: morning-seo-reports
+          path: |
+            seo-automation/reports/
+            seo-automation/inbox/
+          if-no-files-found: warn

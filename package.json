@@ -1,0 +1,52 @@
+{
+  "name": "olivehorse-web",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "npm run build:client && npm run seo:prerender",
+    "build:client": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint . --max-warnings=0",
+    "test": "vitest run",
+    "seo:profile": "node seo-automation/scripts/business-profile.js",
+    "seo:prerender": "tsx scripts/prerender-pages.jsx",
+    "seo:validate": "node seo-automation/scripts/seo-validate.js",
+    "seo:gsc-authorize": "node seo-automation/scripts/gsc-authorize-local.js",
+    "seo:gsc-test": "node seo-automation/scripts/gsc-test-connection.js",
+    "seo:gsc-fetch": "node seo-automation/scripts/gsc-fetch-performance.js",
+    "seo:gsc-analyse": "node seo-automation/scripts/gsc-analyse-opportunities.js",
+    "seo:research": "node seo-automation/scripts/seo-research.js",
+    "seo:ideas": "node seo-automation/scripts/seo-generate-ideas.js",
+    "seo:approve-topic": "node seo-automation/scripts/seo-approve-topic.js",
+    "seo:approval-queue": "node seo-automation/scripts/seo-export-approval-queue.js",
+    "seo:generate-blog": "node seo-automation/scripts/seo-generate-blog.js",
+    "seo:qc": "node seo-automation/scripts/seo-qc-blog.js",
+    "seo:approve-publishing": "node seo-automation/scripts/seo-approve-publishing.js",
+    "seo:create-blog-pr": "node seo-automation/scripts/seo-create-blog-pr.js",
+    "seo:social-drafts": "node seo-automation/scripts/seo-create-social-drafts.js",
+    "seo:morning": "node seo-automation/scripts/morning-seo-workflow.js"
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "6.0.3",
+    "dotenv": "17.2.4",
+    "googleapis": "166.0.0",
+    "gray-matter": "4.0.3",
+    "markdown-it": "14.1.0",
+    "react": "19.2.7",
+    "react-dom": "19.2.7",
+    "vite": "8.1.4"
+  },
+  "devDependencies": {
+    "@eslint/js": "9.39.2",
+    "eslint": "9.39.2",
+    "eslint-plugin-react-hooks": "7.0.1",
+    "globals": "14.0.0",
+    "tsx": "4.21.0",
+    "vitest": "4.1.0"
+  },
+  "engines": {
+    "node": ">=22.12 <27"
+  }
+}

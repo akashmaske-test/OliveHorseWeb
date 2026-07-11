@@ -1,0 +1,10 @@
+node_modules/
+dist/
+.DS_Store
+.env
+.env.local
+seo-automation/.secrets/
+**/*oauth*.json
+**/*refresh-token*.json
+**/*access-token*.json
+seo-automation/data/gsc/raw/*.local.json
