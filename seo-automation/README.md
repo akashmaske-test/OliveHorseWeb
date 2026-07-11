@@ -4,9 +4,9 @@ This directory contains local-first, safety-gated SEO automation. JSON files in 
 
 Run `npm run seo:validate` before automation. `npm run seo:morning` can collect reports and draft review work but always stops before publishing. OAuth tokens belong only in the ignored `.secrets/` directory or GitHub Actions secrets.
 
-The scheduled GitHub workflow exports a redacted human-approval queue to the `seo-automation-state` branch at `seo-automation/inbox/approval-queue.md` and `.json`. This branch is review-only: it contains topic candidates and draft confirmation requests, never credentials or raw GSC data. Approving a topic permits drafting only; publishing a draft always requires a separate explicit confirmation.
+The scheduled GitHub workflow exports a redacted human-approval queue to the `seo-automation-state` branch at `seo-automation/inbox/approval-queue.md` and `.json`. Generated Markdown, complete review metadata and QC reports are persisted under `seo-automation/review-drafts/` on that same branch so Codex can inspect the real article after the runner exits. This branch is review-only and never contains credentials or raw GSC data. GitHub Actions never publishes by itself; publication requires explicit authorization in the Codex task.
 
-After a topic is approved in this Codex task, Codex creates one built-in ImageGen editorial illustration for the QC-cleared draft and presents it alongside the article for review. This is intentionally outside GitHub Actions: it needs no API key, cannot be called by Actions, and is never used as evidence of a real academy, instructor, student, facility, outcome, or offer. The final publishing confirmation covers both the article and its image.
+After a topic is approved in this Codex task, Codex retrieves and reviews the QC-cleared article, creates one built-in ImageGen editorial illustration, and can publish the validated article and image when the user's authorization includes publication. This is intentionally outside GitHub Actions: it needs no API key, cannot be called by Actions, and is never used as evidence of a real academy, instructor, student, facility, outcome, or offer.
 
 Useful commands:
 

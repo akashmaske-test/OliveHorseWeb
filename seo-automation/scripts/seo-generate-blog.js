@@ -22,5 +22,22 @@ if (!result.ok) {
 }
 const frontmatter = `---\ntitle: ${idea.title}\ndescription: ${idea.title}\nslug: ${slug}\ndate: ${new Date().toISOString().slice(0, 10)}\nupdated_date: ${new Date().toISOString().slice(0, 10)}\nauthor: OliveHorse Fitness Academy\nprimary_keyword: ${idea.primary_keyword}\nsupporting_keywords: ${JSON.stringify(idea.supporting_keywords || [])}\ncanonical: https://olivehorsefitness.vercel.app/blog/${slug}/\nstatus: pending_review\nfeatured_image: \"\"\nfeatured_image_alt: \"\"\nnoindex: true\n---\n\n`;
 writeText(outputPath, frontmatter + result.content);
-writeJson(path.join(generatedRoot, `${slug}.json`), { id: idea.id, slug, draft_path: outputPath, workflow_status: "draft_generated", generated_at: now(), source_type: idea.source_type, model_usage: result.usage || null });
+writeJson(path.join(generatedRoot, `${slug}.json`), {
+  id: idea.id,
+  title: idea.title,
+  slug,
+  draft_path: outputPath,
+  primary_keyword: idea.primary_keyword,
+  supporting_keywords: idea.supporting_keywords || [],
+  search_intent: idea.search_intent,
+  funnel_stage: idea.funnel_stage,
+  target_audience: idea.target_audience,
+  target_location: idea.target_location,
+  workflow_status: "draft_generated",
+  generated_at: now(),
+  source_type: idea.source_type,
+  source_evidence: ["approved_topic", "verified_business_profile"],
+  claims_requiring_confirmation: [],
+  model_usage: result.usage || null,
+});
 console.log(`Generated draft at ${outputPath}`);
