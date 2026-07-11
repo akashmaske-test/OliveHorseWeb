@@ -1,6 +1,7 @@
 export const SITE_URL = "https://olivehorsefitness.vercel.app";
 export const SITE_NAME = "OliveHorse Fitness Academy";
 export const SITE_LANGUAGE = "en";
+export const GOOGLE_SITE_VERIFICATION = "eWZ2ylVUXkZJ7_QKkdXPWqOGkLdHK7YMHNWkwk3kS_M";
 
 export function absoluteUrl(pathname = "/") {
   return new URL(pathname, `${SITE_URL}/`).toString();
