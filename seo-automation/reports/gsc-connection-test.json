@@ -1,21 +1,11 @@
 {
-  "checked_at": "2026-07-11T06:13:19.302Z",
+  "checked_at": "2026-07-11T09:54:21.500Z",
   "website_url": "https://olivehorsefitness.vercel.app",
-  "gsc_status": "manual_setup_required",
-  "gsc_missing": [
-    "GOOGLE_OAUTH_CLIENT_ID",
-    "GOOGLE_OAUTH_CLIENT_SECRET",
-    "GOOGLE_OAUTH_REFRESH_TOKEN",
-    "GSC_SITE_URL"
-  ],
-  "openrouter_status": "manual_setup_required",
-  "openrouter_missing": [
-    "OPENROUTER_API_KEY",
-    "OPENROUTER_MODEL_RESEARCH",
-    "OPENROUTER_MODEL_WRITING",
-    "OPENROUTER_MODEL_QC"
-  ],
-  "site_url": "https://olivehorsefitness.vercel.app",
-  "status": "manual_setup_required",
-  "message": "OAuth credentials are not configured. Follow docs/google-search-console-setup.md."
+  "gsc_status": "configured",
+  "gsc_missing": [],
+  "openrouter_status": "configured",
+  "openrouter_missing": [],
+  "site_url": "https://olivehorsefitness.vercel.app/",
+  "status": "invalid_or_revoked_token",
+  "message": "Search Console request failed. Confirm the OAuth token, property URL and permissions."
 }

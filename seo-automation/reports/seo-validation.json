@@ -1,8 +1,5 @@
 {
   "errors": [],
-  "warnings": [
-    "GSC OAuth is not configured; this is an expected manual gate.",
-    "OpenRouter is not configured; AI scripts will safely skip."
-  ],
-  "checked_at": "2026-07-11T06:16:06.972Z"
+  "warnings": [],
+  "checked_at": "2026-07-11T09:54:29.354Z"
 }

@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-07-11T06:13:19.399Z",
-  "status": "manual_setup_required",
+  "generated_at": "2026-07-11T09:54:23.879Z",
+  "status": "error",
   "source_type": "manual_setup_required",
   "evidence": [],
   "recommendations": [],
-  "note": "OpenRouter credentials or model are not configured."
+  "note": "OpenRouter request failed."
 }

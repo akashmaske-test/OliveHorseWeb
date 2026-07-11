@@ -1,47 +1,52 @@
 {
-  "generated_at": "2026-07-11T06:13:19.585Z",
-  "gsc_status": "manual_setup_required",
+  "generated_at": "2026-07-11T09:54:24.465Z",
+  "gsc_status": "configured",
   "publishing": "stopped_before_publishing",
   "steps": [
     {
       "script": "seo-validate.js",
       "exit_code": 0,
-      "output": "[dotenv@17.2.4] injecting env (0) from .env -- tip: ⚙️  specify custom .env file path with { path: '/custom/path/.env' }\n[dotenv@17.2.4] injecting env (0) from .env.local -- tip: 🔄 add secrets lifecycle management: https://dotenvx.com/ops\nSEO validation passed.\nWARNING: GSC OAuth is not configured; this is an expected manual gate.\nWARNING: OpenRouter is not configured; AI scripts will safely skip."
+      "output": "[dotenv@17.2.4] injecting env (0) from .env -- tip: 🔄 add secrets lifecycle management: https://dotenvx.com/ops\n[dotenv@17.2.4] injecting env (0) from .env.local -- tip: ✅ audit secrets and track compliance: https://dotenvx.com/ops\nSEO validation passed."
     },
     {
       "script": "gsc-test-connection.js",
       "exit_code": 0,
-      "output": "[dotenv@17.2.4] injecting env (0) from .env -- tip: 👥 sync secrets across teammates & machines: https://dotenvx.com/ops\n[dotenv@17.2.4] injecting env (0) from .env.local -- tip: 🔐 prevent building .env in docker: https://dotenvx.com/prebuild\nOAuth credentials are not configured. Follow docs/google-search-console-setup.md."
+      "output": "[dotenv@17.2.4] injecting env (0) from .env -- tip: ⚙️  specify custom .env file path with { path: '/custom/path/.env' }\n[dotenv@17.2.4] injecting env (0) from .env.local -- tip: ⚙️  suppress all logs with { quiet: true }\nGSC connection status: invalid_or_revoked_token"
+    },
+    {
+      "script": "gsc-fetch-performance.js",
+      "exit_code": 0,
+      "output": "[dotenv@17.2.4] injecting env (0) from .env -- tip: 👥 sync secrets across teammates & machines: https://dotenvx.com/ops\n[dotenv@17.2.4] injecting env (0) from .env.local -- tip: ✅ audit secrets and track compliance: https://dotenvx.com/ops\nGSC fetch failed without exposing credentials. Run seo:gsc-test for a safe diagnostic."
     },
     {
       "script": "gsc-analyse-opportunities.js",
       "exit_code": 0,
-      "output": "[dotenv@17.2.4] injecting env (0) from .env -- tip: ⚙️  load multiple .env files with { path: ['.env.local', '.env'] }\n[dotenv@17.2.4] injecting env (0) from .env.local -- tip: 🔄 add secrets lifecycle management: https://dotenvx.com/ops\nRecorded 0 GSC observations."
+      "output": "[dotenv@17.2.4] injecting env (0) from .env -- tip: 👥 sync secrets across teammates & machines: https://dotenvx.com/ops\n[dotenv@17.2.4] injecting env (0) from .env.local -- tip: 📡 add observability to secrets: https://dotenvx.com/ops\nRecorded 0 GSC observations."
     },
     {
       "script": "seo-research.js",
       "exit_code": 0,
-      "output": "[dotenv@17.2.4] injecting env (0) from .env -- tip: ⚙️  suppress all logs with { quiet: true }\n[dotenv@17.2.4] injecting env (0) from .env.local -- tip: 🔐 prevent committing .env to code: https://dotenvx.com/precommit\nSEO research skipped: OpenRouter credentials or model are not configured."
+      "output": "[dotenv@17.2.4] injecting env (0) from .env -- tip: 👥 sync secrets across teammates & machines: https://dotenvx.com/ops\n[dotenv@17.2.4] injecting env (0) from .env.local -- tip: ⚙️  enable debug logging with { debug: true }\nSEO research skipped: OpenRouter request failed."
     },
     {
       "script": "seo-generate-ideas.js",
       "exit_code": 0,
-      "output": "[dotenv@17.2.4] injecting env (0) from .env -- tip: 👥 sync secrets across teammates & machines: https://dotenvx.com/ops\n[dotenv@17.2.4] injecting env (0) from .env.local -- tip: ⚙️  specify custom .env file path with { path: '/custom/path/.env' }\nIdea generation skipped: OpenRouter credentials or model are not configured."
+      "output": "[dotenv@17.2.4] injecting env (0) from .env -- tip: ⚙️  write to custom object with { processEnv: myObject }\n[dotenv@17.2.4] injecting env (0) from .env.local -- tip: 👥 sync secrets across teammates & machines: https://dotenvx.com/ops\nIdea generation skipped: OpenRouter request failed."
     },
     {
       "script": "seo-generate-blog.js",
       "exit_code": 0,
-      "output": "[dotenv@17.2.4] injecting env (0) from .env -- tip: 📡 add observability to secrets: https://dotenvx.com/ops\n[dotenv@17.2.4] injecting env (0) from .env.local -- tip: 🔐 prevent committing .env to code: https://dotenvx.com/precommit\nNo approved topic is available; no blog was generated."
+      "output": "[dotenv@17.2.4] injecting env (0) from .env -- tip: ⚙️  specify custom .env file path with { path: '/custom/path/.env' }\n[dotenv@17.2.4] injecting env (0) from .env.local -- tip: 🗂️ backup and recover secrets: https://dotenvx.com/ops\nNo approved topic is available; no blog was generated."
     },
     {
       "script": "seo-qc-blog.js",
       "exit_code": 0,
-      "output": "[dotenv@17.2.4] injecting env (0) from .env -- tip: 🔐 prevent committing .env to code: https://dotenvx.com/precommit\n[dotenv@17.2.4] injecting env (0) from .env.local -- tip: ⚙️  override existing env vars with { override: true }\nhow-to-choose-a-karate-class-for-your-child-in-santacruz: approved_for_publish_pending_user_confirmation"
+      "output": "[dotenv@17.2.4] injecting env (0) from .env -- tip: ⚙️  load multiple .env files with { path: ['.env.local', '.env'] }\n[dotenv@17.2.4] injecting env (0) from .env.local -- tip: 🗂️ backup and recover secrets: https://dotenvx.com/ops\nhow-to-choose-a-karate-class-for-your-child-in-santacruz: approved_for_publish_pending_user_confirmation"
     },
     {
       "script": "seo-create-social-drafts.js",
       "exit_code": 0,
-      "output": "[dotenv@17.2.4] injecting env (0) from .env -- tip: ✅ audit secrets and track compliance: https://dotenvx.com/ops\n[dotenv@17.2.4] injecting env (0) from .env.local -- tip: ⚙️  override existing env vars with { override: true }\nNo approved or published blog is available for social drafts."
+      "output": "[dotenv@17.2.4] injecting env (0) from .env -- tip: 🛠️  run anywhere with `dotenvx run -- yourcommand`\n[dotenv@17.2.4] injecting env (0) from .env.local -- tip: ⚙️  load multiple .env files with { path: ['.env.local', '.env'] }\nNo approved or published blog is available for social drafts."
     }
   ]
 }

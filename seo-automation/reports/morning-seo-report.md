@@ -1,10 +1,11 @@
 # Morning SEO workflow
 
-GSC status: manual_setup_required
+GSC status: configured
 Publishing: stopped before publishing
 
 - seo-validate.js: completed safely
 - gsc-test-connection.js: completed safely
+- gsc-fetch-performance.js: completed safely
 - gsc-analyse-opportunities.js: completed safely
 - seo-research.js: completed safely
 - seo-generate-ideas.js: completed safely
