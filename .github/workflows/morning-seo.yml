@@ -40,7 +40,7 @@ jobs:
       - run: npm ci
       - run: npm run seo:validate
       - run: npm run seo:morning
-      - name: Store approval queue on the review branch
+      - name: Store approval queue and review drafts on the review branch
         env:
           STATE_BRANCH: seo-automation-state
         run: |
@@ -53,9 +53,13 @@ jobs:
             git -C "$state_dir" checkout --orphan "$STATE_BRANCH"
           fi
           mkdir -p "$state_dir/seo-automation/inbox"
+          mkdir -p "$state_dir/seo-automation/review-drafts"
           cp seo-automation/inbox/approval-queue.json "$state_dir/seo-automation/inbox/approval-queue.json"
           cp seo-automation/inbox/approval-queue.md "$state_dir/seo-automation/inbox/approval-queue.md"
-          git -C "$state_dir" add seo-automation/inbox
+          find seo-automation/generated-blogs -maxdepth 1 -type f \
+            \( -name '*.md' -o -name '*.json' \) \
+            -exec cp {} "$state_dir/seo-automation/review-drafts/" \;
+          git -C "$state_dir" add seo-automation/inbox seo-automation/review-drafts
           if git -C "$state_dir" diff --cached --quiet; then
             echo "Approval queue has not changed."
           else
@@ -77,4 +81,5 @@ jobs:
           path: |
             seo-automation/reports/
             seo-automation/inbox/
+            seo-automation/generated-blogs/
           if-no-files-found: warn
