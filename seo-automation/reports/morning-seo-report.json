@@ -1,52 +1,52 @@
 {
-  "generated_at": "2026-07-11T10:02:40.655Z",
+  "generated_at": "2026-07-11T11:30:29.798Z",
   "gsc_status": "configured",
   "publishing": "stopped_before_publishing",
   "steps": [
     {
       "script": "seo-validate.js",
       "exit_code": 0,
-      "output": "[dotenv@17.2.4] injecting env (0) from .env -- tip: 🔐 prevent building .env in docker: https://dotenvx.com/prebuild\n[dotenv@17.2.4] injecting env (0) from .env.local -- tip: 🔄 add secrets lifecycle management: https://dotenvx.com/ops\nSEO validation passed."
+      "output": "[dotenv@17.2.4] injecting env (0) from .env -- tip: ⚙️  enable debug logging with { debug: true }\n[dotenv@17.2.4] injecting env (0) from .env.local -- tip: ⚙️  suppress all logs with { quiet: true }\nSEO validation passed."
     },
     {
       "script": "gsc-test-connection.js",
       "exit_code": 0,
-      "output": "[dotenv@17.2.4] injecting env (0) from .env -- tip: ⚙️  write to custom object with { processEnv: myObject }\n[dotenv@17.2.4] injecting env (0) from .env.local -- tip: 👥 sync secrets across teammates & machines: https://dotenvx.com/ops\nGSC connection status: incorrect_property_or_insufficient_permission"
+      "output": "[dotenv@17.2.4] injecting env (0) from .env -- tip: 👥 sync secrets across teammates & machines: https://dotenvx.com/ops\n[dotenv@17.2.4] injecting env (0) from .env.local -- tip: 🗂️ backup and recover secrets: https://dotenvx.com/ops\nGSC connection status: connected"
     },
     {
       "script": "gsc-fetch-performance.js",
       "exit_code": 0,
-      "output": "[dotenv@17.2.4] injecting env (0) from .env -- tip: 🗂️ backup and recover secrets: https://dotenvx.com/ops\n[dotenv@17.2.4] injecting env (0) from .env.local -- tip: ⚙️  load multiple .env files with { path: ['.env.local', '.env'] }\nGSC fetch failed without exposing credentials. Run seo:gsc-test for a safe diagnostic."
+      "output": "[dotenv@17.2.4] injecting env (0) from .env -- tip: 📡 add observability to secrets: https://dotenvx.com/ops\n[dotenv@17.2.4] injecting env (0) from .env.local -- tip: ⚙️  enable debug logging with { debug: true }\nSaved 0 non-duplicated GSC rows."
     },
     {
       "script": "gsc-analyse-opportunities.js",
       "exit_code": 0,
-      "output": "[dotenv@17.2.4] injecting env (0) from .env -- tip: ⚙️  enable debug logging with { debug: true }\n[dotenv@17.2.4] injecting env (0) from .env.local -- tip: 📡 add observability to secrets: https://dotenvx.com/ops\nRecorded 0 GSC observations."
+      "output": "[dotenv@17.2.4] injecting env (0) from .env -- tip: 📡 add observability to secrets: https://dotenvx.com/ops\n[dotenv@17.2.4] injecting env (0) from .env.local -- tip: 🔐 prevent building .env in docker: https://dotenvx.com/prebuild\nRecorded 0 GSC observations."
     },
     {
       "script": "seo-research.js",
       "exit_code": 0,
-      "output": "[dotenv@17.2.4] injecting env (0) from .env -- tip: ⚙️  enable debug logging with { debug: true }\n[dotenv@17.2.4] injecting env (0) from .env.local -- tip: 🛠️  run anywhere with `dotenvx run -- yourcommand`\nSEO research saved."
+      "output": "[dotenv@17.2.4] injecting env (0) from .env -- tip: 🔑 add access controls to secrets: https://dotenvx.com/ops\n[dotenv@17.2.4] injecting env (0) from .env.local -- tip: 🔐 prevent committing .env to code: https://dotenvx.com/precommit\nSEO research saved."
     },
     {
       "script": "seo-generate-ideas.js",
       "exit_code": 0,
-      "output": "[dotenv@17.2.4] injecting env (0) from .env -- tip: 🛠️  run anywhere with `dotenvx run -- yourcommand`\n[dotenv@17.2.4] injecting env (0) from .env.local -- tip: ⚙️  specify custom .env file path with { path: '/custom/path/.env' }\nAdded 3 blog ideas."
+      "output": "[dotenv@17.2.4] injecting env (0) from .env -- tip: ⚙️  enable debug logging with { debug: true }\n[dotenv@17.2.4] injecting env (0) from .env.local -- tip: 🔄 add secrets lifecycle management: https://dotenvx.com/ops\nAdded 3 blog ideas."
     },
     {
       "script": "seo-generate-blog.js",
       "exit_code": 0,
-      "output": "[dotenv@17.2.4] injecting env (0) from .env -- tip: 🔐 encrypt with Dotenvx: https://dotenvx.com\n[dotenv@17.2.4] injecting env (0) from .env.local -- tip: 📡 add observability to secrets: https://dotenvx.com/ops\nNo approved topic is available; no blog was generated."
+      "output": "[dotenv@17.2.4] injecting env (0) from .env -- tip: 🔐 prevent building .env in docker: https://dotenvx.com/prebuild\n[dotenv@17.2.4] injecting env (0) from .env.local -- tip: 🗂️ backup and recover secrets: https://dotenvx.com/ops\nNo approved topic is available; no blog was generated."
     },
     {
       "script": "seo-qc-blog.js",
       "exit_code": 0,
-      "output": "[dotenv@17.2.4] injecting env (0) from .env -- tip: 🔑 add access controls to secrets: https://dotenvx.com/ops\n[dotenv@17.2.4] injecting env (0) from .env.local -- tip: 🛠️  run anywhere with `dotenvx run -- yourcommand`\nhow-to-choose-a-karate-class-for-your-child-in-santacruz: approved_for_publish_pending_user_confirmation"
+      "output": "[dotenv@17.2.4] injecting env (0) from .env -- tip: ✅ audit secrets and track compliance: https://dotenvx.com/ops\n[dotenv@17.2.4] injecting env (0) from .env.local -- tip: ⚙️  load multiple .env files with { path: ['.env.local', '.env'] }\nhow-to-choose-a-karate-class-for-your-child-in-santacruz: approved_for_publish_pending_user_confirmation"
     },
     {
       "script": "seo-create-social-drafts.js",
       "exit_code": 0,
-      "output": "[dotenv@17.2.4] injecting env (0) from .env -- tip: 🔄 add secrets lifecycle management: https://dotenvx.com/ops\n[dotenv@17.2.4] injecting env (0) from .env.local -- tip: 🗂️ backup and recover secrets: https://dotenvx.com/ops\nNo approved or published blog is available for social drafts."
+      "output": "[dotenv@17.2.4] injecting env (0) from .env -- tip: ⚙️  specify custom .env file path with { path: '/custom/path/.env' }\n[dotenv@17.2.4] injecting env (0) from .env.local -- tip: 🗂️ backup and recover secrets: https://dotenvx.com/ops\nNo approved or published blog is available for social drafts."
     }
   ]
 }
