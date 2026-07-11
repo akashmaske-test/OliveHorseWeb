@@ -2,6 +2,15 @@ import { useEffect, useState } from "react";
 import Button from "../components/Button.jsx";
 import { imageMap } from "../data/siteData.js";
 
+function BlogIcon() {
+  return (
+    <svg viewBox="0 0 24 24" aria-hidden="true">
+      <path d="M5 3.75h11a2.25 2.25 0 0 1 2.25 2.25v14.25H7.25A2.25 2.25 0 0 1 5 18V3.75Z" />
+      <path d="M8.5 8h6.5M8.5 12h6.5M8.5 16h4" />
+    </svg>
+  );
+}
+
 export default function Header({ homepage, business }) {
   const [drawerOpen, setDrawerOpen] = useState(false);
 
@@ -29,6 +38,10 @@ export default function Header({ homepage, business }) {
             </a>
           ))}
         </nav>
+        <a className="blog-nav-link" href="/blog/" aria-label="Read OliveHorse blog resources">
+          <BlogIcon />
+          <span>Blog</span>
+        </a>
         <Button href={homepage.navigation.cta.href} className="desktop-cta">
           {homepage.navigation.cta.label}
         </Button>
@@ -51,6 +64,10 @@ export default function Header({ homepage, business }) {
             {item.label}
           </a>
         ))}
+        <a className="blog-mobile-link" href="/blog/" onClick={closeDrawer}>
+          <BlogIcon />
+          Blog and resources
+        </a>
         <Button href={homepage.navigation.cta.href} onClick={closeDrawer}>
           {homepage.navigation.cta.label}
         </Button>

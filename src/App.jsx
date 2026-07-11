@@ -4,6 +4,7 @@ import { applySeo } from "./utils/seo.js";
 import Header from "./sections/Header.jsx";
 import Hero from "./sections/Hero.jsx";
 import Programmes from "./sections/Programmes.jsx";
+import FeaturedBlogs from "./sections/FeaturedBlogs.jsx";
 import About from "./sections/About.jsx";
 import Benefits from "./sections/Benefits.jsx";
 import AgeGroups from "./sections/AgeGroups.jsx";
@@ -35,6 +36,7 @@ export default function App() {
       <main id="main">
         <Hero homepage={homepage} business={business} />
         <Programmes homepage={homepage} programmeData={programmes} />
+        <FeaturedBlogs />
         <About homepage={homepage} />
         <Benefits homepage={homepage} />
         <AgeGroups homepage={homepage} />
