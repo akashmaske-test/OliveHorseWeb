@@ -1,6 +1,6 @@
 # OliveHorse SEO approval queue
 
-Generated: 2026-07-11T18:33:54.674Z
+Generated: 2026-07-11T18:40:19.205Z
 
 These are review candidates, not approved business claims. A topic approval permits drafting only. A draft still needs separate user confirmation before it may be published.
 
@@ -70,34 +70,22 @@ These are review candidates, not approved business claims. A topic approval perm
 - Evidence: qualitative_ai_recommendation
 - Suggested action: approve for drafting, reject, or needs review
 
-## idea-1783794834462-d3a3: The Role of Private One-to-One Karate Training in Skill Acceleration
+## idea-1783795199693-6140: How to Select the Best Kids Beginner Karate Programme for Your Child in Santacruz
 
-- Primary keyword: Private One-to-One Karate Training
-- Audience: Adults and Teenagers
-- Location: Mumbai
-- Evidence: qualitative_ai_recommendation
-- Suggested action: approve for drafting, reject, or needs review
-
-## idea-1783794834462-5ceb: Preparing for Your First Belt Examination in Karate
-
-- Primary keyword: Belt Examination Preparation
-- Audience: Current Karate Students
+- Primary keyword: kids beginner karate programme Santacruz
+- Audience: parents of children aged 5-12
 - Location: Santacruz
 - Evidence: qualitative_ai_recommendation
 - Suggested action: approve for drafting, reject, or needs review
 
-## idea-1783794834462-35f2: Implementing Self-Defence Workshops in Corporate Environments
+## idea-1783795199693-c5a6: Benefits of the Women’s Weekend Self-Defence Course for Busy Professionals in Santacruz
 
-- Primary keyword: Corporate Self-Defence Workshops
-- Audience: Schools and organisations
-- Location: Mumbai
+- Primary keyword: women’s weekend self-defence course Santacruz
+- Audience: working women aged 25-45
+- Location: Santacruz
 - Evidence: qualitative_ai_recommendation
 - Suggested action: approve for drafting, reject, or needs review
 
 ## Drafts awaiting final publish confirmation
 
-## seed-child-karate-santacruz: how-to-choose-a-karate-class-for-your-child-in-santacruz
-
-- Primary keyword: Karate classes for children in Santacruz
-- Source evidence: content/business.json, content/programmes.json, content/faq.json
-- Required action: final user confirmation before publishing
+No drafts are waiting for publication confirmation.

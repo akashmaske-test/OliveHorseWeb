@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-11T18:33:54.674Z",
+  "generated_at": "2026-07-11T18:40:19.205Z",
   "status": "awaiting_human_approval",
   "notice": "These are review candidates, not approved business claims. A topic approval permits drafting only. A draft still needs separate user confirmation before it may be published.",
   "topics": [
@@ -183,41 +183,19 @@
       "requires_human_claim_review": true
     },
     {
-      "id": "idea-1783794834462-d3a3",
-      "title": "The Role of Private One-to-One Karate Training in Skill Acceleration",
-      "primary_keyword": "Private One-to-One Karate Training",
+      "id": "idea-1783795199693-6140",
+      "title": "How to Select the Best Kids Beginner Karate Programme for Your Child in Santacruz",
+      "primary_keyword": "kids beginner karate programme Santacruz",
       "supporting_keywords": [
-        "personalized karate coaching",
-        "karate training Mumbai",
-        "individual martial arts instruction"
+        "children karate classes",
+        "martial arts for kids",
+        "self defence for children"
       ],
-      "search_intent": "Informational",
-      "funnel_stage": "Consideration",
-      "target_audience": "Adults and Teenagers",
-      "target_location": "Mumbai",
-      "why_it_matters": "Explains the specific advantages of individualized attention over group classes for faster technical improvement.",
-      "evidence": "qualitative_ai_recommendation",
-      "supporting_gsc_queries": [],
-      "related_existing_pages": [
-        "/"
-      ],
-      "approval_status": "pending",
-      "requires_human_claim_review": true
-    },
-    {
-      "id": "idea-1783794834462-5ceb",
-      "title": "Preparing for Your First Belt Examination in Karate",
-      "primary_keyword": "Belt Examination Preparation",
-      "supporting_keywords": [
-        "karate grading tips",
-        "martial arts belt test",
-        "karate training Santacruz"
-      ],
-      "search_intent": "Informational",
-      "funnel_stage": "Retention",
-      "target_audience": "Current Karate Students",
+      "search_intent": "informational",
+      "funnel_stage": "awareness",
+      "target_audience": "parents of children aged 5-12",
       "target_location": "Santacruz",
-      "why_it_matters": "Provides value to existing students by guiding them through the preparation process for their examinations.",
+      "why_it_matters": "Helps parents make informed decisions about early martial arts training that builds confidence and discipline.",
       "evidence": "qualitative_ai_recommendation",
       "supporting_gsc_queries": [],
       "related_existing_pages": [
@@ -227,19 +205,19 @@
       "requires_human_claim_review": true
     },
     {
-      "id": "idea-1783794834462-35f2",
-      "title": "Implementing Self-Defence Workshops in Corporate Environments",
-      "primary_keyword": "Corporate Self-Defence Workshops",
+      "id": "idea-1783795199693-c5a6",
+      "title": "Benefits of the Women’s Weekend Self-Defence Course for Busy Professionals in Santacruz",
+      "primary_keyword": "women’s weekend self-defence course Santacruz",
       "supporting_keywords": [
-        "workplace safety training",
-        "corporate wellness Mumbai",
-        "employee self-defence"
+        "female self defence workshop",
+        "weekend safety training",
+        "women empowerment karate"
       ],
-      "search_intent": "Commercial",
-      "funnel_stage": "Awareness",
-      "target_audience": "Schools and organisations",
-      "target_location": "Mumbai",
-      "why_it_matters": "Targets B2B decision makers by highlighting the importance of safety training within a professional setting.",
+      "search_intent": "informational",
+      "funnel_stage": "awareness",
+      "target_audience": "working women aged 25-45",
+      "target_location": "Santacruz",
+      "why_it_matters": "Shows how a short, focused course can provide practical self-defence skills and confidence.",
       "evidence": "qualitative_ai_recommendation",
       "supporting_gsc_queries": [],
       "related_existing_pages": [
@@ -249,24 +227,5 @@
       "requires_human_claim_review": true
     }
   ],
-  "drafts_requiring_publish_confirmation": [
-    {
-      "id": "seed-child-karate-santacruz",
-      "slug": "how-to-choose-a-karate-class-for-your-child-in-santacruz",
-      "draft_path": "seo-automation/generated-blogs/how-to-choose-a-karate-class-for-your-child-in-santacruz.md",
-      "primary_keyword": "Karate classes for children in Santacruz",
-      "workflow_status": "approved_for_publish_pending_user_confirmation",
-      "source_type": "verified_repository_content",
-      "source_evidence": [
-        "content/business.json",
-        "content/programmes.json",
-        "content/faq.json"
-      ],
-      "claims_requiring_confirmation": [
-        "Current trial-class availability",
-        "Current batch availability and schedules"
-      ],
-      "required_action": "user_confirmation_before_publish"
-    }
-  ]
+  "drafts_requiring_publish_confirmation": []
 }
