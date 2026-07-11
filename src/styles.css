@@ -145,6 +145,16 @@ textarea {
   gap: 20px;
 }
 
+.static-nav-links {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.static-header-cta {
+  flex: 0 0 auto;
+}
+
 .nav-link {
   color: var(--forest);
   font-size: 14px;
@@ -1322,6 +1332,15 @@ p {
     display: none;
   }
 
+  .static-nav-links {
+    margin-left: auto;
+    gap: 14px;
+  }
+
+  .static-header-cta {
+    display: none;
+  }
+
   .drawer-toggle {
     display: inline-block;
   }
@@ -1539,6 +1558,14 @@ p {
 
   .site-footer {
     padding-bottom: 96px;
+  }
+
+  .static-nav-links {
+    gap: 16px;
+  }
+
+  .static-nav-detail {
+    display: none;
   }
 }
 

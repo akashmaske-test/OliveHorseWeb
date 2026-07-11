@@ -1,31 +1,66 @@
+import React from "react";
+import { imageMap, siteData } from "../data/siteData.js";
+
 function StaticHeader() {
+  const { business, homepage } = siteData;
+
   return (
     <header className="site-header">
       <div className="nav-shell">
-        <a className="brand-link" href="/" aria-label="OliveHorse Fitness Academy">
+        <a className="brand-link" href="/" aria-label={homepage.navigation.logoAlt}>
+          <img className="brand-logo" src={imageMap.logo} alt={homepage.navigation.logoAlt} />
           <span className="brand-copy">
-            <span className="brand-name">OliveHorse Fitness Academy</span>
-            <span className="brand-tagline">Discipline. Strength. Confidence.</span>
+            <span className="brand-name">{business.brand.name}</span>
+            <span className="brand-tagline">{business.brand.tagline}</span>
           </span>
         </a>
-        <nav className="nav-links" aria-label="Primary navigation">
+        <nav className="static-nav-links" aria-label="Primary navigation">
           <a className="nav-link" href="/">Home</a>
-          <a className="nav-link" href="/blog/">Resources</a>
+          <a className="nav-link static-nav-detail" href="/#programmes">Programmes</a>
+          <a className="nav-link" href="/blog/">Blog</a>
+          <a className="nav-link static-nav-detail" href="/#contact">Contact</a>
         </nav>
+        <a className="btn btn-primary btn-small static-header-cta" href="/#trial-form">{homepage.navigation.cta.label}</a>
       </div>
     </header>
   );
 }
 
 function StaticFooter() {
+  const { business, homepage } = siteData;
+  const homepageLink = (href) => (href.startsWith("#") ? `/${href}` : href);
+
   return (
     <footer className="site-footer">
-      <div className="container footer-bottom">
-        <span>© OliveHorse Fitness Academy. All rights reserved.</span>
-        <span className="social-links">
-          <a href="/privacy-policy/">Privacy Policy</a>
-          <a href="/terms/">Terms and Conditions</a>
-        </span>
+      <div className="container">
+        <div className="footer-grid">
+          <div className="footer-brand">
+            <a className="brand-link" href="/" aria-label={homepage.navigation.logoAlt}>
+              <img className="brand-logo" src={imageMap.logo} alt={homepage.navigation.logoAlt} />
+              <span className="brand-copy">
+                <span className="brand-name">{business.brand.name}</span>
+                <span className="brand-tagline">{business.brand.tagline}</span>
+              </span>
+            </a>
+            <p>{homepage.footer.description}</p>
+          </div>
+          <nav className="footer-links" aria-label="Footer navigation">
+            {homepage.footer.quickLinks.map((item) => (
+              <a href={homepageLink(item.href)} key={item.href}>{item.label}</a>
+            ))}
+            <a href="/blog/">Blog</a>
+            {homepage.footer.legalLinks.map((item) => (
+              <a href={homepageLink(item.href)} key={item.href}>{item.label}</a>
+            ))}
+          </nav>
+        </div>
+        <div className="footer-bottom">
+          <span>{homepage.footer.copyright}</span>
+          <span className="social-links">
+            <a href={business.contact.instagram}>Instagram</a>
+            <a href={business.contact.facebook}>Facebook</a>
+          </span>
+        </div>
       </div>
     </footer>
   );
@@ -90,4 +125,3 @@ export function LegalPage({ title, children }) {
     </>
   );
 }
-import React from "react";
