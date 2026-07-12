@@ -1,8 +1,9 @@
-name: Morning SEO review
+name: Weekly SEO review
 
 on:
   schedule:
-    - cron: "30 3 * * *"
+    # Monday 03:30 UTC (09:00 IST). Manual dispatch remains available.
+    - cron: "30 3 * * 1"
   workflow_dispatch:
 
 permissions:
@@ -11,7 +12,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: morning-seo
+  group: weekly-seo
   cancel-in-progress: false
 
 jobs:
@@ -73,7 +74,7 @@ jobs:
           fi
       - name: Write summary
         run: |
-          echo "## Morning SEO review" >> "$GITHUB_STEP_SUMMARY"
+          echo "## Weekly SEO review" >> "$GITHUB_STEP_SUMMARY"
           echo "Automation stopped before publishing, social posting, pull-request creation, or merging." >> "$GITHUB_STEP_SUMMARY"
           cat seo-automation/reports/morning-seo-report.md >> "$GITHUB_STEP_SUMMARY"
           echo "" >> "$GITHUB_STEP_SUMMARY"
