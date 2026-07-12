@@ -41,13 +41,18 @@ export function BlogIndexPage({ posts }) {
           <h1>Karate and Self-Defence Resources</h1>
           <p className="lede">Helpful guidance about choosing and getting started with Karate and self-defence training.</p>
           {posts.length ? (
-            <div className="card-grid">
-              {posts.map((post) => (
-                <article className="card card-body" key={post.slug}>
-                  <p className="meta">{post.date}</p>
-                  <h2><a href={`/blog/${post.slug}/`}>{post.title}</a></h2>
-                  <p>{post.description}</p>
-                  <a className="btn btn-secondary btn-small" href={`/blog/${post.slug}/`}>Read article</a>
+            <div className="blog-index-grid">
+              {posts.map((post, index) => (
+                <article className={`blog-index-card blog-index-card-${(index % 3) + 1}`} key={post.slug}>
+                  <a className="blog-index-card-link" href={`/blog/${post.slug}/`} aria-label={`Read: ${post.title}`}>
+                    {post.featured_image ? <img className="blog-index-card-image" src={post.featured_image} alt={post.featured_image_alt || ""} loading={index === 0 ? "eager" : "lazy"} /> : <div className="blog-index-card-fallback" aria-hidden="true"><span>OliveHorse</span><strong>Resources</strong></div>}
+                    <div className="blog-index-card-body">
+                      <p className="meta">{post.date} · {post.readingTime} min read</p>
+                      <h2>{post.title}</h2>
+                      <p>{post.description}</p>
+                      <span className="blog-index-card-cta">Read article <span aria-hidden="true">→</span></span>
+                    </div>
+                  </a>
                 </article>
               ))}
             </div>
