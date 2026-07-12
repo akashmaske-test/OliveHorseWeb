@@ -1176,6 +1176,34 @@ p {
   max-width: 800px;
 }
 
+.blog-featured-figure {
+  margin: 30px 0 36px;
+}
+
+.blog-featured-image,
+.blog-card-image {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 16px;
+  object-fit: cover;
+}
+
+.blog-featured-image {
+  aspect-ratio: 16 / 9;
+}
+
+.blog-card-image {
+  aspect-ratio: 16 / 9;
+}
+
+.blog-featured-figure figcaption {
+  margin-top: 10px;
+  color: var(--muted);
+  font-size: 13px;
+  line-height: 1.5;
+}
+
 .blog-content {
   color: var(--muted);
   font-size: 17px;

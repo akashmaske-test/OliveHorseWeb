@@ -79,6 +79,7 @@ export function BlogIndexPage({ posts }) {
             <div className="card-grid">
               {posts.map((post) => (
                 <article className="card card-body" key={post.slug}>
+                  {post.featured_image ? <img className="blog-card-image" src={post.featured_image} alt={post.featured_image_alt} /> : null}
                   <p className="meta">{post.date}</p>
                   <h2><a href={`/blog/${post.slug}/`}>{post.title}</a></h2>
                   <p>{post.description}</p>
@@ -107,6 +108,12 @@ export function ArticlePage({ post, relatedPosts }) {
           <h1>{post.title}</h1>
           <p className="lede">{post.description}</p>
           <p className="meta">{post.date} · {post.readingTime} min read</p>
+          {post.featured_image ? (
+            <figure className="blog-featured-figure">
+              <img className="blog-featured-image" src={post.featured_image} alt={post.featured_image_alt} />
+              <figcaption>AI-generated editorial illustration; not a photograph of OliveHorse students, instructors or facilities.</figcaption>
+            </figure>
+          ) : null}
           <div className="blog-content" dangerouslySetInnerHTML={{ __html: post.html }} />
           {relatedPosts.length ? <section aria-labelledby="related-heading"><h2 id="related-heading">Related resources</h2><ul>{relatedPosts.map((item) => <li key={item.slug}><a href={`/blog/${item.slug}/`}>{item.title}</a></li>)}</ul></section> : null}
         </article>
