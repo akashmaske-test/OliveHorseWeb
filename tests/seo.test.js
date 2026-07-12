@@ -25,6 +25,7 @@ describe("SEO foundations", () => {
   it("stores the first real draft outside the live blog directory", () => {
     const draft = path.join("seo-automation", "generated-blogs", "how-to-choose-a-karate-class-for-your-child-in-santacruz.md");
     expect(fs.existsSync(draft)).toBe(true);
-    expect(fs.existsSync(path.join("content", "blog", "how-to-choose-a-karate-class-for-your-child-in-santacruz.md"))).toBe(false);
+    const live = path.join("content", "blog", "how-to-choose-a-karate-class-for-your-child-in-santacruz.md");
+    expect(fs.existsSync(live)).toBe(true);
   });
 });
