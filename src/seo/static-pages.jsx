@@ -1,66 +1,31 @@
-import React from "react";
-import { imageMap, siteData } from "../data/siteData.js";
-
 function StaticHeader() {
-  const { business, homepage } = siteData;
-
   return (
     <header className="site-header">
       <div className="nav-shell">
-        <a className="brand-link" href="/" aria-label={homepage.navigation.logoAlt}>
-          <img className="brand-logo" src={imageMap.logo} alt={homepage.navigation.logoAlt} />
+        <a className="brand-link" href="/" aria-label="OliveHorse Fitness Academy">
           <span className="brand-copy">
-            <span className="brand-name">{business.brand.name}</span>
-            <span className="brand-tagline">{business.brand.tagline}</span>
+            <span className="brand-name">OliveHorse Fitness Academy</span>
+            <span className="brand-tagline">Discipline. Strength. Confidence.</span>
           </span>
         </a>
-        <nav className="static-nav-links" aria-label="Primary navigation">
+        <nav className="nav-links" aria-label="Primary navigation">
           <a className="nav-link" href="/">Home</a>
-          <a className="nav-link static-nav-detail" href="/#programmes">Programmes</a>
-          <a className="nav-link" href="/blog/">Blog</a>
-          <a className="nav-link static-nav-detail" href="/#contact">Contact</a>
+          <a className="nav-link" href="/blog/">Resources</a>
         </nav>
-        <a className="btn btn-primary btn-small static-header-cta" href="/#trial-form">{homepage.navigation.cta.label}</a>
       </div>
     </header>
   );
 }
 
 function StaticFooter() {
-  const { business, homepage } = siteData;
-  const homepageLink = (href) => (href.startsWith("#") ? `/${href}` : href);
-
   return (
     <footer className="site-footer">
-      <div className="container">
-        <div className="footer-grid">
-          <div className="footer-brand">
-            <a className="brand-link" href="/" aria-label={homepage.navigation.logoAlt}>
-              <img className="brand-logo" src={imageMap.logo} alt={homepage.navigation.logoAlt} />
-              <span className="brand-copy">
-                <span className="brand-name">{business.brand.name}</span>
-                <span className="brand-tagline">{business.brand.tagline}</span>
-              </span>
-            </a>
-            <p>{homepage.footer.description}</p>
-          </div>
-          <nav className="footer-links" aria-label="Footer navigation">
-            {homepage.footer.quickLinks.map((item) => (
-              <a href={homepageLink(item.href)} key={item.href}>{item.label}</a>
-            ))}
-            <a href="/blog/">Blog</a>
-            {homepage.footer.legalLinks.map((item) => (
-              <a href={homepageLink(item.href)} key={item.href}>{item.label}</a>
-            ))}
-          </nav>
-        </div>
-        <div className="footer-bottom">
-          <span>{homepage.footer.copyright}</span>
-          <span className="social-links">
-            <a href={business.contact.instagram}>Instagram</a>
-            <a href={business.contact.facebook}>Facebook</a>
-          </span>
-        </div>
+      <div className="container footer-bottom">
+        <span>© OliveHorse Fitness Academy. All rights reserved.</span>
+        <span className="social-links">
+          <a href="/privacy-policy/">Privacy Policy</a>
+          <a href="/terms/">Terms and Conditions</a>
+        </span>
       </div>
     </footer>
   );
@@ -79,7 +44,6 @@ export function BlogIndexPage({ posts }) {
             <div className="card-grid">
               {posts.map((post) => (
                 <article className="card card-body" key={post.slug}>
-                  {post.featured_image ? <img className="blog-card-image" src={post.featured_image} alt={post.featured_image_alt} /> : null}
                   <p className="meta">{post.date}</p>
                   <h2><a href={`/blog/${post.slug}/`}>{post.title}</a></h2>
                   <p>{post.description}</p>
@@ -108,12 +72,7 @@ export function ArticlePage({ post, relatedPosts }) {
           <h1>{post.title}</h1>
           <p className="lede">{post.description}</p>
           <p className="meta">{post.date} · {post.readingTime} min read</p>
-          {post.featured_image ? (
-            <figure className="blog-featured-figure">
-              <img className="blog-featured-image" src={post.featured_image} alt={post.featured_image_alt} />
-              <figcaption>AI-generated editorial illustration; not a photograph of OliveHorse students, instructors or facilities.</figcaption>
-            </figure>
-          ) : null}
+          {post.featured_image ? <figure className="blog-featured-image"><img src={post.featured_image} alt={post.featured_image_alt || ""} loading="eager" /></figure> : null}
           <div className="blog-content" dangerouslySetInnerHTML={{ __html: post.html }} />
           {relatedPosts.length ? <section aria-labelledby="related-heading"><h2 id="related-heading">Related resources</h2><ul>{relatedPosts.map((item) => <li key={item.slug}><a href={`/blog/${item.slug}/`}>{item.title}</a></li>)}</ul></section> : null}
         </article>
@@ -132,3 +91,4 @@ export function LegalPage({ title, children }) {
     </>
   );
 }
+import React from "react";

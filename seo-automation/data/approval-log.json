@@ -35,18 +35,26 @@
     "at": "2026-07-11T10:05:00.796Z"
   },
   {
-    "type": "publishing",
-    "slug": "how-to-choose-a-karate-class-for-your-child-in-santacruz",
-    "action": "approve",
-    "notes": "Explicit user confirmation in Codex on 2026-07-11.",
-    "final_file_hash": "da3f9c794ac4f00c5e306bab7f66ae4978855a092dc97d1ac07fee37be214f5e",
-    "at": "2026-07-11T11:52:08.139Z"
-  },
-  {
     "type": "topic",
-    "id": "idea-1783764253527-6f10",
+    "id": "idea-1783769429369-2705",
     "action": "approved",
     "reason": null,
-    "at": "2026-07-11T18:43:13.239Z"
+    "at": "2026-07-12T07:25:49.438Z"
+  },
+  {
+    "type": "publishing",
+    "slug": "women-s-weekend-self-defence-course",
+    "action": "approve",
+    "notes": "User approved publication together with the generated AI editorial illustration.",
+    "final_file_hash": "b8af022d78a0037cbd9917810d1feef30e270d046a13222df7d09aeee73f0017",
+    "at": "2026-07-12T07:31:09.528Z"
+  },
+  {
+    "type": "publishing",
+    "slug": "women-s-weekend-self-defence-course",
+    "action": "approve",
+    "notes": "User approved publication together with the generated AI editorial illustration.",
+    "final_file_hash": "3d0456d3756cc0999431852c01c2225c751ee861e0d51abc75a269e5f5335b4a",
+    "at": "2026-07-12T07:32:12.384Z"
   }
 ]

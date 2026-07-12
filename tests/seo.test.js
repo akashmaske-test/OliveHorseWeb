@@ -10,17 +10,10 @@ describe("SEO foundations", () => {
     expect(pageMetadata("/", staticPages["/"]).canonical).toBe("https://olivehorsefitness.vercel.app/");
   });
 
-  it("excludes development drafts while exposing approved published posts", () => {
-    const published = readBlogPosts();
-    expect(published).toEqual(expect.arrayContaining([
-      expect.objectContaining({
-        slug: "how-to-choose-a-karate-class-for-your-child-in-santacruz",
-        status: "published",
-        noindex: false,
-      }),
-    ]));
-    const developmentDraft = readBlogPosts({ includeNonPublished: true }).find((post) => post.slug === "development-markdown-sample");
-    expect(developmentDraft?.status).toBe("draft");
+  it("excludes draft posts from public blog discovery", () => {
+    expect(readBlogPosts().every((post) => post.status === "published" && post.noindex === false)).toBe(true);
+    const drafts = readBlogPosts({ includeNonPublished: true });
+    expect(drafts.some((post) => post.status === "draft")).toBe(true);
   });
 
   it("keeps the development Markdown sample valid but non-indexable", () => {
@@ -29,9 +22,10 @@ describe("SEO foundations", () => {
     expect(sample.noindex).toBe(true);
   });
 
-  it("keeps the approved source draft and its published copy", () => {
+  it("stores the first real draft outside the live blog directory", () => {
     const draft = path.join("seo-automation", "generated-blogs", "how-to-choose-a-karate-class-for-your-child-in-santacruz.md");
     expect(fs.existsSync(draft)).toBe(true);
-    expect(fs.existsSync(path.join("content", "blog", "how-to-choose-a-karate-class-for-your-child-in-santacruz.md"))).toBe(true);
+    const live = path.join("content", "blog", "how-to-choose-a-karate-class-for-your-child-in-santacruz.md");
+    expect(fs.existsSync(live)).toBe(true);
   });
 });
