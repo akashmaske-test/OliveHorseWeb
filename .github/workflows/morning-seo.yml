@@ -40,7 +40,7 @@ jobs:
       - run: npm ci
       - run: npm run seo:validate
       - run: npm run seo:morning
-      - name: Store approval queue and review drafts on the review branch
+      - name: Store approval queue, review drafts and performance report on the review branch
         env:
           STATE_BRANCH: seo-automation-state
         run: |
@@ -54,12 +54,15 @@ jobs:
           fi
           mkdir -p "$state_dir/seo-automation/inbox"
           mkdir -p "$state_dir/seo-automation/review-drafts"
+          mkdir -p "$state_dir/seo-automation/performance"
           cp seo-automation/inbox/approval-queue.json "$state_dir/seo-automation/inbox/approval-queue.json"
           cp seo-automation/inbox/approval-queue.md "$state_dir/seo-automation/inbox/approval-queue.md"
           find seo-automation/generated-blogs -maxdepth 1 -type f \
             \( -name '*.md' -o -name '*.json' \) \
             -exec cp {} "$state_dir/seo-automation/review-drafts/" \;
-          git -C "$state_dir" add seo-automation/inbox seo-automation/review-drafts
+          cp seo-automation/reports/gsc-performance-report.json "$state_dir/seo-automation/performance/gsc-performance-report.json"
+          cp seo-automation/reports/gsc-performance-report.md "$state_dir/seo-automation/performance/gsc-performance-report.md"
+          git -C "$state_dir" add seo-automation/inbox seo-automation/review-drafts seo-automation/performance
           if git -C "$state_dir" diff --cached --quiet; then
             echo "Approval queue has not changed."
           else
@@ -73,6 +76,8 @@ jobs:
           echo "## Morning SEO review" >> "$GITHUB_STEP_SUMMARY"
           echo "Automation stopped before publishing, social posting, pull-request creation, or merging." >> "$GITHUB_STEP_SUMMARY"
           cat seo-automation/reports/morning-seo-report.md >> "$GITHUB_STEP_SUMMARY"
+          echo "" >> "$GITHUB_STEP_SUMMARY"
+          cat seo-automation/reports/gsc-performance-report.md >> "$GITHUB_STEP_SUMMARY"
           echo "" >> "$GITHUB_STEP_SUMMARY"
           cat seo-automation/inbox/approval-queue.md >> "$GITHUB_STEP_SUMMARY"
       - uses: actions/upload-artifact@v4
