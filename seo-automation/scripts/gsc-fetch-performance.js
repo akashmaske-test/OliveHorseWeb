@@ -5,7 +5,7 @@ import { configurationReport, dataRoot, ensureDirectories, now, writeJson } from
 ensureDirectories();
 const status = configurationReport();
 if (status.gsc_status !== "configured" || !searchConsoleClient()) {
-  writeJson(path.join(dataRoot, "gsc", "fetch-status.json"), { ...status, fetched_at: now() });
+  writeJson(path.join(dataRoot, "gsc", "fetch-status.json"), { ...status, fetched_at: now(), status: "manual_setup_required" });
   console.log("GSC fetch skipped: manual setup required.");
   process.exit(0);
 }
@@ -36,7 +36,9 @@ try {
   writeJson(path.join(dataRoot, "gsc", "raw", `${stamp}.json`), { fetched_at: now(), startDate, endDate, rows });
   writeJson(path.join(dataRoot, "gsc", "normalised", `${stamp}.json`), normalised);
   writeJson(path.join(dataRoot, "gsc", "latest.json"), normalised);
+  writeJson(path.join(dataRoot, "gsc", "fetch-status.json"), { status: "completed", fetched_at: now(), startDate, endDate, row_count: normalised.length });
   console.log(`Saved ${normalised.length} non-duplicated GSC rows.`);
 } catch {
+  writeJson(path.join(dataRoot, "gsc", "fetch-status.json"), { status: "failed", fetched_at: now(), startDate, endDate, row_count: 0, message: "Search Console fetch failed without exposing credentials." });
   console.log("GSC fetch failed without exposing credentials. Run seo:gsc-test for a safe diagnostic.");
 }

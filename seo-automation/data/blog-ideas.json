@@ -101,18 +101,18 @@
   },
   {
     "id": "idea-1783764253527-6f10",
-    "title": "Teen Fitness and Karate: A Dual Approach to Health in Mumbai",
-    "primary_keyword": "Teen Karate Fitness Mumbai",
+    "title": "Questions Teenagers and Parents Can Ask Before Choosing a Karate Class in Mumbai",
+    "primary_keyword": "karate classes for teenagers in Mumbai",
     "supporting_keywords": [
-      "teen fitness programs",
-      "martial arts for teens",
-      "physical health"
+      "teen karate classes Mumbai",
+      "beginner karate for teenagers",
+      "choosing a karate class"
     ],
     "search_intent": "informational",
     "funnel_stage": "consideration",
-    "target_audience": "Teenagers",
+    "target_audience": "Teenagers and parents",
     "target_location": "Mumbai",
-    "why_it_matters": "Combines fitness and discipline to promote overall health and well‑being for teens",
+    "why_it_matters": "Helps families ask practical questions before choosing a suitable Karate programme, without promising outcomes or using unverified programme details.",
     "confidence": 75,
     "priority_score": 85,
     "source_type": "qualitative_ai_recommendation",
@@ -120,7 +120,7 @@
     "related_existing_pages": [
       "/"
     ],
-    "approval_status": "pending",
+    "approval_status": "approved",
     "created_at": "2026-07-11T10:04:13.527Z",
     "rejection_reason": null
   },

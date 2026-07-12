@@ -1,15 +1,18 @@
-name: Morning SEO review
+name: Weekly SEO review
 
 on:
   schedule:
-    - cron: "30 3 * * *"
+    # Monday 03:30 UTC (09:00 IST). Manual dispatch remains available.
+    - cron: "30 3 * * 1"
   workflow_dispatch:
 
 permissions:
-  contents: read
+  # Needed only to update the separate seo-automation-state review branch.
+  # This workflow never writes to master, opens PRs, or merges changes.
+  contents: write
 
 concurrency:
-  group: morning-seo
+  group: weekly-seo
   cancel-in-progress: false
 
 jobs:
@@ -38,13 +41,51 @@ jobs:
       - run: npm ci
       - run: npm run seo:validate
       - run: npm run seo:morning
+      - name: Store approval queue, review drafts and performance report on the review branch
+        env:
+          STATE_BRANCH: seo-automation-state
+        run: |
+          state_dir="$RUNNER_TEMP/seo-automation-state"
+          git fetch origin "$STATE_BRANCH" || true
+          if git show-ref --verify --quiet "refs/remotes/origin/$STATE_BRANCH"; then
+            git worktree add -B "$STATE_BRANCH" "$state_dir" "origin/$STATE_BRANCH"
+          else
+            git worktree add --detach "$state_dir"
+            git -C "$state_dir" checkout --orphan "$STATE_BRANCH"
+          fi
+          mkdir -p "$state_dir/seo-automation/inbox"
+          mkdir -p "$state_dir/seo-automation/review-drafts"
+          mkdir -p "$state_dir/seo-automation/performance"
+          cp seo-automation/inbox/approval-queue.json "$state_dir/seo-automation/inbox/approval-queue.json"
+          cp seo-automation/inbox/approval-queue.md "$state_dir/seo-automation/inbox/approval-queue.md"
+          find seo-automation/generated-blogs -maxdepth 1 -type f \
+            \( -name '*.md' -o -name '*.json' \) \
+            -exec cp {} "$state_dir/seo-automation/review-drafts/" \;
+          cp seo-automation/reports/gsc-performance-report.json "$state_dir/seo-automation/performance/gsc-performance-report.json"
+          cp seo-automation/reports/gsc-performance-report.md "$state_dir/seo-automation/performance/gsc-performance-report.md"
+          git -C "$state_dir" add seo-automation/inbox seo-automation/review-drafts seo-automation/performance
+          if git -C "$state_dir" diff --cached --quiet; then
+            echo "Approval queue has not changed."
+          else
+            git -C "$state_dir" config user.name "github-actions[bot]"
+            git -C "$state_dir" config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git -C "$state_dir" commit -m "chore: update SEO approval queue"
+            git -C "$state_dir" push origin "HEAD:refs/heads/$STATE_BRANCH"
+          fi
       - name: Write summary
         run: |
-          echo "## Morning SEO review" >> "$GITHUB_STEP_SUMMARY"
+          echo "## Weekly SEO review" >> "$GITHUB_STEP_SUMMARY"
           echo "Automation stopped before publishing, social posting, pull-request creation, or merging." >> "$GITHUB_STEP_SUMMARY"
           cat seo-automation/reports/morning-seo-report.md >> "$GITHUB_STEP_SUMMARY"
+          echo "" >> "$GITHUB_STEP_SUMMARY"
+          cat seo-automation/reports/gsc-performance-report.md >> "$GITHUB_STEP_SUMMARY"
+          echo "" >> "$GITHUB_STEP_SUMMARY"
+          cat seo-automation/inbox/approval-queue.md >> "$GITHUB_STEP_SUMMARY"
       - uses: actions/upload-artifact@v4
         with:
           name: morning-seo-reports
-          path: seo-automation/reports/
+          path: |
+            seo-automation/reports/
+            seo-automation/inbox/
+            seo-automation/generated-blogs/
           if-no-files-found: warn

@@ -145,6 +145,16 @@ textarea {
   gap: 20px;
 }
 
+.static-nav-links {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.static-header-cta {
+  flex: 0 0 auto;
+}
+
 .nav-link {
   color: var(--forest);
   font-size: 14px;
@@ -152,6 +162,32 @@ textarea {
 }
 
 .nav-link:hover {
+  color: var(--orange);
+}
+
+.blog-nav-link,
+.blog-mobile-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  color: var(--forest);
+  font-size: 14px;
+  font-weight: 800;
+}
+
+.blog-nav-link svg,
+.blog-mobile-link svg {
+  width: 19px;
+  height: 19px;
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: 1.8;
+}
+
+.blog-nav-link:hover,
+.blog-mobile-link:hover {
   color: var(--orange);
 }
 
@@ -541,6 +577,32 @@ p {
   color: var(--muted);
   font-size: 15px;
   line-height: 1.55;
+}
+
+.blog-preview-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 24px;
+}
+
+.blog-preview-card {
+  align-content: start;
+}
+
+.blog-preview-card h3 a:hover,
+.text-link:hover {
+  color: var(--orange);
+}
+
+.text-link {
+  margin-top: auto;
+  color: var(--forest);
+  font-size: 14px;
+  font-weight: 800;
+}
+
+.blog-preview-action {
+  margin-top: 28px;
 }
 
 .pill-row {
@@ -1114,6 +1176,34 @@ p {
   max-width: 800px;
 }
 
+.blog-featured-figure {
+  margin: 30px 0 36px;
+}
+
+.blog-featured-image,
+.blog-card-image {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 16px;
+  object-fit: cover;
+}
+
+.blog-featured-image {
+  aspect-ratio: 16 / 9;
+}
+
+.blog-card-image {
+  aspect-ratio: 16 / 9;
+}
+
+.blog-featured-figure figcaption {
+  margin-top: 10px;
+  color: var(--muted);
+  font-size: 13px;
+  line-height: 1.5;
+}
+
 .blog-content {
   color: var(--muted);
   font-size: 17px;
@@ -1223,7 +1313,8 @@ p {
   .programmes-grid,
   .benefits-grid,
   .pricing-grid,
-  .testimonial-grid {
+  .testimonial-grid,
+  .blog-preview-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
@@ -1264,7 +1355,17 @@ p {
   }
 
   .nav-links,
-  .desktop-cta {
+  .desktop-cta,
+  .blog-nav-link {
+    display: none;
+  }
+
+  .static-nav-links {
+    margin-left: auto;
+    gap: 14px;
+  }
+
+  .static-header-cta {
     display: none;
   }
 
@@ -1298,6 +1399,11 @@ p {
     border-radius: 12px;
     color: var(--forest);
     font-weight: 800;
+  }
+
+  .mobile-drawer .blog-mobile-link {
+    display: inline-flex;
+    gap: 10px;
   }
 
   .hero-section {
@@ -1382,6 +1488,10 @@ p {
     overflow-x: auto;
     padding: 2px 22px 18px;
     scroll-snap-type: x mandatory;
+  }
+
+  .blog-preview-grid {
+    grid-template-columns: 1fr;
   }
 
   .programmes-grid > *,
@@ -1476,6 +1586,14 @@ p {
 
   .site-footer {
     padding-bottom: 96px;
+  }
+
+  .static-nav-links {
+    gap: 16px;
+  }
+
+  .static-nav-detail {
+    display: none;
   }
 }
 

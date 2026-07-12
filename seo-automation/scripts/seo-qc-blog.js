@@ -9,6 +9,10 @@ for (const file of metadataFiles) {
   const metadataPath = path.join(generatedRoot, file);
   const metadata = readJson(metadataPath);
   if (selected && metadata.slug !== selected) continue;
+  if (!["draft_generated", "needs_review"].includes(metadata.workflow_status)) {
+    console.log(`${metadata.slug}: skipped (${metadata.workflow_status}).`);
+    continue;
+  }
   const text = fs.readFileSync(metadata.draft_path, "utf8");
   const issues = [];
   if ((text.match(/^# /gm) || []).length !== 1) issues.push("Article must contain exactly one H1.");
