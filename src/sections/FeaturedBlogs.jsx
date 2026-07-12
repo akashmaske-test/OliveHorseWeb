@@ -17,6 +17,7 @@ export default function FeaturedBlogs() {
         <div className="blog-preview-grid">
           {posts.map((post) => (
             <article className="card card-body blog-preview-card" key={post.slug}>
+              {post.featured_image ? <img className="blog-card-image" src={post.featured_image} alt={post.featured_image_alt} /> : null}
               <p className="meta">{post.date}</p>
               <h3><a href={post.href}>{post.title}</a></h3>
               <p>{post.description}</p>
