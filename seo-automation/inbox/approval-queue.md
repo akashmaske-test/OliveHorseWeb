@@ -1,6 +1,6 @@
 # OliveHorse SEO approval queue
 
-Generated: 2026-07-11T19:01:10.747Z
+Generated: 2026-07-12T02:22:06.176Z
 
 These are review candidates, not approved business claims. A topic approval permits drafting only. A draft still needs separate user confirmation before it may be published.
 
@@ -59,6 +59,30 @@ These are review candidates, not approved business claims. A topic approval perm
 - Primary keyword: Women’s Weekend Self‑Defence Course
 - Audience: Women 18-45
 - Location: Santacruz, Mumbai
+- Evidence: qualitative_ai_recommendation
+- Suggested action: approve for drafting, reject, or needs review
+
+## idea-1783822866431-2a75: The Benefits of Beginner Karate for Kids in Santacruz
+
+- Primary keyword: karate for kids beginners
+- Audience: Parents of young children
+- Location: Santacruz, Mumbai
+- Evidence: qualitative_ai_recommendation
+- Suggested action: approve for drafting, reject, or needs review
+
+## idea-1783822866431-c199: Essential Self-Defence Skills for Women: A Guide to Personal Safety
+
+- Primary keyword: self-defence workshops for women
+- Audience: Women
+- Location: Santacruz, Mumbai
+- Evidence: qualitative_ai_recommendation
+- Suggested action: approve for drafting, reject, or needs review
+
+## idea-1783822866431-84c7: Why Corporate Self-Defence Workshops are Vital for Workplace Safety
+
+- Primary keyword: corporate self-defence workshops
+- Audience: HR Managers and Corporate Organizations
+- Location: Mumbai
 - Evidence: qualitative_ai_recommendation
 - Suggested action: approve for drafting, reject, or needs review
 
