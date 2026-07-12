@@ -42,9 +42,3 @@
 - Business relevance: Combines cardio, strength, and self-defense skills, promoting holistic health and confidence.
 - Suggested action: approve, reject, or needs_review
 
-## idea-1783769429369-2705: Women’s Weekend Self‑Defence Course: Empowering Women in Santacruz
-
-- Evidence: qualitative_ai_recommendation
-- Business relevance: Provides practical skills and confidence for personal safety in a short time frame.
-- Suggested action: approve, reject, or needs_review
-

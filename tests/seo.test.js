@@ -11,14 +11,13 @@ describe("SEO foundations", () => {
   });
 
   it("excludes draft posts from public blog discovery", () => {
-    expect(readBlogPosts()).toEqual([]);
+    expect(readBlogPosts().every((post) => post.status === "published" && post.noindex === false)).toBe(true);
     const drafts = readBlogPosts({ includeNonPublished: true });
-    expect(drafts).toHaveLength(1);
-    expect(drafts[0].status).toBe("draft");
+    expect(drafts.some((post) => post.status === "draft")).toBe(true);
   });
 
   it("keeps the development Markdown sample valid but non-indexable", () => {
-    const [sample] = readBlogPosts({ includeNonPublished: true });
+    const sample = readBlogPosts({ includeNonPublished: true }).find((post) => post.slug === "development-markdown-sample");
     expect(validateBlogPost(sample)).toEqual([]);
     expect(sample.noindex).toBe(true);
   });

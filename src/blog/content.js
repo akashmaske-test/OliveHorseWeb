@@ -21,7 +21,11 @@ export function readBlogPosts({ includeNonPublished = false } = {}) {
 export function parseBlogFile(filePath) {
   const source = fs.readFileSync(filePath, "utf8");
   const parsed = matter(source);
-  const data = parsed.data;
+  const data = {
+    ...parsed.data,
+    ...(parsed.data.date instanceof Date ? { date: parsed.data.date.toISOString().slice(0, 10) } : {}),
+    ...(parsed.data.updated_date instanceof Date ? { updated_date: parsed.data.updated_date.toISOString().slice(0, 10) } : {}),
+  };
   const wordCount = parsed.content.trim() ? parsed.content.trim().split(/\s+/).length : 0;
   return {
     ...data,

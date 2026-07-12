@@ -1,0 +1,36 @@
+{
+  "id": "idea-1783769429369-2705",
+  "slug": "women-s-weekend-self-defence-course",
+  "draft_path": "/Users/akashabamaske/Documents/OliveHorseFitnessProject/seo-automation/generated-blogs/women-s-weekend-self-defence-course.md",
+  "workflow_status": "approved_for_publish",
+  "generated_at": "2026-07-12T07:28:09.155Z",
+  "source_type": "qualitative_ai_recommendation",
+  "model_usage": {
+    "prompt_tokens": 379,
+    "completion_tokens": 1658,
+    "total_tokens": 2037,
+    "cost": 0,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0,
+      "upstream_inference_prompt_cost": 0,
+      "upstream_inference_completions_cost": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 1542,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "qc_checked_at": "2026-07-12T07:32:12.190Z",
+  "qc_issues": [],
+  "approval_date": "2026-07-12T07:32:12.384Z",
+  "approval_notes": "User approved publication together with the generated AI editorial illustration.",
+  "final_file_hash": "3d0456d3756cc0999431852c01c2225c751ee861e0d51abc75a269e5f5335b4a"
+}

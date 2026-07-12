@@ -72,6 +72,7 @@ export function ArticlePage({ post, relatedPosts }) {
           <h1>{post.title}</h1>
           <p className="lede">{post.description}</p>
           <p className="meta">{post.date} · {post.readingTime} min read</p>
+          {post.featured_image ? <figure className="blog-featured-image"><img src={post.featured_image} alt={post.featured_image_alt || ""} loading="eager" /></figure> : null}
           <div className="blog-content" dangerouslySetInnerHTML={{ __html: post.html }} />
           {relatedPosts.length ? <section aria-labelledby="related-heading"><h2 id="related-heading">Related resources</h2><ul>{relatedPosts.map((item) => <li key={item.slug}><a href={`/blog/${item.slug}/`}>{item.title}</a></li>)}</ul></section> : null}
         </article>
