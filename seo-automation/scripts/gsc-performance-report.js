@@ -28,7 +28,7 @@ if (configuration.gsc_status !== "configured" || fetch?.status === "manual_setup
     note: "Search Console credentials are not configured. No performance data was requested or inferred.",
   };
   writeJson(`${reportPath}.json`, report);
-  writeText(`${reportPath}.md`, "# Daily Search Console performance\n\nStatus: manual setup required. Configure the read-only Search Console secrets before this report can show website performance.\n");
+  writeText(`${reportPath}.md`, "# Weekly Search Console performance\n\nStatus: manual setup required. Configure the read-only Search Console secrets before this report can show website performance.\n");
   console.log("GSC performance report skipped: manual setup required.");
   process.exit(0);
 }
@@ -41,7 +41,7 @@ if (fetch?.status !== "completed") {
     note: "Search Console fetch did not complete. No stale data was used.",
   };
   writeJson(`${reportPath}.json`, report);
-  writeText(`${reportPath}.md`, "# Daily Search Console performance\n\nStatus: fresh data unavailable. The workflow did not use stale Search Console data; check the connection report in the workflow artifact.\n");
+  writeText(`${reportPath}.md`, "# Weekly Search Console performance\n\nStatus: fresh data unavailable. The workflow did not use stale Search Console data; check the connection report in the workflow artifact.\n");
   console.log("GSC performance report skipped: fresh data unavailable.");
   process.exit(0);
 }
@@ -84,5 +84,5 @@ writeJson(`${reportPath}.json`, report);
 const pageRows = topPages.length
   ? topPages.map((page) => `| ${page.page} | ${formatInteger(page.clicks)} | ${formatInteger(page.impressions)} | ${formatPercent(page.ctr)} | ${formatPosition(page.average_position)} |`).join("\n")
   : "No public-page performance rows are available yet.";
-writeText(`${reportPath}.md`, `# Daily Search Console performance\n\nStatus: ${report.status}\n\nProcessed data range: ${fetch.startDate} to ${fetch.endDate}\n\n- Clicks: ${formatInteger(report.totals.clicks)}\n- Impressions: ${formatInteger(report.totals.impressions)}\n- CTR: ${formatPercent(report.totals.ctr)}\n- Average position: ${formatPosition(report.totals.average_position)}\n\n## Top public pages by impressions\n\n${topPages.length ? "| Page | Clicks | Impressions | CTR | Average position |\n| --- | ---: | ---: | ---: | ---: |\n" : ""}${pageRows}\n\n${report.note}\n`);
-console.log(`Recorded daily GSC performance report with ${topPages.length} public pages.`);
+writeText(`${reportPath}.md`, `# Weekly Search Console performance\n\nStatus: ${report.status}\n\nProcessed data range: ${fetch.startDate} to ${fetch.endDate}\n\n- Clicks: ${formatInteger(report.totals.clicks)}\n- Impressions: ${formatInteger(report.totals.impressions)}\n- CTR: ${formatPercent(report.totals.ctr)}\n- Average position: ${formatPosition(report.totals.average_position)}\n\n## Top public pages by impressions\n\n${topPages.length ? "| Page | Clicks | Impressions | CTR | Average position |\n| --- | ---: | ---: | ---: | ---: |\n" : ""}${pageRows}\n\n${report.note}\n`);
+console.log(`Recorded weekly GSC performance report with ${topPages.length} public pages.`);

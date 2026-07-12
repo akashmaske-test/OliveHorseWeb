@@ -7,7 +7,7 @@ Completed on 2026-07-11 on branch `feat/complete-seo-system`.
 - React/Vite static prerendering for the homepage, blog index, legal pages and 404 page.
 - Build-time canonical metadata, index controls, Organization/WebSite/Service structured data, `robots.txt`, and `sitemap.xml`.
 - Safe Markdown blog architecture, development sample exclusion, and a source-backed unpublished draft.
-- JSON-backed approvals, GSC OAuth scripts, OpenRouter safeguards, topic/blog/QC/publishing CLIs, social-draft guardrails, and daily GitHub Actions reporting.
+- JSON-backed approvals, GSC OAuth scripts, OpenRouter safeguards, topic/blog/QC/publishing CLIs, social-draft guardrails, and weekly GitHub Actions reporting.
 - Lint, four unit tests, production build, SEO validation, and a safe morning workflow dry run.
 
 ## Waiting for credentials or external verification
