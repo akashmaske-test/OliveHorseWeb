@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-12T02:22:06.176Z",
+  "generated_at": "2026-07-12T02:31:44.287Z",
   "status": "awaiting_human_approval",
   "notice": "These are review candidates, not approved business claims. A topic approval permits drafting only. A draft still needs separate user confirmation before it may be published.",
   "topics": [
@@ -152,72 +152,6 @@
       "target_audience": "Women 18-45",
       "target_location": "Santacruz, Mumbai",
       "why_it_matters": "Provides practical skills and confidence for personal safety in a short time frame.",
-      "evidence": "qualitative_ai_recommendation",
-      "supporting_gsc_queries": [],
-      "related_existing_pages": [
-        "/"
-      ],
-      "approval_status": "pending",
-      "requires_human_claim_review": true
-    },
-    {
-      "id": "idea-1783822866431-2a75",
-      "title": "The Benefits of Beginner Karate for Kids in Santacruz",
-      "primary_keyword": "karate for kids beginners",
-      "supporting_keywords": [
-        "kids karate Santacruz",
-        "martial arts for children Mumbai",
-        "benefits of karate for kids"
-      ],
-      "search_intent": "Informational",
-      "funnel_stage": "Awareness",
-      "target_audience": "Parents of young children",
-      "target_location": "Santacruz, Mumbai",
-      "why_it_matters": "Addresses a common informational query for parents looking to enroll children in structured activities.",
-      "evidence": "qualitative_ai_recommendation",
-      "supporting_gsc_queries": [],
-      "related_existing_pages": [
-        "/"
-      ],
-      "approval_status": "pending",
-      "requires_human_claim_review": true
-    },
-    {
-      "id": "idea-1783822866431-c199",
-      "title": "Essential Self-Defence Skills for Women: A Guide to Personal Safety",
-      "primary_keyword": "self-defence workshops for women",
-      "supporting_keywords": [
-        "women self-defence Santacruz",
-        "personal safety training Mumbai",
-        "adult karate and self-defence"
-      ],
-      "search_intent": "Informational",
-      "funnel_stage": "Awareness",
-      "target_audience": "Women",
-      "target_location": "Santacruz, Mumbai",
-      "why_it_matters": "Targets a specific demographic looking for empowerment and safety through specialized training.",
-      "evidence": "qualitative_ai_recommendation",
-      "supporting_gsc_queries": [],
-      "related_existing_pages": [
-        "/"
-      ],
-      "approval_status": "pending",
-      "requires_human_claim_review": true
-    },
-    {
-      "id": "idea-1783822866431-84c7",
-      "title": "Why Corporate Self-Defence Workshops are Vital for Workplace Safety",
-      "primary_keyword": "corporate self-defence workshops",
-      "supporting_keywords": [
-        "school and corporate self-defence workshops",
-        "workplace safety training Mumbai",
-        "professional self-defence training"
-      ],
-      "search_intent": "Informational",
-      "funnel_stage": "Consideration",
-      "target_audience": "HR Managers and Corporate Organizations",
-      "target_location": "Mumbai",
-      "why_it_matters": "Expands reach to B2B segments and organizational decision-makers.",
       "evidence": "qualitative_ai_recommendation",
       "supporting_gsc_queries": [],
       "related_existing_pages": [

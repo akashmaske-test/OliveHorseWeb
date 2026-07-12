@@ -1,9 +1,17 @@
 {
-  "generated_at": "2026-07-12T02:19:42.717Z",
-  "status": "fetch_unavailable",
+  "generated_at": "2026-07-12T02:31:05.165Z",
+  "status": "no_data_yet",
   "requested_date_range": {
     "startDate": "2026-06-13",
     "endDate": "2026-07-10"
   },
-  "note": "Search Console fetch did not complete. No stale data was used."
+  "data_delay_days": 2,
+  "totals": {
+    "clicks": 0,
+    "impressions": 0,
+    "ctr": 0,
+    "average_position": null
+  },
+  "top_pages_by_impressions": [],
+  "note": "No Search Console rows are available for this processed date range. New pages commonly need time before data appears."
 }

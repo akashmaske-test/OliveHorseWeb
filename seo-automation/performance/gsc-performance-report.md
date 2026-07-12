@@ -1,3 +1,16 @@
 # Daily Search Console performance
 
-Status: fresh data unavailable. The workflow did not use stale Search Console data; check the connection report in the workflow artifact.
+Status: no_data_yet
+
+Processed data range: 2026-06-13 to 2026-07-10
+
+- Clicks: 0
+- Impressions: 0
+- CTR: 0.00%
+- Average position: —
+
+## Top public pages by impressions
+
+No public-page performance rows are available yet.
+
+No Search Console rows are available for this processed date range. New pages commonly need time before data appears.
