@@ -1,8 +1,8 @@
-# Daily Search Console performance
+# Weekly Search Console performance
 
 Status: no_data_yet
 
-Processed data range: 2026-06-13 to 2026-07-10
+Processed data range: 2026-06-14 to 2026-07-11
 
 - Clicks: 0
 - Impressions: 0

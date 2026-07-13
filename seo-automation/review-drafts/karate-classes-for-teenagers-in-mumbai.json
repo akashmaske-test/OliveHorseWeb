@@ -13,8 +13,8 @@
   "funnel_stage": "consideration",
   "target_audience": "Teenagers and parents",
   "target_location": "Mumbai",
-  "workflow_status": "approved_for_publish_pending_user_confirmation",
-  "generated_at": "2026-07-12T02:31:31.712Z",
+  "workflow_status": "needs_review",
+  "generated_at": "2026-07-13T12:44:27.999Z",
   "source_type": "qualitative_ai_recommendation",
   "source_evidence": [
     "approved_topic",
@@ -22,13 +22,13 @@
   ],
   "claims_requiring_confirmation": [],
   "model_usage": {
-    "prompt_tokens": 392,
-    "completion_tokens": 1528,
-    "total_tokens": 1920,
+    "prompt_tokens": 380,
+    "completion_tokens": 1163,
+    "total_tokens": 1543,
     "cost": 0,
     "is_byok": false,
     "prompt_tokens_details": {
-      "cached_tokens": 32,
+      "cached_tokens": 0,
       "cache_write_tokens": 0,
       "audio_tokens": 0,
       "video_tokens": 0
@@ -39,11 +39,13 @@
       "upstream_inference_completions_cost": 0
     },
     "completion_tokens_details": {
-      "reasoning_tokens": 923,
+      "reasoning_tokens": 699,
       "image_tokens": 0,
       "audio_tokens": 0
     }
   },
-  "qc_checked_at": "2026-07-12T02:31:31.759Z",
-  "qc_issues": []
+  "qc_checked_at": "2026-07-13T12:44:28.050Z",
+  "qc_issues": [
+    "Potential unsupported claim requires review."
+  ]
 }

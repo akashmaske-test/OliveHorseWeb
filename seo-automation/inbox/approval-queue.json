@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-12T02:31:44.287Z",
+  "generated_at": "2026-07-13T12:44:28.110Z",
   "status": "awaiting_human_approval",
   "notice": "These are review candidates, not approved business claims. A topic approval permits drafting only. A draft still needs separate user confirmation before it may be published.",
   "topics": [
@@ -138,20 +138,63 @@
       "requires_human_claim_review": true
     },
     {
-      "id": "idea-1783769429369-2705",
-      "title": "Women’s Weekend Self‑Defence Course: Empowering Women in Santacruz",
-      "primary_keyword": "Women’s Weekend Self‑Defence Course",
+      "id": "idea-1783946647209-3063",
+      "title": "The Benefits of Private One-to-One Karate Training for Rapid Skill Development",
+      "primary_keyword": "private karate training",
       "supporting_keywords": [
-        "women self‑defence",
-        "empowerment",
-        "Santacruz women",
-        "short self‑defence course"
+        "one-to-one karate lessons",
+        "personalized martial arts training",
+        "karate coaching Mumbai"
       ],
-      "search_intent": "transactional",
-      "funnel_stage": "decision",
-      "target_audience": "Women 18-45",
-      "target_location": "Santacruz, Mumbai",
-      "why_it_matters": "Provides practical skills and confidence for personal safety in a short time frame.",
+      "search_intent": "Informational/Commercial",
+      "funnel_stage": "Consideration",
+      "target_audience": "Serious martial arts practitioners and busy professionals",
+      "target_location": "Santacruz and Mumbai",
+      "why_it_matters": "Highlights a specialized service that differentiates the business from standard group classes by focusing on personalized instruction.",
+      "evidence": "qualitative_ai_recommendation",
+      "supporting_gsc_queries": [],
+      "related_existing_pages": [
+        "/"
+      ],
+      "approval_status": "pending",
+      "requires_human_claim_review": true
+    },
+    {
+      "id": "idea-1783946647209-bddd",
+      "title": "Preparing for Belt Examinations: A Guide for Karate Practitioners",
+      "primary_keyword": "karate belt examination preparation",
+      "supporting_keywords": [
+        "karate grading tips",
+        "martial arts progression",
+        "karate exam preparation"
+      ],
+      "search_intent": "Informational",
+      "funnel_stage": "Awareness",
+      "target_audience": "Current karate students and parents of students",
+      "target_location": "Santacruz and Mumbai",
+      "why_it_matters": "Positions the academy as an expert in the technical progression and formal standards of karate training.",
+      "evidence": "qualitative_ai_recommendation",
+      "supporting_gsc_queries": [],
+      "related_existing_pages": [
+        "/"
+      ],
+      "approval_status": "pending",
+      "requires_human_claim_review": true
+    },
+    {
+      "id": "idea-1783946647209-6f7e",
+      "title": "Corporate Self-Defence Workshops: Enhancing Workplace Safety and Team Building",
+      "primary_keyword": "corporate self-defence workshops",
+      "supporting_keywords": [
+        "workplace safety training",
+        "team building activities Mumbai",
+        "office self-defence programs"
+      ],
+      "search_intent": "Commercial",
+      "funnel_stage": "Decision",
+      "target_audience": "HR Managers and Corporate Executives",
+      "target_location": "Mumbai",
+      "why_it_matters": "Targets a high-value B2B segment identified in the research to expand reach beyond individual residential clients.",
       "evidence": "qualitative_ai_recommendation",
       "supporting_gsc_queries": [],
       "related_existing_pages": [
@@ -161,20 +204,5 @@
       "requires_human_claim_review": true
     }
   ],
-  "drafts_requiring_publish_confirmation": [
-    {
-      "id": "idea-1783764253527-6f10",
-      "slug": "karate-classes-for-teenagers-in-mumbai",
-      "draft_path": "/home/runner/work/OliveHorseWeb/OliveHorseWeb/seo-automation/generated-blogs/karate-classes-for-teenagers-in-mumbai.md",
-      "primary_keyword": "karate classes for teenagers in Mumbai",
-      "workflow_status": "approved_for_publish_pending_user_confirmation",
-      "source_type": "qualitative_ai_recommendation",
-      "source_evidence": [
-        "approved_topic",
-        "verified_business_profile"
-      ],
-      "claims_requiring_confirmation": [],
-      "required_action": "user_confirmation_before_publish"
-    }
-  ]
+  "drafts_requiring_publish_confirmation": []
 }

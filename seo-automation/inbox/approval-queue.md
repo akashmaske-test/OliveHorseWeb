@@ -1,6 +1,6 @@
 # OliveHorse SEO approval queue
 
-Generated: 2026-07-12T02:31:44.287Z
+Generated: 2026-07-13T12:44:28.110Z
 
 These are review candidates, not approved business claims. A topic approval permits drafting only. A draft still needs separate user confirmation before it may be published.
 
@@ -54,18 +54,30 @@ These are review candidates, not approved business claims. A topic approval perm
 - Evidence: qualitative_ai_recommendation
 - Suggested action: approve for drafting, reject, or needs review
 
-## idea-1783769429369-2705: Women’s Weekend Self‑Defence Course: Empowering Women in Santacruz
+## idea-1783946647209-3063: The Benefits of Private One-to-One Karate Training for Rapid Skill Development
 
-- Primary keyword: Women’s Weekend Self‑Defence Course
-- Audience: Women 18-45
-- Location: Santacruz, Mumbai
+- Primary keyword: private karate training
+- Audience: Serious martial arts practitioners and busy professionals
+- Location: Santacruz and Mumbai
+- Evidence: qualitative_ai_recommendation
+- Suggested action: approve for drafting, reject, or needs review
+
+## idea-1783946647209-bddd: Preparing for Belt Examinations: A Guide for Karate Practitioners
+
+- Primary keyword: karate belt examination preparation
+- Audience: Current karate students and parents of students
+- Location: Santacruz and Mumbai
+- Evidence: qualitative_ai_recommendation
+- Suggested action: approve for drafting, reject, or needs review
+
+## idea-1783946647209-6f7e: Corporate Self-Defence Workshops: Enhancing Workplace Safety and Team Building
+
+- Primary keyword: corporate self-defence workshops
+- Audience: HR Managers and Corporate Executives
+- Location: Mumbai
 - Evidence: qualitative_ai_recommendation
 - Suggested action: approve for drafting, reject, or needs review
 
 ## Drafts awaiting final publish confirmation
 
-## idea-1783764253527-6f10: karate-classes-for-teenagers-in-mumbai
-
-- Primary keyword: karate classes for teenagers in Mumbai
-- Source evidence: approved_topic, verified_business_profile
-- Required action: final user confirmation before publishing
+No drafts are waiting for publication confirmation.
