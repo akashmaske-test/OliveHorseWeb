@@ -1,0 +1,16 @@
+workflow:
+  require_asset_confirmation: true
+  require_final_approval: true
+  auto_publish: false
+  default_format: image
+  video_provider: remotion
+  enable_social_video_publishing: false
+  approval_provider: local_json
+  image_provider: interactive_manifest
+  max_asset_bytes: 20971520
+  allowed_image_types: [image/jpeg, image/png, image/webp]
+  allowed_video_types: [video/mp4, video/quicktime]
+media_hosting:
+  provider: existing_public_site
+  public_base_url: https://olive-horse-web.vercel.app
+  status: provisional

@@ -4,6 +4,15 @@ dist/
 .env
 .env.local
 seo-automation/.secrets/
+social-content/*
+!social-content/.gitkeep
+public/generated-social/images/*
+!public/generated-social/images/.gitkeep
+public/generated-social/videos/*
+!public/generated-social/videos/.gitkeep
+public/generated-social/thumbnails/*
+!public/generated-social/thumbnails/.gitkeep
+logs/social-automation.jsonl
 **/*oauth*.json
 **/*refresh-token*.json
 **/*access-token*.json

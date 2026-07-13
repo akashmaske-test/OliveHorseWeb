@@ -1,0 +1,37 @@
+name: Resume social after asset response
+
+on:
+  workflow_dispatch:
+    inputs:
+      topic: { description: Social topic ID, required: true, type: string }
+      choice: { description: upload-image | upload-video | repository-asset | generate-image | skip, required: true, type: string }
+      path: { description: Safe repository path for a supplied/repository asset, required: false, type: string }
+      contains_children: { description: true or false, required: false, default: "false", type: string }
+      consent: { description: confirmed or not_confirmed, required: false, default: not_confirmed, type: string }
+
+permissions: { contents: write }
+
+jobs:
+  resume:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 22, cache: npm }
+      - run: npm ci
+      - name: Restore safe approval state
+        run: |
+          git fetch origin social-automation-state || true
+          if git show-ref --verify --quiet refs/remotes/origin/social-automation-state; then git archive origin/social-automation-state social-content | tar -x; fi
+      - run: npm run social:respond-asset -- --topic "${{ inputs.topic }}" --choice "${{ inputs.choice }}" --path "${{ inputs.path }}" --contains-children "${{ inputs.contains_children }}" --consent "${{ inputs.consent }}"
+      - run: npm run social:status -- --topic "${{ inputs.topic }}"
+      - name: Mirror safe approval state
+        env: { STATE_BRANCH: social-automation-state }
+        run: |
+          state_dir="$RUNNER_TEMP/social-automation-state"
+          git fetch origin "$STATE_BRANCH" || true
+          if git show-ref --verify --quiet "refs/remotes/origin/$STATE_BRANCH"; then git worktree add -B "$STATE_BRANCH" "$state_dir" "origin/$STATE_BRANCH"; else git worktree add --detach "$state_dir" && git -C "$state_dir" checkout --orphan "$STATE_BRANCH"; fi
+          mkdir -p "$state_dir/social-content"
+          cp -R social-content/. "$state_dir/social-content/"
+          git -C "$state_dir" add -f social-content
+          if ! git -C "$state_dir" diff --cached --quiet; then git -C "$state_dir" config user.name github-actions[bot] && git -C "$state_dir" config user.email 41898282+github-actions[bot]@users.noreply.github.com && git -C "$state_dir" commit -m "chore: update social asset response" && git -C "$state_dir" push origin "HEAD:refs/heads/$STATE_BRANCH"; fi

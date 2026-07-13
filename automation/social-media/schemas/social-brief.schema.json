@@ -1,0 +1,1 @@
+{"$schema":"https://json-schema.org/draft/2020-12/schema","type":"object","required":["topic_id","blog_slug","social_angle","headline","facebook_caption","instagram_caption"],"properties":{"topic_id":{"type":"string"},"blog_slug":{"type":"string"},"headline":{"type":"string","maxLength":90}}}

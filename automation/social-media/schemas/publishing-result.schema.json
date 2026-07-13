@@ -1,0 +1,1 @@
+{"$schema":"https://json-schema.org/draft/2020-12/schema","type":"object","required":["platform","idempotency_key","status"],"properties":{"platform":{"enum":["facebook","instagram"]},"idempotency_key":{"type":"string"},"status":{"enum":["dry_run","published","failed","skipped"]}}}
