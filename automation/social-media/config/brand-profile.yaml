@@ -1,0 +1,25 @@
+brand:
+  colors:
+    deep_forest_green: "#24352A"
+    olive_green: "#66743A"
+    energetic_orange: "#F47A32"
+    warm_ivory: "#F7F5EF"
+    soft_grey: "#ECEFEA"
+    primary_text: "#172019"
+    secondary_text: "#5F685F"
+    white: "#FFFFFF"
+  typography:
+    heading: Barlow Condensed
+    heading_weights: [600, 700]
+    body: Inter
+    body_weights: [400, 700]
+    devanagari: Noto Sans Devanagari
+  logo_path: public/images/01-logo.png
+  logo_clear_space: 24px
+  safe_margins: 80px horizontal, 100px vertical at 1080px width
+  visual_style: Modern, professional, disciplined, safe, energetic, supportive and family-friendly; bright authentic training photography, clean layouts, bold athletic headings, warm backgrounds and limited orange accents.
+  prohibited_visuals: [dark aggressive MMA styling, unsafe fighting, distorted uniforms, distorted belt colours, fake logos, identifiable children without recorded consent]
+  tone_of_voice: confident, disciplined, welcoming and professional
+  contact_information_placement: footer only after verification
+  instagram_handle_placement: footer
+  website_placement: footer

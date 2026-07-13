@@ -1,0 +1,28 @@
+business:
+  name: OliveHorse Fitness Academy
+  type: Karate and fitness coaching
+  tagline: Discipline. Strength. Confidence.
+  website_url: https://olive-horse-web.vercel.app
+  website_status: provisional
+  phone: "+91 98765 43210"
+  phone_status: verification_required
+  whatsapp: "+91 98765 43210"
+  whatsapp_status: verification_required
+  address:
+    - OliveHorse Fitness Academy
+    - 2nd Floor, Sunrise Fitness Centre
+    - Near Santacruz Railway Station
+    - Santacruz West, Mumbai, Maharashtra 400054
+  service_areas: [Santacruz East, Santacruz West, Khar, Bandra, Vile Parle, Juhu, Kalina, Vakola, Andheri West, Andheri East]
+  audiences: [Parents seeking structured physical activities for children, school students, teenagers, working professionals, women interested in self-defence, fitness-conscious adults, competitive Karate students, schools and corporate organisations]
+  programmes: [Kids Beginner Karate Programme, Teen Karate and Fitness Programme, Adult Karate and Self-Defence Programme, Women’s Weekend Self-Defence Course, Private One-to-One Karate Training, Competition Karate Training, Belt Examination Preparation, School and Corporate Self-Defence Workshops]
+  preferred_cta: Book Your Free Trial Class
+social:
+  facebook_page_name: Olivehorsefitness
+  facebook_page_id: "1160081013862980"
+  facebook_page_url: https://www.facebook.com/profile.php?id=61591495427440
+  instagram_username: akashmaske.test
+  instagram_profile_url: https://www.instagram.com/akashmaske.test
+  timezone: Asia/Kolkata
+  posting_time: null
+  posting_time_status: required_before_scheduling

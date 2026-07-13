@@ -1,0 +1,31 @@
+name: Daily social prepare
+
+on:
+  schedule:
+    - cron: "30 3 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  prepare:
+    if: ${{ github.event_name == 'workflow_dispatch' || vars.SOCIAL_DAILY_PREPARE_ENABLED == 'true' }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 22, cache: npm }
+      - run: npm ci
+      - run: npm run social:daily-prepare
+      - name: Mirror safe approval state
+        env: { STATE_BRANCH: social-automation-state }
+        run: |
+          state_dir="$RUNNER_TEMP/social-automation-state"
+          git fetch origin "$STATE_BRANCH" || true
+          if git show-ref --verify --quiet "refs/remotes/origin/$STATE_BRANCH"; then git worktree add -B "$STATE_BRANCH" "$state_dir" "origin/$STATE_BRANCH"; else git worktree add --detach "$state_dir" && git -C "$state_dir" checkout --orphan "$STATE_BRANCH"; fi
+          mkdir -p "$state_dir/social-content"
+          cp -R social-content/. "$state_dir/social-content/" 2>/dev/null || true
+          git -C "$state_dir" add -f social-content
+          if ! git -C "$state_dir" diff --cached --quiet; then git -C "$state_dir" config user.name github-actions[bot] && git -C "$state_dir" config user.email 41898282+github-actions[bot]@users.noreply.github.com && git -C "$state_dir" commit -m "chore: prepare social approval request" && git -C "$state_dir" push origin "HEAD:refs/heads/$STATE_BRANCH"; fi

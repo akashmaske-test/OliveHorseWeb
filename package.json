@@ -27,9 +27,28 @@
     "seo:approve-publishing": "node seo-automation/scripts/seo-approve-publishing.js",
     "seo:create-blog-pr": "node seo-automation/scripts/seo-create-blog-pr.js",
     "seo:social-drafts": "node seo-automation/scripts/seo-create-social-drafts.js",
-    "seo:morning": "node seo-automation/scripts/morning-seo-workflow.js"
+    "seo:morning": "node seo-automation/scripts/morning-seo-workflow.js",
+    "social:detect": "node automation/social-media/src/cli.js detect",
+    "social:daily-prepare": "node automation/social-media/src/cli.js daily-prepare",
+    "social:brief": "node automation/social-media/src/cli.js brief",
+    "social:request-asset": "node automation/social-media/src/cli.js request-asset",
+    "social:respond-asset": "node automation/social-media/src/cli.js respond-asset",
+    "social:process-asset": "node automation/social-media/src/cli.js process-asset",
+    "social:generate-prompts": "node automation/social-media/src/cli.js generate-prompts",
+    "social:complete-generation": "node automation/social-media/src/cli.js complete-generation",
+    "social:preview": "node automation/social-media/src/cli.js preview",
+    "social:validate": "node automation/social-media/src/cli.js validate",
+    "social:render-video": "node automation/social-media/src/cli.js render-video",
+    "social:approve": "node automation/social-media/src/cli.js approve",
+    "social:publish-facebook": "node automation/social-media/src/cli.js publish --platform facebook",
+    "social:publish-instagram": "node automation/social-media/src/cli.js publish --platform instagram",
+    "social:publish": "node automation/social-media/src/cli.js publish",
+    "social:run": "node automation/social-media/src/cli.js run",
+    "social:resume": "node automation/social-media/src/cli.js resume",
+    "social:status": "node automation/social-media/src/cli.js status"
   },
   "dependencies": {
+    "@vercel/blob": "^2.6.1",
     "@vitejs/plugin-react": "6.0.3",
     "dotenv": "17.2.4",
     "googleapis": "166.0.0",
@@ -37,15 +56,20 @@
     "markdown-it": "14.1.0",
     "react": "19.2.7",
     "react-dom": "19.2.7",
+    "remotion": "4.0.417",
+    "sharp": "0.34.5",
     "vite": "8.1.4"
   },
   "devDependencies": {
     "@eslint/js": "9.39.2",
+    "@remotion/cli": "4.0.417",
     "eslint": "9.39.2",
     "eslint-plugin-react-hooks": "7.0.1",
     "globals": "14.0.0",
     "tsx": "4.21.0",
-    "vitest": "4.1.0"
+    "vitest": "4.1.0",
+    "yaml": "2.8.2",
+    "zod": "3.22.3"
   },
   "engines": {
     "node": ">=22.12 <27"

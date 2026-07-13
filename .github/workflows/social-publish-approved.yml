@@ -1,0 +1,28 @@
+name: Dry-run approved social publish
+
+on:
+  workflow_dispatch:
+    inputs:
+      topic: { description: Social topic ID, required: true, type: string }
+      approve:
+        description: Type true to authorize this one approved post
+        required: true
+        default: "false"
+        type: string
+
+permissions: { contents: read }
+
+jobs:
+  publish-dry-run:
+    if: ${{ inputs.approve == 'true' }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 22, cache: npm }
+      - run: npm ci
+      - name: Restore safe approval state
+        run: |
+          git fetch origin social-automation-state || true
+          if git show-ref --verify --quiet refs/remotes/origin/social-automation-state; then git archive origin/social-automation-state social-content | tar -x; fi
+      - run: npm run social:publish -- --topic "${{ inputs.topic }}" --dry-run
