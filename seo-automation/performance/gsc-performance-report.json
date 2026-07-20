@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-07-13T12:43:21.876Z",
+  "generated_at": "2026-07-20T12:06:08.176Z",
   "status": "no_data_yet",
   "requested_date_range": {
-    "startDate": "2026-06-14",
-    "endDate": "2026-07-11"
+    "startDate": "2026-06-21",
+    "endDate": "2026-07-18"
   },
   "data_delay_days": 2,
   "totals": {

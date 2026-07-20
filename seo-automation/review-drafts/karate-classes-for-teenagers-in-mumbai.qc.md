@@ -2,4 +2,5 @@
 
 Status: needs_review
 
-- Potential unsupported claim requires review.
+- Article must contain exactly one H1.
+- Article needs H2 sections.

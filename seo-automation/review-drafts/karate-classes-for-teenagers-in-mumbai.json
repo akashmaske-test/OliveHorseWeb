@@ -14,7 +14,7 @@
   "target_audience": "Teenagers and parents",
   "target_location": "Mumbai",
   "workflow_status": "needs_review",
-  "generated_at": "2026-07-13T12:44:27.999Z",
+  "generated_at": "2026-07-20T12:06:47.842Z",
   "source_type": "qualitative_ai_recommendation",
   "source_evidence": [
     "approved_topic",
@@ -22,9 +22,9 @@
   ],
   "claims_requiring_confirmation": [],
   "model_usage": {
-    "prompt_tokens": 380,
-    "completion_tokens": 1163,
-    "total_tokens": 1543,
+    "prompt_tokens": 819,
+    "completion_tokens": 163,
+    "total_tokens": 982,
     "cost": 0,
     "is_byok": false,
     "prompt_tokens_details": {
@@ -39,13 +39,14 @@
       "upstream_inference_completions_cost": 0
     },
     "completion_tokens_details": {
-      "reasoning_tokens": 699,
+      "reasoning_tokens": 184,
       "image_tokens": 0,
       "audio_tokens": 0
     }
   },
-  "qc_checked_at": "2026-07-13T12:44:28.050Z",
+  "qc_checked_at": "2026-07-20T12:06:47.887Z",
   "qc_issues": [
-    "Potential unsupported claim requires review."
+    "Article must contain exactly one H1.",
+    "Article needs H2 sections."
   ]
 }

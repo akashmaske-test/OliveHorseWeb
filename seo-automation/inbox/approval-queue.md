@@ -1,6 +1,6 @@
 # OliveHorse SEO approval queue
 
-Generated: 2026-07-13T12:44:28.110Z
+Generated: 2026-07-20T12:06:47.942Z
 
 These are review candidates, not approved business claims. A topic approval permits drafting only. A draft still needs separate user confirmation before it may be published.
 
@@ -54,27 +54,27 @@ These are review candidates, not approved business claims. A topic approval perm
 - Evidence: qualitative_ai_recommendation
 - Suggested action: approve for drafting, reject, or needs review
 
-## idea-1783946647209-3063: The Benefits of Private One-to-One Karate Training for Rapid Skill Development
+## idea-1784549205693-9878: The Benefits of Private One-to-One Karate Training for Rapid Skill Development
 
 - Primary keyword: private karate training
-- Audience: Serious martial arts practitioners and busy professionals
+- Audience: Individuals seeking personalized instruction
 - Location: Santacruz and Mumbai
 - Evidence: qualitative_ai_recommendation
 - Suggested action: approve for drafting, reject, or needs review
 
-## idea-1783946647209-bddd: Preparing for Belt Examinations: A Guide for Karate Practitioners
+## idea-1784549205693-4364: Preparing for Belt Examinations: What to Expect in Your Karate Journey
 
-- Primary keyword: karate belt examination preparation
-- Audience: Current karate students and parents of students
+- Primary keyword: belt examination preparation
+- Audience: Current students and prospective serious practitioners
 - Location: Santacruz and Mumbai
 - Evidence: qualitative_ai_recommendation
 - Suggested action: approve for drafting, reject, or needs review
 
-## idea-1783946647209-6f7e: Corporate Self-Defence Workshops: Enhancing Workplace Safety and Team Building
+## idea-1784549205693-8909: Mastering Competition Karate: Advanced Training Techniques
 
-- Primary keyword: corporate self-defence workshops
-- Audience: HR Managers and Corporate Executives
-- Location: Mumbai
+- Primary keyword: competition karate training
+- Audience: Advanced practitioners and competitive athletes
+- Location: Santacruz and Mumbai
 - Evidence: qualitative_ai_recommendation
 - Suggested action: approve for drafting, reject, or needs review
 

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-13T12:44:28.110Z",
+  "generated_at": "2026-07-20T12:06:47.942Z",
   "status": "awaiting_human_approval",
   "notice": "These are review candidates, not approved business claims. A topic approval permits drafting only. A draft still needs separate user confirmation before it may be published.",
   "topics": [
@@ -138,41 +138,19 @@
       "requires_human_claim_review": true
     },
     {
-      "id": "idea-1783946647209-3063",
+      "id": "idea-1784549205693-9878",
       "title": "The Benefits of Private One-to-One Karate Training for Rapid Skill Development",
       "primary_keyword": "private karate training",
       "supporting_keywords": [
-        "one-to-one karate lessons",
-        "personalized martial arts training",
-        "karate coaching Mumbai"
-      ],
-      "search_intent": "Informational/Commercial",
-      "funnel_stage": "Consideration",
-      "target_audience": "Serious martial arts practitioners and busy professionals",
-      "target_location": "Santacruz and Mumbai",
-      "why_it_matters": "Highlights a specialized service that differentiates the business from standard group classes by focusing on personalized instruction.",
-      "evidence": "qualitative_ai_recommendation",
-      "supporting_gsc_queries": [],
-      "related_existing_pages": [
-        "/"
-      ],
-      "approval_status": "pending",
-      "requires_human_claim_review": true
-    },
-    {
-      "id": "idea-1783946647209-bddd",
-      "title": "Preparing for Belt Examinations: A Guide for Karate Practitioners",
-      "primary_keyword": "karate belt examination preparation",
-      "supporting_keywords": [
-        "karate grading tips",
-        "martial arts progression",
-        "karate exam preparation"
+        "one-to-one karate",
+        "personalized martial arts instruction",
+        "karate training Mumbai"
       ],
       "search_intent": "Informational",
       "funnel_stage": "Awareness",
-      "target_audience": "Current karate students and parents of students",
+      "target_audience": "Individuals seeking personalized instruction",
       "target_location": "Santacruz and Mumbai",
-      "why_it_matters": "Positions the academy as an expert in the technical progression and formal standards of karate training.",
+      "why_it_matters": "Highlights the specialized service of individualized instruction for those wanting faster or more focused progress.",
       "evidence": "qualitative_ai_recommendation",
       "supporting_gsc_queries": [],
       "related_existing_pages": [
@@ -182,19 +160,41 @@
       "requires_human_claim_review": true
     },
     {
-      "id": "idea-1783946647209-6f7e",
-      "title": "Corporate Self-Defence Workshops: Enhancing Workplace Safety and Team Building",
-      "primary_keyword": "corporate self-defence workshops",
+      "id": "idea-1784549205693-4364",
+      "title": "Preparing for Belt Examinations: What to Expect in Your Karate Journey",
+      "primary_keyword": "belt examination preparation",
       "supporting_keywords": [
-        "workplace safety training",
-        "team building activities Mumbai",
-        "office self-defence programs"
+        "karate belt grading",
+        "karate progression",
+        "martial arts certification"
       ],
-      "search_intent": "Commercial",
-      "funnel_stage": "Decision",
-      "target_audience": "HR Managers and Corporate Executives",
-      "target_location": "Mumbai",
-      "why_it_matters": "Targets a high-value B2B segment identified in the research to expand reach beyond individual residential clients.",
+      "search_intent": "Informational",
+      "funnel_stage": "Consideration",
+      "target_audience": "Current students and prospective serious practitioners",
+      "target_location": "Santacruz and Mumbai",
+      "why_it_matters": "Provides clarity on the progression system, encouraging long-term commitment to the programs.",
+      "evidence": "qualitative_ai_recommendation",
+      "supporting_gsc_queries": [],
+      "related_existing_pages": [
+        "/"
+      ],
+      "approval_status": "pending",
+      "requires_human_claim_review": true
+    },
+    {
+      "id": "idea-1784549205693-8909",
+      "title": "Mastering Competition Karate: Advanced Training Techniques",
+      "primary_keyword": "competition karate training",
+      "supporting_keywords": [
+        "advanced karate training",
+        "karate tournament preparation",
+        "competitive martial arts"
+      ],
+      "search_intent": "Informational",
+      "funnel_stage": "Consideration",
+      "target_audience": "Advanced practitioners and competitive athletes",
+      "target_location": "Santacruz and Mumbai",
+      "why_it_matters": "Positions the business as a high-level training center capable of supporting serious athletes.",
       "evidence": "qualitative_ai_recommendation",
       "supporting_gsc_queries": [],
       "related_existing_pages": [
