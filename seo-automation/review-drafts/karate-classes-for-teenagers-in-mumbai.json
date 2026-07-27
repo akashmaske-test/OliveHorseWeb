@@ -13,8 +13,8 @@
   "funnel_stage": "consideration",
   "target_audience": "Teenagers and parents",
   "target_location": "Mumbai",
-  "workflow_status": "needs_review",
-  "generated_at": "2026-07-20T12:06:47.842Z",
+  "workflow_status": "approved_for_publish_pending_user_confirmation",
+  "generated_at": "2026-07-27T13:44:47.372Z",
   "source_type": "qualitative_ai_recommendation",
   "source_evidence": [
     "approved_topic",
@@ -22,9 +22,9 @@
   ],
   "claims_requiring_confirmation": [],
   "model_usage": {
-    "prompt_tokens": 819,
-    "completion_tokens": 163,
-    "total_tokens": 982,
+    "prompt_tokens": 370,
+    "completion_tokens": 486,
+    "total_tokens": 856,
     "cost": 0,
     "is_byok": false,
     "prompt_tokens_details": {
@@ -34,19 +34,16 @@
       "video_tokens": 0
     },
     "cost_details": {
-      "upstream_inference_cost": 0,
-      "upstream_inference_prompt_cost": 0,
-      "upstream_inference_completions_cost": 0
+      "upstream_inference_cost": 0.00009129,
+      "upstream_inference_prompt_cost": 0.0000111,
+      "upstream_inference_completions_cost": 0.00008019
     },
     "completion_tokens_details": {
-      "reasoning_tokens": 184,
+      "reasoning_tokens": 0,
       "image_tokens": 0,
       "audio_tokens": 0
     }
   },
-  "qc_checked_at": "2026-07-20T12:06:47.887Z",
-  "qc_issues": [
-    "Article must contain exactly one H1.",
-    "Article needs H2 sections."
-  ]
+  "qc_checked_at": "2026-07-27T13:44:47.421Z",
+  "qc_issues": []
 }

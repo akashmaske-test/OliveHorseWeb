@@ -1,6 +1,5 @@
 # QC: karate-classes-for-teenagers-in-mumbai
 
-Status: needs_review
+Status: approved_for_publish_pending_user_confirmation
 
-- Article must contain exactly one H1.
-- Article needs H2 sections.
+No deterministic factual, structural, image or metadata blockers found. User confirmation is still required.
