@@ -1,6 +1,6 @@
 # OliveHorse SEO approval queue
 
-Generated: 2026-07-27T13:44:47.480Z
+Generated: 2026-08-03T13:49:38.169Z
 
 These are review candidates, not approved business claims. A topic approval permits drafting only. A draft still needs separate user confirmation before it may be published.
 
@@ -54,27 +54,27 @@ These are review candidates, not approved business claims. A topic approval perm
 - Evidence: qualitative_ai_recommendation
 - Suggested action: approve for drafting, reject, or needs review
 
-## idea-1785159856671-e3c6: The Benefits of Private One-to-One Karate Training for Rapid Skill Development
+## idea-1785764906685-db1c: Choosing the Right Karate Programme for Your Child in Santacruz
 
-- Primary keyword: private karate training Mumbai
-- Audience: Adults and serious practitioners
-- Location: Mumbai
+- Primary keyword: karate classes in Santacruz
+- Audience: Parents living in Santacruz and Mumbai
+- Location: Santacruz, Mumbai
 - Evidence: qualitative_ai_recommendation
 - Suggested action: approve for drafting, reject, or needs review
 
-## idea-1785159856671-b353: Preparing for Belt Examinations: What to Expect in Your Karate Journey
+## idea-1785764906685-34fd: Effective Self-Defence Strategies for Women in Mumbai
 
-- Primary keyword: karate belt examination preparation
-- Audience: Current students and prospective serious practitioners
-- Location: Santacruz
+- Primary keyword: self-defence courses in Mumbai
+- Audience: Adult women in Santacruz and Mumbai
+- Location: Santacruz, Mumbai
 - Evidence: qualitative_ai_recommendation
 - Suggested action: approve for drafting, reject, or needs review
 
-## idea-1785159856671-3cb7: Corporate Self-Defence Workshops: Enhancing Workplace Safety and Team Building
+## idea-1785764906685-84e3: The Importance of Structured Karate Training for Teenagers
 
-- Primary keyword: corporate self-defence workshops
-- Audience: HR Managers and Corporate Decision Makers
-- Location: Mumbai
+- Primary keyword: teen karate classes Mumbai
+- Audience: Teenagers and their parents in Mumbai
+- Location: Santacruz, Mumbai
 - Evidence: qualitative_ai_recommendation
 - Suggested action: approve for drafting, reject, or needs review
 

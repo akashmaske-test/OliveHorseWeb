@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-27T13:44:47.480Z",
+  "generated_at": "2026-08-03T13:49:38.169Z",
   "status": "awaiting_human_approval",
   "notice": "These are review candidates, not approved business claims. A topic approval permits drafting only. A draft still needs separate user confirmation before it may be published.",
   "topics": [
@@ -138,41 +138,19 @@
       "requires_human_claim_review": true
     },
     {
-      "id": "idea-1785159856671-e3c6",
-      "title": "The Benefits of Private One-to-One Karate Training for Rapid Skill Development",
-      "primary_keyword": "private karate training Mumbai",
+      "id": "idea-1785764906685-db1c",
+      "title": "Choosing the Right Karate Programme for Your Child in Santacruz",
+      "primary_keyword": "karate classes in Santacruz",
       "supporting_keywords": [
-        "one-to-one karate training",
-        "personalized martial arts coaching",
-        "karate lessons Santacruz"
-      ],
-      "search_intent": "Informational/Commercial",
-      "funnel_stage": "Consideration",
-      "target_audience": "Adults and serious practitioners",
-      "target_location": "Mumbai",
-      "why_it_matters": "Differentiates specialized private training from standard group classes to attract high-intent learners.",
-      "evidence": "qualitative_ai_recommendation",
-      "supporting_gsc_queries": [],
-      "related_existing_pages": [
-        "/"
-      ],
-      "approval_status": "pending",
-      "requires_human_claim_review": true
-    },
-    {
-      "id": "idea-1785159856671-b353",
-      "title": "Preparing for Belt Examinations: What to Expect in Your Karate Journey",
-      "primary_keyword": "karate belt examination preparation",
-      "supporting_keywords": [
-        "karate grading process",
-        "martial arts progression",
-        "karate training Santacruz"
+        "kids beginner karate programme",
+        "martial arts for children Mumbai",
+        "benefits of karate for kids"
       ],
       "search_intent": "Informational",
       "funnel_stage": "Awareness",
-      "target_audience": "Current students and prospective serious practitioners",
-      "target_location": "Santacruz",
-      "why_it_matters": "Addresses a specific service offering to build authority and guide students through the curriculum.",
+      "target_audience": "Parents living in Santacruz and Mumbai",
+      "target_location": "Santacruz, Mumbai",
+      "why_it_matters": "Helps parents understand the specific benefits of the Kids Beginner Karate Programme to drive local enrollment.",
       "evidence": "qualitative_ai_recommendation",
       "supporting_gsc_queries": [],
       "related_existing_pages": [
@@ -182,19 +160,41 @@
       "requires_human_claim_review": true
     },
     {
-      "id": "idea-1785159856671-3cb7",
-      "title": "Corporate Self-Defence Workshops: Enhancing Workplace Safety and Team Building",
-      "primary_keyword": "corporate self-defence workshops",
+      "id": "idea-1785764906685-34fd",
+      "title": "Effective Self-Defence Strategies for Women in Mumbai",
+      "primary_keyword": "self-defence courses in Mumbai",
       "supporting_keywords": [
-        "workplace safety training",
-        "self-defence for employees",
-        "corporate wellness programs Mumbai"
+        "women's self-defence training",
+        "adult karate and self-defence",
+        "safety workshops for women"
       ],
-      "search_intent": "Commercial",
-      "funnel_stage": "Decision",
-      "target_audience": "HR Managers and Corporate Decision Makers",
-      "target_location": "Mumbai",
-      "why_it_matters": "Targets a high-value B2B segment identified in the research recommendations.",
+      "search_intent": "Informational",
+      "funnel_stage": "Consideration",
+      "target_audience": "Adult women in Santacruz and Mumbai",
+      "target_location": "Santacruz, Mumbai",
+      "why_it_matters": "Targets a specific demographic looking for empowerment through the Women’s Weekend Self-Defence Course.",
+      "evidence": "qualitative_ai_recommendation",
+      "supporting_gsc_queries": [],
+      "related_existing_pages": [
+        "/"
+      ],
+      "approval_status": "pending",
+      "requires_human_claim_review": true
+    },
+    {
+      "id": "idea-1785764906685-84e3",
+      "title": "The Importance of Structured Karate Training for Teenagers",
+      "primary_keyword": "teen karate classes Mumbai",
+      "supporting_keywords": [
+        "teen karate and fitness programme",
+        "martial arts for teenagers",
+        "fitness for teens Santacruz"
+      ],
+      "search_intent": "Informational",
+      "funnel_stage": "Consideration",
+      "target_audience": "Teenagers and their parents in Mumbai",
+      "target_location": "Santacruz, Mumbai",
+      "why_it_matters": "Highlights the dual benefit of fitness and discipline offered in the Teen Karate and Fitness Programme.",
       "evidence": "qualitative_ai_recommendation",
       "supporting_gsc_queries": [],
       "related_existing_pages": [
