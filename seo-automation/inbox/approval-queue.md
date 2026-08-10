@@ -1,6 +1,6 @@
 # OliveHorse SEO approval queue
 
-Generated: 2026-08-03T13:49:38.169Z
+Generated: 2026-08-10T09:00:02.351Z
 
 These are review candidates, not approved business claims. A topic approval permits drafting only. A draft still needs separate user confirmation before it may be published.
 
@@ -54,27 +54,27 @@ These are review candidates, not approved business claims. A topic approval perm
 - Evidence: qualitative_ai_recommendation
 - Suggested action: approve for drafting, reject, or needs review
 
-## idea-1785764906685-db1c: Choosing the Right Karate Programme for Your Child in Santacruz
+## idea-1786352371038-77ef: Empowering Women with Practical Self-Defence Skills in Santacruz
 
-- Primary keyword: karate classes in Santacruz
-- Audience: Parents living in Santacruz and Mumbai
+- Primary keyword: Women’s Self-Defence Course
+- Audience: Women aged 25-45 in Santacruz
 - Location: Santacruz, Mumbai
 - Evidence: qualitative_ai_recommendation
 - Suggested action: approve for drafting, reject, or needs review
 
-## idea-1785764906685-34fd: Effective Self-Defence Strategies for Women in Mumbai
+## idea-1786352371038-f856: School and Corporate Self-Defence Workshops: Enhancing Safety in Santacruz
 
-- Primary keyword: self-defence courses in Mumbai
-- Audience: Adult women in Santacruz and Mumbai
+- Primary keyword: School Self-Defence Workshops
+- Audience: School administrators and corporate HR managers in Santacruz
 - Location: Santacruz, Mumbai
 - Evidence: qualitative_ai_recommendation
 - Suggested action: approve for drafting, reject, or needs review
 
-## idea-1785764906685-84e3: The Importance of Structured Karate Training for Teenagers
+## idea-1786352371038-ad36: Private One-to-One Karate Training: Personalized Fitness and Self-Defence in Mumbai
 
-- Primary keyword: teen karate classes Mumbai
-- Audience: Teenagers and their parents in Mumbai
-- Location: Santacruz, Mumbai
+- Primary keyword: Private Karate Training
+- Audience: Individuals seeking tailored karate or self-defence programs in Mumbai
+- Location: Mumbai
 - Evidence: qualitative_ai_recommendation
 - Suggested action: approve for drafting, reject, or needs review
 
