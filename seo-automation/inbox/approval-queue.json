@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-10T09:00:02.351Z",
+  "generated_at": "2026-08-17T04:12:11.542Z",
   "status": "awaiting_human_approval",
   "notice": "These are review candidates, not approved business claims. A topic approval permits drafting only. A draft still needs separate user confirmation before it may be published.",
   "topics": [
@@ -138,19 +138,19 @@
       "requires_human_claim_review": true
     },
     {
-      "id": "idea-1786352371038-77ef",
-      "title": "Empowering Women with Practical Self-Defence Skills in Santacruz",
-      "primary_keyword": "Women’s Self-Defence Course",
+      "id": "idea-1786939912844-a79d",
+      "title": "The Benefits of Private One-to-One Karate Training for Rapid Skill Development",
+      "primary_keyword": "Private One-to-One Karate Training",
       "supporting_keywords": [
-        "self-defence training",
-        "Santacruz women",
-        "practical safety skills"
+        "personalized karate lessons",
+        "one-on-one martial arts training",
+        "karate coaching Mumbai"
       ],
-      "search_intent": "informational",
-      "funnel_stage": "awareness",
-      "target_audience": "Women aged 25-45 in Santacruz",
+      "search_intent": "Informational",
+      "funnel_stage": "Consideration",
+      "target_audience": "Adults and serious practitioners",
       "target_location": "Santacruz, Mumbai",
-      "why_it_matters": "Addresses safety concerns for women through structured, time-efficient training, aligning with the verified 'Women’s Weekend Self-Defence Course' offering.",
+      "why_it_matters": "Highlights the specialized nature of personalized training for those seeking faster progress or specific technical corrections.",
       "evidence": "qualitative_ai_recommendation",
       "supporting_gsc_queries": [],
       "related_existing_pages": [
@@ -160,19 +160,19 @@
       "requires_human_claim_review": true
     },
     {
-      "id": "idea-1786352371038-f856",
-      "title": "School and Corporate Self-Defence Workshops: Enhancing Safety in Santacruz",
-      "primary_keyword": "School Self-Defence Workshops",
+      "id": "idea-1786939912845-179a",
+      "title": "Preparing for Belt Examination: What to Expect in Your Karate Journey",
+      "primary_keyword": "Belt Examination Preparation",
       "supporting_keywords": [
-        "corporate safety",
-        "Santacruz schools",
-        "workshop benefits"
+        "karate belt exam tips",
+        "martial arts grading preparation",
+        "karate progression"
       ],
-      "search_intent": "informational",
-      "funnel_stage": "consideration",
-      "target_audience": "School administrators and corporate HR managers in Santacruz",
+      "search_intent": "Informational",
+      "funnel_stage": "Awareness",
+      "target_audience": "Current students and parents of students",
       "target_location": "Santacruz, Mumbai",
-      "why_it_matters": "Leverages the verified 'School and Corporate Self-Defence Workshops' to position OliveHorse as a partner for institutional safety solutions.",
+      "why_it_matters": "Addresses a key milestone in the student journey, providing value to existing members and demonstrating professional structure.",
       "evidence": "qualitative_ai_recommendation",
       "supporting_gsc_queries": [],
       "related_existing_pages": [
@@ -182,19 +182,19 @@
       "requires_human_claim_review": true
     },
     {
-      "id": "idea-1786352371038-ad36",
-      "title": "Private One-to-One Karate Training: Personalized Fitness and Self-Defence in Mumbai",
-      "primary_keyword": "Private Karate Training",
+      "id": "idea-1786939912845-94b0",
+      "title": "Advanced Training for Athletes: Competition Karate Training in Mumbai",
+      "primary_keyword": "Competition Karate Training",
       "supporting_keywords": [
-        "personalized instruction",
-        "Mumbai fitness",
-        "self-defence"
+        "competitive karate classes",
+        "karate tournament preparation",
+        "advanced karate training Mumbai"
       ],
-      "search_intent": "transactional",
-      "funnel_stage": "decision",
-      "target_audience": "Individuals seeking tailored karate or self-defence programs in Mumbai",
-      "target_location": "Mumbai",
-      "why_it_matters": "Highlights the unique value of private training, a verified service, for those prioritizing customized learning experiences.",
+      "search_intent": "Commercial",
+      "funnel_stage": "Decision",
+      "target_audience": "Advanced practitioners and competitive athletes",
+      "target_location": "Santacruz, Mumbai",
+      "why_it_matters": "Targets high-intent users looking for specialized training to excel in competitive environments.",
       "evidence": "qualitative_ai_recommendation",
       "supporting_gsc_queries": [],
       "related_existing_pages": [

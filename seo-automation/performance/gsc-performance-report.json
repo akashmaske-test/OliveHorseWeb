@@ -1,17 +1,25 @@
 {
-  "generated_at": "2026-08-10T08:58:11.384Z",
-  "status": "no_data_yet",
+  "generated_at": "2026-08-17T04:11:11.217Z",
+  "status": "data_available",
   "requested_date_range": {
-    "startDate": "2026-07-12",
-    "endDate": "2026-08-08"
+    "startDate": "2026-07-19",
+    "endDate": "2026-08-15"
   },
   "data_delay_days": 2,
   "totals": {
     "clicks": 0,
-    "impressions": 0,
+    "impressions": 3,
     "ctr": 0,
-    "average_position": null
+    "average_position": 31
   },
-  "top_pages_by_impressions": [],
-  "note": "No Search Console rows are available for this processed date range. New pages commonly need time before data appears."
+  "top_pages_by_impressions": [
+    {
+      "page": "https://olivehorsefitness.vercel.app/",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0,
+      "average_position": 31
+    }
+  ],
+  "note": "Search Console reports processed search performance, not real-time visits or causal impact from a single article."
 }

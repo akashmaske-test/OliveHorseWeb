@@ -1,6 +1,6 @@
 # OliveHorse SEO approval queue
 
-Generated: 2026-08-10T09:00:02.351Z
+Generated: 2026-08-17T04:12:11.542Z
 
 These are review candidates, not approved business claims. A topic approval permits drafting only. A draft still needs separate user confirmation before it may be published.
 
@@ -54,27 +54,27 @@ These are review candidates, not approved business claims. A topic approval perm
 - Evidence: qualitative_ai_recommendation
 - Suggested action: approve for drafting, reject, or needs review
 
-## idea-1786352371038-77ef: Empowering Women with Practical Self-Defence Skills in Santacruz
+## idea-1786939912844-a79d: The Benefits of Private One-to-One Karate Training for Rapid Skill Development
 
-- Primary keyword: Women’s Self-Defence Course
-- Audience: Women aged 25-45 in Santacruz
+- Primary keyword: Private One-to-One Karate Training
+- Audience: Adults and serious practitioners
 - Location: Santacruz, Mumbai
 - Evidence: qualitative_ai_recommendation
 - Suggested action: approve for drafting, reject, or needs review
 
-## idea-1786352371038-f856: School and Corporate Self-Defence Workshops: Enhancing Safety in Santacruz
+## idea-1786939912845-179a: Preparing for Belt Examination: What to Expect in Your Karate Journey
 
-- Primary keyword: School Self-Defence Workshops
-- Audience: School administrators and corporate HR managers in Santacruz
+- Primary keyword: Belt Examination Preparation
+- Audience: Current students and parents of students
 - Location: Santacruz, Mumbai
 - Evidence: qualitative_ai_recommendation
 - Suggested action: approve for drafting, reject, or needs review
 
-## idea-1786352371038-ad36: Private One-to-One Karate Training: Personalized Fitness and Self-Defence in Mumbai
+## idea-1786939912845-94b0: Advanced Training for Athletes: Competition Karate Training in Mumbai
 
-- Primary keyword: Private Karate Training
-- Audience: Individuals seeking tailored karate or self-defence programs in Mumbai
-- Location: Mumbai
+- Primary keyword: Competition Karate Training
+- Audience: Advanced practitioners and competitive athletes
+- Location: Santacruz, Mumbai
 - Evidence: qualitative_ai_recommendation
 - Suggested action: approve for drafting, reject, or needs review
 
