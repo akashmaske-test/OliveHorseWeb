@@ -1,6 +1,6 @@
 # OliveHorse SEO approval queue
 
-Generated: 2026-08-17T04:12:11.542Z
+Generated: 2026-08-24T04:15:42.091Z
 
 These are review candidates, not approved business claims. A topic approval permits drafting only. A draft still needs separate user confirmation before it may be published.
 
@@ -54,34 +54,22 @@ These are review candidates, not approved business claims. A topic approval perm
 - Evidence: qualitative_ai_recommendation
 - Suggested action: approve for drafting, reject, or needs review
 
-## idea-1786939912844-a79d: The Benefits of Private One-to-One Karate Training for Rapid Skill Development
+## idea-1787544820956-861e: School and Corporate Self-Defence Workshops: Building Safer Environments in Santacruz
 
-- Primary keyword: Private One-to-One Karate Training
-- Audience: Adults and serious practitioners
-- Location: Santacruz, Mumbai
+- Primary keyword: corporate self-defence workshops Santacruz
+- Audience: Schools/Organisations
+- Location: Santacruz
 - Evidence: qualitative_ai_recommendation
 - Suggested action: approve for drafting, reject, or needs review
 
-## idea-1786939912845-179a: Preparing for Belt Examination: What to Expect in Your Karate Journey
+## idea-1787544820957-e59b: Belt Examination Preparation: Structured Pathway for Kids in Mumbai
 
-- Primary keyword: Belt Examination Preparation
-- Audience: Current students and parents of students
-- Location: Santacruz, Mumbai
-- Evidence: qualitative_ai_recommendation
-- Suggested action: approve for drafting, reject, or needs review
-
-## idea-1786939912845-94b0: Advanced Training for Athletes: Competition Karate Training in Mumbai
-
-- Primary keyword: Competition Karate Training
-- Audience: Advanced practitioners and competitive athletes
-- Location: Santacruz, Mumbai
+- Primary keyword: karate belt exam preparation Mumbai
+- Audience: Parents/Kids
+- Location: Mumbai
 - Evidence: qualitative_ai_recommendation
 - Suggested action: approve for drafting, reject, or needs review
 
 ## Drafts awaiting final publish confirmation
 
-## idea-1783764253527-6f10: karate-classes-for-teenagers-in-mumbai
-
-- Primary keyword: karate classes for teenagers in Mumbai
-- Source evidence: approved_topic, verified_business_profile
-- Required action: final user confirmation before publishing
+No drafts are waiting for publication confirmation.
