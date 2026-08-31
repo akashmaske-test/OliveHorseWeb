@@ -1,6 +1,6 @@
 # OliveHorse SEO approval queue
 
-Generated: 2026-08-24T04:15:42.091Z
+Generated: 2026-08-31T10:00:44.408Z
 
 These are review candidates, not approved business claims. A topic approval permits drafting only. A draft still needs separate user confirmation before it may be published.
 
@@ -54,22 +54,26 @@ These are review candidates, not approved business claims. A topic approval perm
 - Evidence: qualitative_ai_recommendation
 - Suggested action: approve for drafting, reject, or needs review
 
-## idea-1787544820956-861e: School and Corporate Self-Defence Workshops: Building Safer Environments in Santacruz
+## idea-1788170393613-f4dd: Karate for Kids: Enhancing Focus and Classroom Behavior in Santacruz
 
-- Primary keyword: corporate self-defence workshops Santacruz
-- Audience: Schools/Organisations
+- Primary keyword: kids karate focus
+- Audience: parents
 - Location: Santacruz
-- Evidence: qualitative_ai_recommendation
+- Evidence: manual_setup_required
 - Suggested action: approve for drafting, reject, or needs review
 
-## idea-1787544820957-e59b: Belt Examination Preparation: Structured Pathway for Kids in Mumbai
+## idea-1788170393613-ad2c: Embedding Karate in Corporate Wellness: Employee Stress Relief in Mumbai
 
-- Primary keyword: karate belt exam preparation Mumbai
-- Audience: Parents/Kids
+- Primary keyword: corporate karate wellness
+- Audience: HR managers, corporate teams
 - Location: Mumbai
-- Evidence: qualitative_ai_recommendation
+- Evidence: manual_setup_required
 - Suggested action: approve for drafting, reject, or needs review
 
 ## Drafts awaiting final publish confirmation
 
-No drafts are waiting for publication confirmation.
+## idea-1783764253527-6f10: karate-classes-for-teenagers-in-mumbai
+
+- Primary keyword: karate classes for teenagers in Mumbai
+- Source evidence: approved_topic, verified_business_profile
+- Required action: final user confirmation before publishing

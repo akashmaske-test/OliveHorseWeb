@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-08-24T04:13:23.144Z",
+  "generated_at": "2026-08-31T09:59:31.781Z",
   "status": "data_available",
   "requested_date_range": {
-    "startDate": "2026-07-26",
-    "endDate": "2026-08-22"
+    "startDate": "2026-08-02",
+    "endDate": "2026-08-29"
   },
   "data_delay_days": 2,
   "totals": {
     "clicks": 0,
-    "impressions": 4,
+    "impressions": 6,
     "ctr": 0,
-    "average_position": 23.75
+    "average_position": 36.833333333333336
   },
   "top_pages_by_impressions": [
     {
       "page": "https://olivehorsefitness.vercel.app/",
       "clicks": 0,
-      "impressions": 4,
+      "impressions": 6,
       "ctr": 0,
-      "average_position": 23.75
+      "average_position": 36.833333333333336
     }
   ],
   "note": "Search Console reports processed search performance, not real-time visits or causal impact from a single article."

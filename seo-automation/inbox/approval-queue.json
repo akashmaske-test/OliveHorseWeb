@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-24T04:15:42.091Z",
+  "generated_at": "2026-08-31T10:00:44.408Z",
   "status": "awaiting_human_approval",
   "notice": "These are review candidates, not approved business claims. A topic approval permits drafting only. A draft still needs separate user confirmation before it may be published.",
   "topics": [
@@ -138,20 +138,21 @@
       "requires_human_claim_review": true
     },
     {
-      "id": "idea-1787544820956-861e",
-      "title": "School and Corporate Self-Defence Workshops: Building Safer Environments in Santacruz",
-      "primary_keyword": "corporate self-defence workshops Santacruz",
+      "id": "idea-1788170393613-f4dd",
+      "title": "Karate for Kids: Enhancing Focus and Classroom Behavior in Santacruz",
+      "primary_keyword": "kids karate focus",
       "supporting_keywords": [
-        "school self-defence programs",
-        "workplace safety training Mumbai",
-        "group self-defence classes"
+        "child concentration",
+        "classroom behavior",
+        "karate benefits children",
+        "Santacruz kids"
       ],
       "search_intent": "informational",
       "funnel_stage": "awareness",
-      "target_audience": "Schools/Organisations",
+      "target_audience": "parents",
       "target_location": "Santacruz",
-      "why_it_matters": "Educational institutions and businesses increasingly prioritize safety training for students and employees, creating demand for structured group workshops.",
-      "evidence": "qualitative_ai_recommendation",
+      "why_it_matters": "Addresses parental interest in improving children's attention and behavior through structured martial arts training.",
+      "evidence": "manual_setup_required",
       "supporting_gsc_queries": [],
       "related_existing_pages": [
         "/"
@@ -160,20 +161,21 @@
       "requires_human_claim_review": true
     },
     {
-      "id": "idea-1787544820957-e59b",
-      "title": "Belt Examination Preparation: Structured Pathway for Kids in Mumbai",
-      "primary_keyword": "karate belt exam preparation Mumbai",
+      "id": "idea-1788170393613-ad2c",
+      "title": "Embedding Karate in Corporate Wellness: Employee Stress Relief in Mumbai",
+      "primary_keyword": "corporate karate wellness",
       "supporting_keywords": [
-        "belt test coaching kids",
-        "karate grading guide",
-        "children martial arts progression"
+        "employee stress relief",
+        "office wellness",
+        "karate corporate",
+        "Mumbai employees"
       ],
       "search_intent": "informational",
-      "funnel_stage": "consideration",
-      "target_audience": "Parents/Kids",
+      "funnel_stage": "awareness",
+      "target_audience": "HR managers, corporate teams",
       "target_location": "Mumbai",
-      "why_it_matters": "Parents want a clear, step‑by‑step roadmap to help their children succeed in belt examinations and track progress.",
-      "evidence": "qualitative_ai_recommendation",
+      "why_it_matters": "Meets growing demand for holistic wellness initiatives that improve mental health and team cohesion.",
+      "evidence": "manual_setup_required",
       "supporting_gsc_queries": [],
       "related_existing_pages": [
         "/"
@@ -182,5 +184,20 @@
       "requires_human_claim_review": true
     }
   ],
-  "drafts_requiring_publish_confirmation": []
+  "drafts_requiring_publish_confirmation": [
+    {
+      "id": "idea-1783764253527-6f10",
+      "slug": "karate-classes-for-teenagers-in-mumbai",
+      "draft_path": "/home/runner/work/OliveHorseWeb/OliveHorseWeb/seo-automation/generated-blogs/karate-classes-for-teenagers-in-mumbai.md",
+      "primary_keyword": "karate classes for teenagers in Mumbai",
+      "workflow_status": "approved_for_publish_pending_user_confirmation",
+      "source_type": "qualitative_ai_recommendation",
+      "source_evidence": [
+        "approved_topic",
+        "verified_business_profile"
+      ],
+      "claims_requiring_confirmation": [],
+      "required_action": "user_confirmation_before_publish"
+    }
+  ]
 }
