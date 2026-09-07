@@ -14,7 +14,7 @@
   "target_audience": "Teenagers and parents",
   "target_location": "Mumbai",
   "workflow_status": "approved_for_publish_pending_user_confirmation",
-  "generated_at": "2026-08-31T10:00:44.307Z",
+  "generated_at": "2026-09-07T08:34:02.652Z",
   "source_type": "qualitative_ai_recommendation",
   "source_evidence": [
     "approved_topic",
@@ -22,9 +22,9 @@
   ],
   "claims_requiring_confirmation": [],
   "model_usage": {
-    "prompt_tokens": 380,
-    "completion_tokens": 1557,
-    "total_tokens": 1937,
+    "prompt_tokens": 377,
+    "completion_tokens": 2180,
+    "total_tokens": 2557,
     "cost": 0,
     "is_byok": false,
     "prompt_tokens_details": {
@@ -39,11 +39,11 @@
       "upstream_inference_completions_cost": 0
     },
     "completion_tokens_details": {
-      "reasoning_tokens": 1366,
+      "reasoning_tokens": 2140,
       "image_tokens": 0,
       "audio_tokens": 0
     }
   },
-  "qc_checked_at": "2026-08-31T10:00:44.351Z",
+  "qc_checked_at": "2026-09-07T08:34:02.702Z",
   "qc_issues": []
 }

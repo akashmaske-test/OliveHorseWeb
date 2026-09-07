@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-31T10:00:44.408Z",
+  "generated_at": "2026-09-07T08:34:02.761Z",
   "status": "awaiting_human_approval",
   "notice": "These are review candidates, not approved business claims. A topic approval permits drafting only. A draft still needs separate user confirmation before it may be published.",
   "topics": [
@@ -138,20 +138,20 @@
       "requires_human_claim_review": true
     },
     {
-      "id": "idea-1788170393613-f4dd",
-      "title": "Karate for Kids: Enhancing Focus and Classroom Behavior in Santacruz",
-      "primary_keyword": "kids karate focus",
+      "id": "idea-1788770033949-4a45",
+      "title": "Choosing the Right Karate Programme for Your Child: A Parent’s Guide",
+      "primary_keyword": "Kids Karate Programme",
       "supporting_keywords": [
-        "child concentration",
-        "classroom behavior",
-        "karate benefits children",
-        "Santacruz kids"
+        "beginner karate for kids",
+        "children karate classes",
+        "kids self‑defence",
+        "karate for beginners"
       ],
-      "search_intent": "informational",
-      "funnel_stage": "awareness",
-      "target_audience": "parents",
-      "target_location": "Santacruz",
-      "why_it_matters": "Addresses parental interest in improving children's attention and behavior through structured martial arts training.",
+      "search_intent": "Informational",
+      "funnel_stage": "Consideration",
+      "target_audience": "Parents of children aged 5‑12 looking for martial arts classes in Santacruz and Mumbai",
+      "target_location": "Santacruz, Mumbai",
+      "why_it_matters": "Parents need clear guidance to select age‑appropriate, safe, and effective karate programmes that support their child's physical development and confidence.",
       "evidence": "manual_setup_required",
       "supporting_gsc_queries": [],
       "related_existing_pages": [
@@ -161,20 +161,43 @@
       "requires_human_claim_review": true
     },
     {
-      "id": "idea-1788170393613-ad2c",
-      "title": "Embedding Karate in Corporate Wellness: Employee Stress Relief in Mumbai",
-      "primary_keyword": "corporate karate wellness",
+      "id": "idea-1788770033949-91cb",
+      "title": "How Adult Karate and Self‑Defence Training Boosts Fitness and Confidence",
+      "primary_keyword": "Adult Karate Programme",
       "supporting_keywords": [
-        "employee stress relief",
-        "office wellness",
-        "karate corporate",
-        "Mumbai employees"
+        "adult self‑defence classes",
+        "karate for fitness",
+        "martial arts for adults",
+        "self‑defence training"
       ],
-      "search_intent": "informational",
-      "funnel_stage": "awareness",
-      "target_audience": "HR managers, corporate teams",
-      "target_location": "Mumbai",
-      "why_it_matters": "Meets growing demand for holistic wellness initiatives that improve mental health and team cohesion.",
+      "search_intent": "Informational",
+      "funnel_stage": "Consideration",
+      "target_audience": "Adults (18+) in Mumbai and Santacruz interested in improving fitness and personal safety",
+      "target_location": "Mumbai, Santacruz",
+      "why_it_matters": "Adults increasingly seek holistic ways to stay active and protect themselves; karate offers a structured path to achieve both.",
+      "evidence": "manual_setup_required",
+      "supporting_gsc_queries": [],
+      "related_existing_pages": [
+        "/"
+      ],
+      "approval_status": "pending",
+      "requires_human_claim_review": true
+    },
+    {
+      "id": "idea-1788770033949-ba02",
+      "title": "Why Schools and Companies Should Invest in Self‑Defence Workshops",
+      "primary_keyword": "School Self‑Defence Workshops",
+      "supporting_keywords": [
+        "corporate self‑defence training",
+        "self‑defence workshops for schools",
+        "workplace safety",
+        "self‑defence curriculum"
+      ],
+      "search_intent": "Commercial investigation",
+      "funnel_stage": "Decision",
+      "target_audience": "School administrators, corporate HR managers, and decision‑makers in Mumbai region",
+      "target_location": "Mumbai (including Santacruz)",
+      "why_it_matters": "Institutions have a duty to provide safe environments; integrating self‑defence workshops can reduce risk of bullying and enhance overall safety culture.",
       "evidence": "manual_setup_required",
       "supporting_gsc_queries": [],
       "related_existing_pages": [

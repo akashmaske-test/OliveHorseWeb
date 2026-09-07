@@ -1,6 +1,6 @@
 # OliveHorse SEO approval queue
 
-Generated: 2026-08-31T10:00:44.408Z
+Generated: 2026-09-07T08:34:02.761Z
 
 These are review candidates, not approved business claims. A topic approval permits drafting only. A draft still needs separate user confirmation before it may be published.
 
@@ -54,19 +54,27 @@ These are review candidates, not approved business claims. A topic approval perm
 - Evidence: qualitative_ai_recommendation
 - Suggested action: approve for drafting, reject, or needs review
 
-## idea-1788170393613-f4dd: Karate for Kids: Enhancing Focus and Classroom Behavior in Santacruz
+## idea-1788770033949-4a45: Choosing the Right Karate Programme for Your Child: A Parent’s Guide
 
-- Primary keyword: kids karate focus
-- Audience: parents
-- Location: Santacruz
+- Primary keyword: Kids Karate Programme
+- Audience: Parents of children aged 5‑12 looking for martial arts classes in Santacruz and Mumbai
+- Location: Santacruz, Mumbai
 - Evidence: manual_setup_required
 - Suggested action: approve for drafting, reject, or needs review
 
-## idea-1788170393613-ad2c: Embedding Karate in Corporate Wellness: Employee Stress Relief in Mumbai
+## idea-1788770033949-91cb: How Adult Karate and Self‑Defence Training Boosts Fitness and Confidence
 
-- Primary keyword: corporate karate wellness
-- Audience: HR managers, corporate teams
-- Location: Mumbai
+- Primary keyword: Adult Karate Programme
+- Audience: Adults (18+) in Mumbai and Santacruz interested in improving fitness and personal safety
+- Location: Mumbai, Santacruz
+- Evidence: manual_setup_required
+- Suggested action: approve for drafting, reject, or needs review
+
+## idea-1788770033949-ba02: Why Schools and Companies Should Invest in Self‑Defence Workshops
+
+- Primary keyword: School Self‑Defence Workshops
+- Audience: School administrators, corporate HR managers, and decision‑makers in Mumbai region
+- Location: Mumbai (including Santacruz)
 - Evidence: manual_setup_required
 - Suggested action: approve for drafting, reject, or needs review
 
