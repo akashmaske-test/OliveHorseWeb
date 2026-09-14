@@ -1,6 +1,6 @@
 # OliveHorse SEO approval queue
 
-Generated: 2026-09-07T08:34:02.761Z
+Generated: 2026-09-14T09:10:20.807Z
 
 These are review candidates, not approved business claims. A topic approval permits drafting only. A draft still needs separate user confirmation before it may be published.
 
@@ -54,27 +54,11 @@ These are review candidates, not approved business claims. A topic approval perm
 - Evidence: qualitative_ai_recommendation
 - Suggested action: approve for drafting, reject, or needs review
 
-## idea-1788770033949-4a45: Choosing the Right Karate Programme for Your Child: A Parent’s Guide
+## idea-1789377013197-808a: Empowering Women Through a Weekend Self-Defence Course
 
-- Primary keyword: Kids Karate Programme
-- Audience: Parents of children aged 5‑12 looking for martial arts classes in Santacruz and Mumbai
-- Location: Santacruz, Mumbai
-- Evidence: manual_setup_required
-- Suggested action: approve for drafting, reject, or needs review
-
-## idea-1788770033949-91cb: How Adult Karate and Self‑Defence Training Boosts Fitness and Confidence
-
-- Primary keyword: Adult Karate Programme
-- Audience: Adults (18+) in Mumbai and Santacruz interested in improving fitness and personal safety
-- Location: Mumbai, Santacruz
-- Evidence: manual_setup_required
-- Suggested action: approve for drafting, reject, or needs review
-
-## idea-1788770033949-ba02: Why Schools and Companies Should Invest in Self‑Defence Workshops
-
-- Primary keyword: School Self‑Defence Workshops
-- Audience: School administrators, corporate HR managers, and decision‑makers in Mumbai region
-- Location: Mumbai (including Santacruz)
+- Primary keyword: Women’s Weekend Self-Defence Course
+- Audience: Women interested in personal safety
+- Location: Santacruz
 - Evidence: manual_setup_required
 - Suggested action: approve for drafting, reject, or needs review
 
