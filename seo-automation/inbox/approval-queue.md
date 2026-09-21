@@ -1,6 +1,6 @@
 # OliveHorse SEO approval queue
 
-Generated: 2026-09-14T09:10:20.807Z
+Generated: 2026-09-21T09:13:08.366Z
 
 These are review candidates, not approved business claims. A topic approval permits drafting only. A draft still needs separate user confirmation before it may be published.
 
@@ -54,11 +54,27 @@ These are review candidates, not approved business claims. A topic approval perm
 - Evidence: qualitative_ai_recommendation
 - Suggested action: approve for drafting, reject, or needs review
 
-## idea-1789377013197-808a: Empowering Women Through a Weekend Self-Defence Course
+## idea-1789981969501-f0e8: Beginner Karate Classes for Children in Santacruz
 
-- Primary keyword: Women’s Weekend Self-Defence Course
-- Audience: Women interested in personal safety
+- Primary keyword: beginner karate classes
+- Audience: parents of children ages 5‑12 in Santacruz
 - Location: Santacruz
+- Evidence: manual_setup_required
+- Suggested action: approve for drafting, reject, or needs review
+
+## idea-1789981969501-693a: Self-Defence Workshop for Women in Santacruz
+
+- Primary keyword: women self-defence workshop
+- Audience: women in Santacruz seeking personal safety education
+- Location: Santacruz
+- Evidence: manual_setup_required
+- Suggested action: approve for drafting, reject, or needs review
+
+## idea-1789981969501-9858: Adult Karate & Self-Defence Program for Professionals in Mumbai
+
+- Primary keyword: adult karate self-defence program
+- Audience: working professionals in Mumbai
+- Location: Mumbai
 - Evidence: manual_setup_required
 - Suggested action: approve for drafting, reject, or needs review
 
