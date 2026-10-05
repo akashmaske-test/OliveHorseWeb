@@ -1,6 +1,6 @@
 # OliveHorse SEO approval queue
 
-Generated: 2026-09-28T10:05:53.983Z
+Generated: 2026-10-05T10:45:08.753Z
 
 These are review candidates, not approved business claims. A topic approval permits drafting only. A draft still needs separate user confirmation before it may be published.
 
@@ -56,8 +56,4 @@ These are review candidates, not approved business claims. A topic approval perm
 
 ## Drafts awaiting final publish confirmation
 
-## idea-1783764253527-6f10: karate-classes-for-teenagers-in-mumbai
-
-- Primary keyword: karate classes for teenagers in Mumbai
-- Source evidence: approved_topic, verified_business_profile
-- Required action: final user confirmation before publishing
+No drafts are waiting for publication confirmation.

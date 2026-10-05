@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-09-28T10:03:41.811Z",
+  "generated_at": "2026-10-05T10:44:49.584Z",
   "status": "data_available",
   "requested_date_range": {
-    "startDate": "2026-08-30",
-    "endDate": "2026-09-26"
+    "startDate": "2026-09-06",
+    "endDate": "2026-10-03"
   },
   "data_delay_days": 2,
   "totals": {
     "clicks": 0,
     "impressions": 2,
     "ctr": 0,
-    "average_position": 2
+    "average_position": 31.5
   },
   "top_pages_by_impressions": [
     {
@@ -18,7 +18,7 @@
       "clicks": 0,
       "impressions": 2,
       "ctr": 0,
-      "average_position": 2
+      "average_position": 31.5
     }
   ],
   "note": "Search Console reports processed search performance, not real-time visits or causal impact from a single article."
