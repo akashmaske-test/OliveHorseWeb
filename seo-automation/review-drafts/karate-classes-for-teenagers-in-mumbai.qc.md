@@ -1,5 +1,5 @@
 # QC: karate-classes-for-teenagers-in-mumbai
 
-Status: needs_review
+Status: approved_for_publish_pending_user_confirmation
 
-- Potential unsupported claim requires review.
+No deterministic factual, structural, image or metadata blockers found. User confirmation is still required.
