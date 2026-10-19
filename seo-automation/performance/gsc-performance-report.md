@@ -2,7 +2,7 @@
 
 Status: data_available
 
-Processed data range: 2026-09-13 to 2026-10-10
+Processed data range: 2026-09-20 to 2026-10-17
 
 - Clicks: 0
 - Impressions: 2

@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-10-12T11:12:22.711Z",
+  "generated_at": "2026-10-19T09:11:37.414Z",
   "status": "data_available",
   "requested_date_range": {
-    "startDate": "2026-09-13",
-    "endDate": "2026-10-10"
+    "startDate": "2026-09-20",
+    "endDate": "2026-10-17"
   },
   "data_delay_days": 2,
   "totals": {

@@ -1,6 +1,6 @@
 # OliveHorse SEO approval queue
 
-Generated: 2026-10-12T11:14:04.393Z
+Generated: 2026-10-19T09:12:21.062Z
 
 These are review candidates, not approved business claims. A topic approval permits drafting only. A draft still needs separate user confirmation before it may be published.
 
@@ -51,6 +51,30 @@ These are review candidates, not approved business claims. A topic approval perm
 - Primary keyword: Teen Karate and Fitness Programme
 - Audience: Teens 13-18 and their parents
 - Location: Mumbai
+- Evidence: qualitative_ai_recommendation
+- Suggested action: approve for drafting, reject, or needs review
+
+## idea-1792401131877-aa84: How to Choose a Beginner Karate Program for Kids in Santacruz
+
+- Primary keyword: beginner karate program for kids Santacruz
+- Audience: children (ages 5‑12) and their parents
+- Location: Santacruz
+- Evidence: qualitative_ai_recommendation
+- Suggested action: approve for drafting, reject, or needs review
+
+## idea-1792401131877-b8c9: Teen Self‑Defence & Fitness: Benefits of the Women’s Weekend Self‑Defence Course in Mumbai
+
+- Primary keyword: women weekend self defence course Mumbai
+- Audience: teen girls and boys interested in personal safety and fitness
+- Location: Mumbai
+- Evidence: qualitative_ai_recommendation
+- Suggested action: approve for drafting, reject, or needs review
+
+## idea-1792401131877-3196: Adult Karate and Self‑Defence: Preparing for Belt Exams in Santacruz
+
+- Primary keyword: adult karate belt examination preparation Santacruz
+- Audience: adults (men and women) pursuing certification
+- Location: Santacruz
 - Evidence: qualitative_ai_recommendation
 - Suggested action: approve for drafting, reject, or needs review
 

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-12T11:14:04.393Z",
+  "generated_at": "2026-10-19T09:12:21.062Z",
   "status": "awaiting_human_approval",
   "notice": "These are review candidates, not approved business claims. A topic approval permits drafting only. A draft still needs separate user confirmation before it may be published.",
   "topics": [
@@ -129,6 +129,75 @@
       "target_audience": "Teens 13-18 and their parents",
       "target_location": "Mumbai",
       "why_it_matters": "Combines cardio, strength, and self-defense skills, promoting holistic health and confidence.",
+      "evidence": "qualitative_ai_recommendation",
+      "supporting_gsc_queries": [],
+      "related_existing_pages": [
+        "/"
+      ],
+      "approval_status": "pending",
+      "requires_human_claim_review": true
+    },
+    {
+      "id": "idea-1792401131877-aa84",
+      "title": "How to Choose a Beginner Karate Program for Kids in Santacruz",
+      "primary_keyword": "beginner karate program for kids Santacruz",
+      "supporting_keywords": [
+        "Karate for children",
+        "Kids fitness class",
+        "OliveHorse Karate",
+        "Santacruz youth sports"
+      ],
+      "search_intent": "informational – users want guidance on selecting an appropriate introductory karate class for their child",
+      "funnel_stage": "consideration",
+      "target_audience": "children (ages 5‑12) and their parents",
+      "target_location": "Santacruz",
+      "why_it_matters": "Helps parents make an informed choice among local programs, aligning with OliveHorse’s Kids Beginner Karate Programme.",
+      "evidence": "qualitative_ai_recommendation",
+      "supporting_gsc_queries": [],
+      "related_existing_pages": [
+        "/"
+      ],
+      "approval_status": "pending",
+      "requires_human_claim_review": true
+    },
+    {
+      "id": "idea-1792401131877-b8c9",
+      "title": "Teen Self‑Defence & Fitness: Benefits of the Women’s Weekend Self‑Defence Course in Mumbai",
+      "primary_keyword": "women weekend self defence course Mumbai",
+      "supporting_keywords": [
+        "self defence workshop",
+        "fitness for teens",
+        "Mumbai teen programs",
+        "OliveHorse self defence"
+      ],
+      "search_intent": "informational – users are researching specific weekend courses for safety training",
+      "funnel_stage": "awareness",
+      "target_audience": "teen girls and boys interested in personal safety and fitness",
+      "target_location": "Mumbai",
+      "why_it_matters": "Matches OliveHorse’s Women’s Weekend Self‑Defence Course and highlights its relevance to young people in Mumbai.",
+      "evidence": "qualitative_ai_recommendation",
+      "supporting_gsc_queries": [],
+      "related_existing_pages": [
+        "/"
+      ],
+      "approval_status": "pending",
+      "requires_human_claim_review": true
+    },
+    {
+      "id": "idea-1792401131877-3196",
+      "title": "Adult Karate and Self‑Defence: Preparing for Belt Exams in Santacruz",
+      "primary_keyword": "adult karate belt examination preparation Santacruz",
+      "supporting_keywords": [
+        "belt exam preparation",
+        "adult karate training",
+        "self defence for adults",
+        "OliveHorse adult program"
+      ],
+      "search_intent": "informational – readers seek advice on studying and training for karate belts",
+      "funnel_stage": "consideration",
+      "target_audience": "adults (men and women) pursuing certification",
+      "target_location": "Santacruz",
+      "why_it_matters": "Leverages OliveHorse’s Adult Karate and Self‑Defence Programme and Belt Examination Preparation service to attract serious learners.",
       "evidence": "qualitative_ai_recommendation",
       "supporting_gsc_queries": [],
       "related_existing_pages": [
