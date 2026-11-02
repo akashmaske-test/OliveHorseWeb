@@ -1,6 +1,6 @@
 # OliveHorse SEO approval queue
 
-Generated: 2026-10-26T09:19:00.957Z
+Generated: 2026-11-02T11:32:59.909Z
 
 These are review candidates, not approved business claims. A topic approval permits drafting only. A draft still needs separate user confirmation before it may be published.
 
@@ -54,6 +54,26 @@ These are review candidates, not approved business claims. A topic approval perm
 - Evidence: qualitative_ai_recommendation
 - Suggested action: approve for drafting, reject, or needs review
 
+## idea-1793619168160-850b: Teen Fitness and Self‑Defence in Mumbai: A Balanced Approach
+
+- Primary keyword: Teen Karate Fitness Mumbai
+- Audience: Teenagers (13-18)
+- Location: Mumbai
+- Evidence: qualitative_ai_recommendation
+- Suggested action: approve for drafting, reject, or needs review
+
+## idea-1793619168160-4cdc: Women’s Empowerment Through Self‑Defence Workshops in Santacruz
+
+- Primary keyword: Women Self‑Defence Workshop Santacruz
+- Audience: Women (adults)
+- Location: Santacruz
+- Evidence: qualitative_ai_recommendation
+- Suggested action: approve for drafting, reject, or needs review
+
 ## Drafts awaiting final publish confirmation
 
-No drafts are waiting for publication confirmation.
+## idea-1783764253527-6f10: karate-classes-for-teenagers-in-mumbai
+
+- Primary keyword: karate classes for teenagers in Mumbai
+- Source evidence: approved_topic, verified_business_profile
+- Required action: final user confirmation before publishing
