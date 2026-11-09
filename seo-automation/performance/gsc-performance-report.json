@@ -1,24 +1,31 @@
 {
-  "generated_at": "2026-11-02T11:32:23.504Z",
+  "generated_at": "2026-11-09T11:56:36.979Z",
   "status": "data_available",
   "requested_date_range": {
-    "startDate": "2026-10-04",
-    "endDate": "2026-10-31"
+    "startDate": "2026-10-11",
+    "endDate": "2026-11-07"
   },
   "data_delay_days": 2,
   "totals": {
-    "clicks": 0,
-    "impressions": 2,
-    "ctr": 0,
-    "average_position": 3.5
+    "clicks": 1,
+    "impressions": 4,
+    "ctr": 0.25,
+    "average_position": 5.75
   },
   "top_pages_by_impressions": [
     {
       "page": "https://olivehorsefitness.vercel.app/",
+      "clicks": 1,
+      "impressions": 3,
+      "ctr": 0.3333333333333333,
+      "average_position": 5
+    },
+    {
+      "page": "https://olivehorsefitness.vercel.app/blog/women-s-weekend-self-defence-course/",
       "clicks": 0,
-      "impressions": 2,
+      "impressions": 1,
       "ctr": 0,
-      "average_position": 3.5
+      "average_position": 8
     }
   ],
   "note": "Search Console reports processed search performance, not real-time visits or causal impact from a single article."
